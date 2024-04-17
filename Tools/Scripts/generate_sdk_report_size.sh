@@ -17,13 +17,13 @@ initial_size=$(sed -n 14p Generated/App\ Thinning\ Size\ Report.txt)
 # Installing Batch SDK
 cd SizeReport
 sed -i '' '9i\                                
-pod "Batch", "~> 1.17"' Podfile
+pod "ONSBatch", "~> 1.17"' Podfile
 pod install
 cd SizeReport
 sed -i '' '8i\                                
-@import Batch;' AppDelegate.m
+@import ONSBatch;' AppDelegate.m
 sed -i '' '18i\                                
-[Batch startWithAPIKey:@"YOUR_API_KEY"];' AppDelegate.m
+[ONSBatch startWithAPIKey:@"YOUR_API_KEY"];' AppDelegate.m
 
 cd ..
 
