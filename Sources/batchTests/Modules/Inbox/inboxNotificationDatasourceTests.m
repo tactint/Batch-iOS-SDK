@@ -22,14 +22,14 @@
     @"\"9761f65205fd0aa66721dc7a94db4ae2-push_action-u1586420710260\",\"payload\":{\"aps\":{\"alert\":\"Bienvenue "    \
     @"sur la sample iOS ! Si nos calculs sont bons, tu l\'as install\u00E9e il y a 5 minutes, \\u0026 tu re\u00E7ois " \
     @"donc cette trigger campaign d\u00E9dicac\u00E9e en guise de f\u00E9licitations. "                                \
-    @"\",\"mutable-content\":1,\"sound\":\"default\"},\"com.batch\":{\"t\":\"tc\",\"i\":"                              \
+    @"\",\"mutable-content\":1,\"sound\":\"default\"},\"foundation.p.ons\":{\"t\":\"tc\",\"i\":"                              \
     @"\"9761e19205fd0aa66721dc7a94db4ae2-push_action-u1586420710260\",\"od\":{\"n\":\"a09c5300-7a3b-11ea-ac39-"        \
     @"29b797ebf207\",\"an\":\"push_action\",\"ct\":\"9761e19205fd0aa66721dc7a94db4ae2\"}}}}"
 
 #define PUSH_PAYLOAD                                                                                                   \
     @"{\"aps\":{\"alert\":\"Bienvenue sur la sample iOS ! Si nos calculs sont bons, tu l\'as install\u00E9e il y a 5 " \
     @"minutes, & tu re\u00E7ois donc cette trigger campaign d\u00E9dicac\u00E9e en guise de f\u00E9licitations. "      \
-    @"\",\"mutable-content\":1,\"sound\":\"default\"},\"com.batch\":{\"t\":\"tc\",\"i\":"                              \
+    @"\",\"mutable-content\":1,\"sound\":\"default\"},\"foundation.p.ons\":{\"t\":\"tc\",\"i\":"                              \
     @"\"9761e19205fd0aa66721dc7a94db4ae2-push_action-u1586420710260\",\"od\":{\"n\":\"a09c5300-7a3b-11ea-ac39-"        \
     @"29b797ebf207\",\"an\":\"push_action\",\"ct\":\"9761e19205fd0aa66721dc7a94db4ae2\"}}}"
 

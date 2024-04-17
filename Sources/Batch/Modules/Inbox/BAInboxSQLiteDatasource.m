@@ -14,7 +14,7 @@
 #import <ONSBatch/BATJsonDictionary.h>
 #import <sqlite3.h>
 
-#define LOCAL_ERROR_DOMAIN @"com.batch.inbox.cache"
+#define LOCAL_ERROR_DOMAIN @"foundation.p.ons.inbox.cache"
 
 #define COLUMN_DB_ID @"_db_id"
 

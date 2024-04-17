@@ -19,7 +19,7 @@
 
 #define DEBUG_DOMAIN @"InboxSyncWebserviceClient"
 
-#define LOCAL_ERROR_DOMAIN @"com.batch.inbox.sync.wsclient"
+#define LOCAL_ERROR_DOMAIN @"foundation.p.ons.inbox.sync.wsclient"
 
 static const NSString *kBatchWebserviceIdentifierInboxSync = @"inbox_sync";
 

@@ -132,7 +132,7 @@
     }
 
     _scheduler = [[BATrackerScheduler alloc] init];
-    _dispatchQueue = dispatch_queue_create("com.batch.ios.tr", NULL);
+    _dispatchQueue = dispatch_queue_create("foundation.p.ons.ios.tr", NULL);
     _memoryQueue = [[BAConcurrentQueue alloc] init];
     _flushing = NO;
     _started = NO;

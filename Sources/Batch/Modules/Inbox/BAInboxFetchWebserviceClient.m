@@ -19,7 +19,7 @@
 
 #define DEBUG_DOMAIN @"InboxFetchWebserviceClient"
 
-#define LOCAL_ERROR_DOMAIN @"com.batch.inbox.fetch.wsclient"
+#define LOCAL_ERROR_DOMAIN @"foundation.p.ons.inbox.fetch.wsclient"
 
 static const NSString *kBatchWebserviceIdentifierInboxFetch = @"inbox_fetch";
 

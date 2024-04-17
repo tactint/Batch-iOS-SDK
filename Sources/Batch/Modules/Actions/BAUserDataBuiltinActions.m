@@ -7,7 +7,7 @@
 #import <ONSBatch/BatchUser.h>
 
 #define LOCAL_LOG_DOMAIN @"BatchActions"
-#define JSON_ERROR_DOMAIN @"com.batch.module.actions.builtin"
+#define JSON_ERROR_DOMAIN @"foundation.p.ons.module.actions.builtin"
 
 @implementation BAUserDataBuiltinActions
 

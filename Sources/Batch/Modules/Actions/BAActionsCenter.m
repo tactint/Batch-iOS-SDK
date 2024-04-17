@@ -28,8 +28,8 @@ NSString *const kBAActionsReservedIdentifierPrefix = @"batch.";
 // Special cased, as we need to prevent recursion. Make sure you change it alongside the reserved prefix
 NSString *const kBAActionGroupName = @"batch.group";
 
-#define ACTIONS_ERROR_DOMAIN @"com.batch.ios.actions"
-#define JSON_ERROR_DOMAIN @"com.batch.module.actions.builtin"
+#define ACTIONS_ERROR_DOMAIN @"foundation.p.ons.ios.actions"
+#define JSON_ERROR_DOMAIN @"foundation.p.ons.module.actions.builtin"
 #define LOGGER_DOMAIN @"BatchActions"
 
 @implementation BAActionsCenter {

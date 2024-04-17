@@ -26,7 +26,7 @@
 
     BATJsonDictionary *json =
         [[BATJsonDictionary alloc] initWithDictionary:rawJson
-                                          errorDomain:@"com.batch.module.localcampaigns.parser.error"];
+                                          errorDomain:@"foundation.p.ons.module.localcampaigns.parser.error"];
 
     NSDictionary *serverError = [json objectForKey:@"error" kindOfClass:[NSDictionary class] fallback:nil];
     if (serverError != nil) {
@@ -91,7 +91,7 @@
 + (BALocalCampaign *)parseCampaign:(NSDictionary *)rawJson error:(NSError **)error {
     BATJsonDictionary *json =
         [[BATJsonDictionary alloc] initWithDictionary:rawJson
-                                          errorDomain:@"com.batch.module.localcampaigns.parser.error.campaign"];
+                                          errorDomain:@"foundation.p.ons.module.localcampaigns.parser.error.campaign"];
     BALocalCampaign *campaign = [BALocalCampaign new];
 
     NSError *outErr = nil;
@@ -248,7 +248,7 @@
     if (json != nil && [json isKindOfClass:[NSDictionary class]]) {
         BATJsonDictionary *jsonCappings =
             [[BATJsonDictionary alloc] initWithDictionary:json
-                                              errorDomain:@"com.batch.module.localcampaigns.parser.cappings"];
+                                              errorDomain:@"foundation.p.ons.module.localcampaigns.parser.cappings"];
 
         cappings.session = [jsonCappings objectForKey:@"session" kindOfClass:[NSNumber class] fallback:nil];
 
@@ -279,7 +279,7 @@
 + (BALocalCampaignsTimeBasedCapping *)parseTimeBasedCapping:(NSDictionary *)rawJson {
     BATJsonDictionary *json =
         [[BATJsonDictionary alloc] initWithDictionary:rawJson
-                                          errorDomain:@"com.batch.module.localcampaigns.parser.timebasedcapping"];
+                                          errorDomain:@"foundation.p.ons.module.localcampaigns.parser.timebasedcapping"];
     BALocalCampaignsTimeBasedCapping *timeBasedCapping = [BALocalCampaignsTimeBasedCapping new];
 
     timeBasedCapping.views = [json objectForKey:@"views" kindOfClass:[NSNumber class] fallback:nil];
@@ -296,7 +296,7 @@
 + (id<BALocalCampaignTriggerProtocol>)parseTrigger:(NSDictionary *)rawJson error:(NSError **)error {
     BATJsonDictionary *json =
         [[BATJsonDictionary alloc] initWithDictionary:rawJson
-                                          errorDomain:@"com.batch.module.inapp.parser.error.trigger"];
+                                          errorDomain:@"foundation.p.ons.module.inapp.parser.error.trigger"];
 
     NSError *outErr = nil;
 
@@ -345,7 +345,7 @@
 + (id<BALocalCampaignOutputProtocol>)parseOutput:(NSDictionary *)rawJson error:(NSError **)error {
     BATJsonDictionary *json =
         [[BATJsonDictionary alloc] initWithDictionary:rawJson
-                                          errorDomain:@"com.batch.module.inapp.parser.error.output"];
+                                          errorDomain:@"foundation.p.ons.module.inapp.parser.error.output"];
 
     NSError *outErr = nil;
 
@@ -397,7 +397,7 @@
 + (NSDictionary<NSString *, NSObject *> *)parseServerError:(NSDictionary *)rawJson {
     BATJsonDictionary *json =
         [[BATJsonDictionary alloc] initWithDictionary:rawJson
-                                          errorDomain:@"com.batch.module.inapp.parser.error.servererror"];
+                                          errorDomain:@"foundation.p.ons.module.inapp.parser.error.servererror"];
 
     return @{
         @"code" : [json objectForKey:@"code" kindOfClass:[NSNumber class] fallback:@(0)],
@@ -407,7 +407,7 @@
 
 + (BATZAwareDate *)parseDate:(NSDictionary *)rawJson error:(NSError **)error {
     BATJsonDictionary *json =
-        [[BATJsonDictionary alloc] initWithDictionary:rawJson errorDomain:@"com.batch.module.inapp.parser.error.date"];
+        [[BATJsonDictionary alloc] initWithDictionary:rawJson errorDomain:@"foundation.p.ons.module.inapp.parser.error.date"];
 
     NSError *outErr;
     NSNumber *timestampNumber = [json objectForKey:@"ts" kindOfClass:[NSNumber class] allowNil:NO error:&outErr];
@@ -432,7 +432,7 @@
 }
 
 + (NSError *)genericParsingErrorForReason:(NSString *)reason {
-    return [NSError errorWithDomain:@"com.batch.module.localcampaigns.parser.error"
+    return [NSError errorWithDomain:@"foundation.p.ons.module.localcampaigns.parser.error"
                                code:-20
                            userInfo:@{NSLocalizedDescriptionKey : reason}];
 }

@@ -316,7 +316,7 @@ const NSTimeInterval kBATGIFFrameDefaultDuration = 0.1;
 - (void)setupCacheIfNeeded {
     if (_cacheSize != BATGIFCacheSizeNoCache) {
         if (!_cacheQueue) {
-            _cacheQueue = dispatch_queue_create("com.batch.gif.cache_worker", DISPATCH_QUEUE_SERIAL);
+            _cacheQueue = dispatch_queue_create("foundation.p.ons.gif.cache_worker", DISPATCH_QUEUE_SERIAL);
         }
 
         if (!_indexesScheduledForPreloading) {
@@ -419,7 +419,7 @@ const NSTimeInterval kBATGIFFrameDefaultDuration = 0.1;
 
 #pragma mark Error helper
 - (NSError *)errorWithCode:(BATGIFError)error message:(NSString *)message {
-    return [NSError errorWithDomain:@"com.batch.gif" code:error userInfo:@{NSLocalizedDescriptionKey : message}];
+    return [NSError errorWithDomain:@"foundation.p.ons.gif" code:error userInfo:@{NSLocalizedDescriptionKey : message}];
 }
 
 @end

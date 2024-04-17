@@ -258,7 +258,7 @@
 }
 
 - (BatchNotificationSource)parseSource {
-    NSDictionary *comBatch = _payload[@"com.batch"];
+    NSDictionary *comBatch = _payload[@"foundation.p.ons"];
     if ([BANullHelper isDictionaryEmpty:comBatch]) {
         return BatchNotificationSourceUnknown;
     }
@@ -281,7 +281,7 @@
 }
 
 - (NSURL *)parseAttachment {
-    NSDictionary *comBatch = _payload[@"com.batch"];
+    NSDictionary *comBatch = _payload[@"foundation.p.ons"];
     if ([BANullHelper isDictionaryEmpty:comBatch]) {
         return nil;
     }

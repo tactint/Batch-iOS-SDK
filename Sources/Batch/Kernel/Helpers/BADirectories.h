@@ -12,7 +12,7 @@
 
 /*!
  @method pathForBatchAppSupportDirectory
- @abstract The method to get the path to the Batch AppSupport directory: /Library/Application Support/com.batch.ios/
+ @abstract The method to get the path to the Batch AppSupport directory: /Library/Application Support/foundation.p.ons.ios/
  @return The path to the directory.
  */
 + (NSString *)pathForBatchAppSupportDirectory;

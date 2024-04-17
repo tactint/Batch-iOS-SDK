@@ -20,7 +20,7 @@
 
 #define DEBUG_DOMAIN @"Inbox"
 
-#define LOCAL_ERROR_DOMAIN @"com.batch.inbox"
+#define LOCAL_ERROR_DOMAIN @"foundation.p.ons.inbox"
 
 @interface BAInbox () {
     dispatch_queue_t _dispatchQueue;
@@ -84,7 +84,7 @@
 }
 
 - (void)setupUsingCache:(BOOL)useCache {
-    _dispatchQueue = dispatch_queue_create("com.batch.push.inbox", NULL);
+    _dispatchQueue = dispatch_queue_create("foundation.p.ons.push.inbox", NULL);
     _fetchedMessages = [NSMutableArray new];
     _endReached = false;
     _maxPageSize = 20;

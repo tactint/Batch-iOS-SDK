@@ -4,7 +4,7 @@
 
 #import <ONSBatch/BAJson.h>
 
-#define LOCAL_ERROR_DOMAIN @"com.batch.core.json"
+#define LOCAL_ERROR_DOMAIN @"foundation.p.ons.core.json"
 
 @implementation BAJson
 

@@ -80,7 +80,7 @@
         return nil;
     }
 
-    _dispatchQueue = dispatch_queue_create("com.batch.ios.concurrent.queue", NULL);
+    _dispatchQueue = dispatch_queue_create("foundation.p.ons.ios.concurrent.queue", NULL);
     _backingArray = [NSMutableArray new];
 
     return self;

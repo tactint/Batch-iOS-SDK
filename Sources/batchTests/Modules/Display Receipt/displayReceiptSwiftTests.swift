@@ -25,7 +25,7 @@ class DisplayReceiptSwiftTests: XCTestCase {
          ]
 
          let validPayload: [AnyHashable: Any] = [
-             "com.batch": ["r":["m":1], "od": od, "i": "test-i", "ex": "test-ex", "va": "test-va"]
+             "foundation.p.ons": ["r":["m":1], "od": od, "i": "test-i", "ex": "test-ex", "va": "test-va"]
          ]
 
          // We create and pack a receipt using the Swift lib

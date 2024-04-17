@@ -27,7 +27,7 @@
 #pragma mark Public methods
 
 static const NSUInteger DEFAULTS_VERSION = 1;
-static const NSString *DEFAULTS_VERSION_KEY = @"com.batch.defaults.version";
+static const NSString *DEFAULTS_VERSION_KEY = @"foundation.p.ons.defaults.version";
 
 // Build the storage.
 - (instancetype)initWithCryptor:(id<BAEncryptionProtocol>)cryptor andSuiteName:(NSString *_Nullable)suiteName {

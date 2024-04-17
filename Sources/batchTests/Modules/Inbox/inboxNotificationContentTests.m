@@ -32,7 +32,7 @@
 
     NSMutableDictionary *payload = [NSMutableDictionary new];
     [payload setValue:aps forKey:@"aps"];
-    [payload setValue:[self makeBatchPrivatePayload] forKey:@"com.batch"];
+    [payload setValue:[self makeBatchPrivatePayload] forKey:@"foundation.p.ons"];
 
     BatchInboxNotificationContent *content =
         [[BatchInboxNotificationContent alloc] initWithInternalIdentifier:@"test-id"
@@ -157,7 +157,7 @@
 - (void)testSilentNotifications {
     NSDate *now = [NSDate date];
     NSDictionary *silentNotificationPayload =
-        @{@"aps" : @{@"content-available" : @(1)}, @"com.batch" : [self makeBatchPrivatePayload]};
+        @{@"aps" : @{@"content-available" : @(1)}, @"foundation.p.ons" : [self makeBatchPrivatePayload]};
 
     // Test that the class refuses to parse a silent notification
     XCTAssertNil([[BatchInboxNotificationContent alloc] initWithInternalIdentifier:@"test-id"

@@ -2,7 +2,7 @@
 
 #import <ONSBatch/BatchCore.h>
 
-#define OptOutUserDefaultsSuite @"com.batch.sdk.optout"
+#define OptOutUserDefaultsSuite @"foundation.p.ons.sdk.optout"
 #define OptOutDefaultKey @"opted_out"
 #define ShouldFireOptinEventDefaultKey @"should_fire_optin_event"
 

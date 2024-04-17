@@ -22,7 +22,7 @@
     self = [super init];
     if (self) {
         if ([BALogger internalLogsEnabled]) {
-            _log = os_log_create("com.batch.ios.event-tracker", "BatchEventTracker");
+            _log = os_log_create("foundation.p.ons.ios.event-tracker", "BatchEventTracker");
         } else {
             _log = OS_LOG_DISABLED;
         }

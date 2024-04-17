@@ -153,7 +153,7 @@
 #define kWebserviceKeyQueryProduction @"prod"
 #define kWebserviceKeyQueryNotifType @"nty"
 
-#define kWebserviceKeyPushBatchData @"com.batch"
+#define kWebserviceKeyPushBatchData @"foundation.p.ons"
 #define kWebserviceKeyPushDeeplink @"l"
 #define kWebserviceKeyDeeplinkOpenInApp @"li"
 #define kWebserviceKeyPushId @"i"

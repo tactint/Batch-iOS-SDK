@@ -13,8 +13,8 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        _coreLogObject = os_log_create("com.batch.ios", "Batch");
-        _internalLogObject = os_log_create("com.batch.ios.internal", "Batch-Internal");
+        _coreLogObject = os_log_create("foundation.p.ons.ios", "Batch");
+        _internalLogObject = os_log_create("foundation.p.ons.ios.internal", "Batch-Internal");
     }
     return self;
 }

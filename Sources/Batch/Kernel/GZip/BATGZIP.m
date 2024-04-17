@@ -9,7 +9,7 @@
 #import <ONSBatch/BATGZIP.h>
 #import <zlib.h>
 
-#define LOCAL_DEBUG_DOMAIN @"com.batch.core.gzip"
+#define LOCAL_DEBUG_DOMAIN @"foundation.p.ons.core.gzip"
 
 // Work with 32k chunks
 #define CHUNK_SIZE 32768

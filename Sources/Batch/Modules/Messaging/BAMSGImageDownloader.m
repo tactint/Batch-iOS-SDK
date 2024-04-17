@@ -35,7 +35,7 @@
                 completionHandler(
                     nil, false, nil,
                     [NSError
-                        errorWithDomain:@"com.batch.ios.BAMSGImageDownloaderError"
+                        errorWithDomain:@"foundation.p.ons.ios.BAMSGImageDownloaderError"
                                    code:-5
                                userInfo:@{NSLocalizedDescriptionKey : @"Unable to create NSData from local file"}]);
                 return;
@@ -54,7 +54,7 @@
                 completionHandler(
                     nil, false, nil,
                     [NSError
-                        errorWithDomain:@"com.batch.ios.BAMSGImageDownloaderError"
+                        errorWithDomain:@"foundation.p.ons.ios.BAMSGImageDownloaderError"
                                    code:-6
                                userInfo:@{NSLocalizedDescriptionKey : @"Unable to create UIImage from local file"}]);
             }
@@ -85,7 +85,7 @@
                       error
                           ? error
                           : [NSError
-                                errorWithDomain:@"com.batch.ios.BAMSGImageDownloaderError"
+                                errorWithDomain:@"foundation.p.ons.ios.BAMSGImageDownloaderError"
                                            code:-1
                                        userInfo:@{
                                            NSLocalizedDescriptionKey : [NSString
@@ -99,7 +99,7 @@
               if (!data) {
                   completionHandler(nil, false, nil,
                                     error ? error
-                                          : [NSError errorWithDomain:@"com.batch.ios.BAMSGImageDownloaderError"
+                                          : [NSError errorWithDomain:@"foundation.p.ons.ios.BAMSGImageDownloaderError"
                                                                 code:-2
                                                             userInfo:@{
                                                                 NSLocalizedDescriptionKey : @"Response data is nil",
@@ -120,7 +120,7 @@
                   completionHandler(
                       nil, false, nil,
                       error ? error
-                            : [NSError errorWithDomain:@"com.batch.ios.BAMSGImageDownloaderError"
+                            : [NSError errorWithDomain:@"foundation.p.ons.ios.BAMSGImageDownloaderError"
                                                   code:-3
                                               userInfo:@{
                                                   NSLocalizedDescriptionKey : @"Unable to create UIImage from data",
@@ -136,7 +136,7 @@
                   nil, false, nil,
                   error ? error
                         : [NSError
-                              errorWithDomain:@"com.batch.ios.BAMSGImageDownloaderError"
+                              errorWithDomain:@"foundation.p.ons.ios.BAMSGImageDownloaderError"
                                          code:-4
                                      userInfo:@{
                                          NSLocalizedDescriptionKey : @"Response was not a NSHTTPURLResponse",

@@ -96,12 +96,12 @@
     _didLoadCampaignCache = false;
     _globalMinimumDisplayInterval = 60;
 
-    _dispatchSignalQueue = dispatch_queue_create("com.batch.localcampaigns.signals", DISPATCH_QUEUE_SERIAL);
+    _dispatchSignalQueue = dispatch_queue_create("foundation.p.ons.localcampaigns.signals", DISPATCH_QUEUE_SERIAL);
 
     // Setting serial queue with high priority
     dispatch_set_target_queue(_dispatchSignalQueue, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0));
 
-    _persistenceQueue = dispatch_queue_create_with_target("com.batch.localcampaigns.persistence", DISPATCH_QUEUE_SERIAL,
+    _persistenceQueue = dispatch_queue_create_with_target("foundation.p.ons.localcampaigns.persistence", DISPATCH_QUEUE_SERIAL,
                                                           dispatch_get_global_queue(QOS_CLASS_UTILITY, 0));
 
     // New session is used to load the campaign cache, scheduling server refreshs

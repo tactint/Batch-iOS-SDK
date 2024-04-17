@@ -417,7 +417,7 @@ NSInteger const BatchMessageGlobalActionIndex = -1;
         return nil;
     }
 
-    NSObject *batchPayload = [payload objectForKey:@"com.batch"];
+    NSObject *batchPayload = [payload objectForKey:@"foundation.p.ons"];
     if (![batchPayload isKindOfClass:[NSDictionary class]]) {
         [BALogger errorForDomain:@"BatchMessage" message:@"batch internal payload not found or isn't a NSDictionary"];
         return nil;

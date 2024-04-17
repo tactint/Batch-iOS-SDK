@@ -31,7 +31,7 @@
         return self;
     }
 
-    _dispatchQueue = dispatch_queue_create("com.batch.ios.dr", NULL);
+    _dispatchQueue = dispatch_queue_create("foundation.p.ons.ios.dr", NULL);
     return self;
 }
 

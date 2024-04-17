@@ -12,7 +12,7 @@
 #import <ONSBatch/BALogger.h>
 #import "Defined.h"
 
-#define BA_RECEIPT_CACHE_DIRECTORY @"com.batch.displayreceipts"
+#define BA_RECEIPT_CACHE_DIRECTORY @"foundation.p.ons.displayreceipts"
 #define BA_RECEIPT_CACHE_FILENAME_FORMAT @"%@.bin"
 #define BA_RECEIPT_MAX_BATCH_FILE 5
 #define BA_RECEIPT_MAX_FILE_AGE 2592000.0 // 30 days in seconds

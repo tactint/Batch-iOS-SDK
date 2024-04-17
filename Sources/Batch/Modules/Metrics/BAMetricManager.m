@@ -54,7 +54,7 @@
         _isSending = NO;
         _metrics = [NSMutableArray array];
         _dateProvider = [BASecureDateProvider new];
-        _dispatchQueue = dispatch_queue_create("com.batch.ios.metrics", NULL);
+        _dispatchQueue = dispatch_queue_create("foundation.p.ons.ios.metrics", NULL);
     }
     return self;
 }

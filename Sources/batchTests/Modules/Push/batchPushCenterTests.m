@@ -23,14 +23,14 @@
 
 - (void)testIsBatchPush {
     NSDictionary *comBatch = @{@"i" : @(2)};
-    NSDictionary *validPayload = @{@"foo" : @"bar", @"com.batch" : comBatch};
+    NSDictionary *validPayload = @{@"foo" : @"bar", @"foundation.p.ons" : comBatch};
     XCTAssertTrue([BAPushCenter isBatchPush:validPayload]);
-    validPayload = @{@"foo" : @"bar", @"com.batch" : comBatch};
+    validPayload = @{@"foo" : @"bar", @"foundation.p.ons" : comBatch};
     XCTAssertTrue([BAPushCenter isBatchPush:validPayload]);
 
-    XCTAssertFalse([BAPushCenter isBatchPush:@{@"com.batch" : @{}}]);
-    XCTAssertFalse([BAPushCenter isBatchPush:@{@"com.batch" : [NSNull null]}]);
-    XCTAssertFalse([BAPushCenter isBatchPush:@{@"com.batch" : @(2)}]);
+    XCTAssertFalse([BAPushCenter isBatchPush:@{@"foundation.p.ons" : @{}}]);
+    XCTAssertFalse([BAPushCenter isBatchPush:@{@"foundation.p.ons" : [NSNull null]}]);
+    XCTAssertFalse([BAPushCenter isBatchPush:@{@"foundation.p.ons" : @(2)}]);
     XCTAssertFalse([BAPushCenter isBatchPush:@{@"foo" : @"bar"}]);
     XCTAssertFalse([BAPushCenter isBatchPush:@{}]);
     // Force a bad cast to silence the warnings, we still want to test those cases
@@ -41,14 +41,14 @@
 
 - (void)testIsBatchPush_public {
     NSDictionary *comBatch = @{@"i" : @(2)};
-    NSDictionary *validPayload = @{@"foo" : @"bar", @"com.batch" : comBatch};
+    NSDictionary *validPayload = @{@"foo" : @"bar", @"foundation.p.ons" : comBatch};
     XCTAssertTrue([BatchPush isBatchPush:validPayload]);
-    validPayload = @{@"foo" : @"bar", @"com.batch" : comBatch};
+    validPayload = @{@"foo" : @"bar", @"foundation.p.ons" : comBatch};
     XCTAssertTrue([BatchPush isBatchPush:validPayload]);
 
-    XCTAssertFalse([BatchPush isBatchPush:@{@"com.batch" : @{}}]);
-    XCTAssertFalse([BatchPush isBatchPush:@{@"com.batch" : [NSNull null]}]);
-    XCTAssertFalse([BatchPush isBatchPush:@{@"com.batch" : @(2)}]);
+    XCTAssertFalse([BatchPush isBatchPush:@{@"foundation.p.ons" : @{}}]);
+    XCTAssertFalse([BatchPush isBatchPush:@{@"foundation.p.ons" : [NSNull null]}]);
+    XCTAssertFalse([BatchPush isBatchPush:@{@"foundation.p.ons" : @(2)}]);
     XCTAssertFalse([BatchPush isBatchPush:@{@"foo" : @"bar"}]);
     XCTAssertFalse([BatchPush isBatchPush:@{}]);
     // Force a bad cast to silence the warnings, we still want to test those cases

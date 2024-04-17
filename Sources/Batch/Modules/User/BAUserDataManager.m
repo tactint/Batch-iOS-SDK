@@ -43,7 +43,7 @@ static NSMutableArray<NSArray<BOOL (^)(void)> *> *operationsQueues;
     static dispatch_queue_t queue;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-      queue = dispatch_queue_create("com.batch.userprofile.queue", NULL);
+      queue = dispatch_queue_create("foundation.p.ons.userprofile.queue", NULL);
     });
 
     return queue;

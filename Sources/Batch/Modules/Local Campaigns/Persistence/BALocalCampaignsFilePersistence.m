@@ -11,7 +11,7 @@
 #import <ONSBatch/BALogger.h>
 
 #define LOGGER_DOMAIN @"Local Campaigns - File Persistence"
-#define LOCAL_ERROR_DOMAIN @"com.batch.module.localcampaigns.filepersistence"
+#define LOCAL_ERROR_DOMAIN @"foundation.p.ons.module.localcampaigns.filepersistence"
 
 #define FILE_VERSION 1
 

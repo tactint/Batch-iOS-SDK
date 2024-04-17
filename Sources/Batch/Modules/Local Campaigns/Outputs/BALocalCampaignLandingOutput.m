@@ -23,7 +23,7 @@
         if (!_message) {
             if (error) {
                 *error = [NSError
-                    errorWithDomain:@"com.batch.module.localcampaigns.output.landing"
+                    errorWithDomain:@"foundation.p.ons.module.localcampaigns.output.landing"
                                code:-10
                            userInfo:@{
                                NSLocalizedDescriptionKey : @"Could not create the underlying BatchInAppMessage "

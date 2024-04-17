@@ -23,7 +23,7 @@
 #define PUSH_PAYLOAD                                                                                                   \
     @"{\"aps\":{\"alert\":\"Bienvenue sur la sample iOS ! Si nos calculs sont bons, tu l\'as install\u00E9e il y a 5 " \
     @"minutes, & tu re\u00E7ois donc cette trigger campaign d\u00E9dicac\u00E9e en guise de f\u00E9licitations. "      \
-    @"\",\"mutable-content\":1,\"sound\":\"default\"},\"com.batch\":{\"t\":\"tc\",\"i\":"                              \
+    @"\",\"mutable-content\":1,\"sound\":\"default\"},\"foundation.p.ons\":{\"t\":\"tc\",\"i\":"                              \
     @"\"9761e19205fd0aa66721dc7a94db4ae2-push_action-u1586420710260\",\"od\":{\"n\":\"a09c5300-7a3b-11ea-ac39-"        \
     @"29b797ebf207\",\"an\":\"push_action\",\"ct\":\"9761e19205fd0aa66721dc7a94db4ae2\"}}}"
 
@@ -199,7 +199,7 @@
 
     NSString *payload = @"{\"notifications\":[{\"installId\":\"b5baf3e0-a01f-11ea-111a-17c13e111be2\","
                         @"\"notificationId\":\"test-id-2.5\",\"notificationTime\":10900000,\"sendId\":\"test-send-id-2."
-                        @"5\",\"payload\":{\"com.batch\":{\"t\":\"t\",\"l\":\"https://"
+                        @"5\",\"payload\":{\"foundation.p.ons\":{\"t\":\"t\",\"l\":\"https://"
                         @"google.com\",\"i\":\"6y4g8guj-u1585829353322_68f3\",\"od\":{\"n\":\"c44d6340-74da-11ea-b3b3-"
                         @"8dc99181b65a\"}},\"msg\":\"test body\",\"title\":\"test "
                         @"title\"}},{\"notificationId\":\"test-id-2\"}],\"cache\":{\"lastMarkAllAsRead\":1585233902218}"

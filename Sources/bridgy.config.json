@@ -3,7 +3,7 @@
     "base_search_path": ".",
     "headers": {
         "PrivateUmbrellaHeader.h": {
-            "path": "Batch",
+            "path": "ONSBatch",
             "recursive": true,
             "ignoredNames": "^(?!.*Private)ONSBatch.*\\.h$",
             "frameworkName": "ONSBatch"

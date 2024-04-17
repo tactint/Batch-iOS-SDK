@@ -20,7 +20,7 @@
 - (void)testPushEventPayload {
     NSDictionary<NSString *, NSObject *> *dictionary = @{
         @"hip" : @"hop",
-        @"com.batch" : @{
+        @"foundation.p.ons" : @{
             @"t" : @"t",
             @"od" : @{@"n" : @"925a4e70-e13c-11e9-bbd4-cf7d44429d5e"},
             @"i" : @"Testtransac4-1569598588",
@@ -34,7 +34,7 @@
 
     XCTAssertEqual(@"https://batch.com/test?utm_campaign=test_campaign&utm_content=test-content-1", payload.deeplink);
     XCTAssertNil(payload.trackingId);
-    XCTAssertNil([payload customValueForKey:@"com.batch"]);
+    XCTAssertNil([payload customValueForKey:@"foundation.p.ons"]);
     XCTAssertEqual(@"hop", [payload customValueForKey:@"hip"]);
     XCTAssertNil([payload customValueForKey:@"void"]);
     XCTAssertNil(payload.sourceMessage);

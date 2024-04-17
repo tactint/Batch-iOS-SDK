@@ -24,7 +24,7 @@ NSString *const BatchEventTrackerFinishedNotification = @"BatchEventTrackerFinis
 
 NSString *const BatchEventTrackerFinishedWithSuccessKey = @"BatchEventTrackerFinishedWithSuccessKey";
 
-NSErrorDomain const BatchUserDataEditorErrorDomain = @"com.batch.ios.userdataeditor";
+NSErrorDomain const BatchUserDataEditorErrorDomain = @"foundation.p.ons.ios.userdataeditor";
 
 @implementation BatchUser
 
