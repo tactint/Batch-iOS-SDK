@@ -692,8 +692,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		022AC42A19DAA36900BDC3E7 /* BatchUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchUserProfile.h; path = Batch/BatchUserProfile.h; sourceTree = SOURCE_ROOT; };
-		022AC42B19DAA36900BDC3E7 /* BatchUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchUserProfile.m; path = Batch/BatchUserProfile.m; sourceTree = SOURCE_ROOT; };
+		022AC42A19DAA36900BDC3E7 /* BatchUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchUserProfile.h; path = Batch/ONSBatchUserProfile.h; sourceTree = SOURCE_ROOT; };
+		022AC42B19DAA36900BDC3E7 /* BatchUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchUserProfile.m; path = Batch/ONSBatchUserProfile.m; sourceTree = SOURCE_ROOT; };
 		022AC43019DAA8EA00BDC3E7 /* BAUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAUserProfile.h; path = Batch/Modules/Core/BAUserProfile.h; sourceTree = SOURCE_ROOT; };
 		022AC43119DAA8EA00BDC3E7 /* BAUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAUserProfile.m; path = Batch/Modules/Core/BAUserProfile.m; sourceTree = SOURCE_ROOT; };
 		026C270219ED4A2A0079B969 /* BASecureDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BASecureDate.m; path = Batch/BASecureDate.m; sourceTree = SOURCE_ROOT; };
@@ -772,7 +772,7 @@
 		02849BE419B9FA2D0013408B /* batchTrackerCenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = batchTrackerCenterTests.m; sourceTree = "<group>"; };
 		02849BF719B9FA2D0013408B /* batchWebserviceResponseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = batchWebserviceResponseTests.m; sourceTree = "<group>"; };
 		02849BFA19B9FA2D0013408B /* batchResponseHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = batchResponseHelperTests.m; sourceTree = "<group>"; };
-		02955F5D19DAE0E800E7458A /* batchUserProfileTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = batchUserProfileTests.m; path = batchTests/Modules/Core/batchUserProfileTests.m; sourceTree = SOURCE_ROOT; };
+		02955F5D19DAE0E800E7458A /* batchUserProfileTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = batchUserProfileTests.m; path = batchTests/Modules/Core/ONSBatchUserProfileTests.m; sourceTree = SOURCE_ROOT; };
 		029B33481A39A1F7006B9DC6 /* batchNSURLREquest+BAHeadersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "batchNSURLREquest+BAHeadersTests.m"; sourceTree = "<group>"; };
 		029B334A1A39A1F7006B9DC6 /* batchAESTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = batchAESTests.m; sourceTree = "<group>"; };
 		029B334E1A39A1F7006B9DC6 /* batchParametersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = batchParametersTests.m; sourceTree = "<group>"; };
@@ -783,7 +783,7 @@
 		02F7846E19B9EF5A0006FF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E104EAD28E6F43D00E998AE /* BAUserEmailSubscription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAUserEmailSubscription.h; sourceTree = "<group>"; };
 		1E104EAE28E6F43D00E998AE /* BAUserEmailSubscription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAUserEmailSubscription.m; sourceTree = "<group>"; };
-		1E104EB528EB289400E998AE /* batchUserEmailSubscriptionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = batchUserEmailSubscriptionTests.m; path = User/batchUserEmailSubscriptionTests.m; sourceTree = "<group>"; };
+		1E104EB528EB289400E998AE /* batchUserEmailSubscriptionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = batchUserEmailSubscriptionTests.m; path = User/ONSBatchUserEmailSubscriptionTests.m; sourceTree = "<group>"; };
 		1E2C31B327CF740E00A4CB6E /* BAMetricRegistry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMetricRegistry.h; sourceTree = "<group>"; };
 		1E2C31B427CF740E00A4CB6E /* BAMetricRegistry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMetricRegistry.m; sourceTree = "<group>"; };
 		1E45578327CE1B510048D3A8 /* BALocalCampaignsJITService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BALocalCampaignsJITService.h; sourceTree = "<group>"; };
@@ -826,8 +826,8 @@
 		5101341D1E9D433E0053EF52 /* BAEventSQLiteDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAEventSQLiteDatasource.m; path = Batch/Modules/Tracker/BAEventSQLiteDatasource.m; sourceTree = SOURCE_ROOT; };
 		5101341E1E9D433E0053EF52 /* BAEventSQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAEventSQLiteHelper.h; path = Batch/Modules/Tracker/BAEventSQLiteHelper.h; sourceTree = SOURCE_ROOT; };
 		5101341F1E9D433E0053EF52 /* BAEventSQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAEventSQLiteHelper.m; path = Batch/Modules/Tracker/BAEventSQLiteHelper.m; sourceTree = SOURCE_ROOT; };
-		5101539D1BEA5318009E8B16 /* BatchUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchUser.h; path = Batch/BatchUser.h; sourceTree = SOURCE_ROOT; };
-		5101539E1BEA5318009E8B16 /* BatchUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchUser.m; path = Batch/BatchUser.m; sourceTree = SOURCE_ROOT; };
+		5101539D1BEA5318009E8B16 /* BatchUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchUser.h; path = Batch/ONSBatchUser.h; sourceTree = SOURCE_ROOT; };
+		5101539E1BEA5318009E8B16 /* BatchUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchUser.m; path = Batch/ONSBatchUser.m; sourceTree = SOURCE_ROOT; };
 		510153A31BED0F1B009E8B16 /* BAUserDatasourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAUserDatasourceProtocol.h; path = Batch/Modules/User/BAUserDatasourceProtocol.h; sourceTree = SOURCE_ROOT; };
 		510153A61BED11C4009E8B16 /* BAUserSQLiteDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAUserSQLiteDatasource.h; path = Batch/Modules/User/BAUserSQLiteDatasource.h; sourceTree = SOURCE_ROOT; };
 		510153A71BED11C4009E8B16 /* BAUserSQLiteDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAUserSQLiteDatasource.m; path = Batch/Modules/User/BAUserSQLiteDatasource.m; sourceTree = SOURCE_ROOT; };
@@ -887,8 +887,8 @@
 		512596B41CDCA4DF00AC934B /* BACSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BACSSParser.m; path = Batch/Modules/Messaging/CSS/BACSSParser.m; sourceTree = SOURCE_ROOT; };
 		512596B51CDCA4DF00AC934B /* BACSSToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BACSSToken.h; path = Batch/Modules/Messaging/CSS/BACSSToken.h; sourceTree = SOURCE_ROOT; };
 		512596B61CDCA4DF00AC934B /* BACSSToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BACSSToken.m; path = Batch/Modules/Messaging/CSS/BACSSToken.m; sourceTree = SOURCE_ROOT; };
-		512596C31CDCC73400AC934B /* BatchMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchMessaging.h; path = Batch/BatchMessaging.h; sourceTree = SOURCE_ROOT; };
-		512596C41CDCC73400AC934B /* BatchMessaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchMessaging.m; path = Batch/BatchMessaging.m; sourceTree = SOURCE_ROOT; };
+		512596C31CDCC73400AC934B /* BatchMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchMessaging.h; path = Batch/ONSBatchMessaging.h; sourceTree = SOURCE_ROOT; };
+		512596C41CDCC73400AC934B /* BatchMessaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchMessaging.m; path = Batch/ONSBatchMessaging.m; sourceTree = SOURCE_ROOT; };
 		512596C91CDCCBCA00AC934B /* BAMSGPayloadParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAMSGPayloadParser.h; path = Batch/Modules/Messaging/BAMSGPayloadParser.h; sourceTree = SOURCE_ROOT; };
 		512596CA1CDCCBCA00AC934B /* BAMSGPayloadParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAMSGPayloadParser.m; path = Batch/Modules/Messaging/BAMSGPayloadParser.m; sourceTree = SOURCE_ROOT; };
 		512596D51CDCCC2300AC934B /* BAMSGMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAMSGMessage.h; path = Batch/Modules/Messaging/BAMSGMessage.h; sourceTree = SOURCE_ROOT; };
@@ -910,19 +910,19 @@
 		51379B7E22FC5C0200AB7B82 /* BAInjectableImplementations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAInjectableImplementations.m; sourceTree = "<group>"; };
 		51379B8222FC7C3100AB7B82 /* BAOverlayedInjectable-Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BAOverlayedInjectable-Private.h"; sourceTree = "<group>"; };
 		513DA84322F87D6300144521 /* eventTrackerServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventTrackerServiceTests.swift; sourceTree = "<group>"; };
-		5142AD891EBCAB1500B94027 /* BatchInboxPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchInboxPrivate.h; path = Batch/BatchInboxPrivate.h; sourceTree = SOURCE_ROOT; };
+		5142AD891EBCAB1500B94027 /* BatchInboxPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchInboxPrivate.h; path = Batch/ONSBatchInboxPrivate.h; sourceTree = SOURCE_ROOT; };
 		5145C78124C1F036004A89FE /* BAConnectionContentType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAConnectionContentType.h; sourceTree = "<group>"; };
 		5145C78824C1FFC6004A89FE /* BATWebserviceHMAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BATWebserviceHMAC.h; sourceTree = "<group>"; };
 		5145C78924C1FFC6004A89FE /* BATWebserviceHMAC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATWebserviceHMAC.m; sourceTree = "<group>"; };
 		5145C78C24C587EA004A89FE /* BASHA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BASHA.h; sourceTree = "<group>"; };
 		5145C78D24C587EA004A89FE /* BASHA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BASHA.m; sourceTree = "<group>"; };
-		514671BA1D646F7100C50113 /* BatchActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchActions.h; path = Batch/BatchActions.h; sourceTree = SOURCE_ROOT; };
-		514671BB1D646F7200C50113 /* BatchActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchActions.m; path = Batch/BatchActions.m; sourceTree = SOURCE_ROOT; };
+		514671BA1D646F7100C50113 /* BatchActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchActions.h; path = Batch/ONSBatchActions.h; sourceTree = SOURCE_ROOT; };
+		514671BB1D646F7200C50113 /* BatchActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchActions.m; path = Batch/ONSBatchActions.m; sourceTree = SOURCE_ROOT; };
 		514671C11D647AFE00C50113 /* BAActionsCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAActionsCenter.h; path = Batch/Modules/Actions/BAActionsCenter.h; sourceTree = SOURCE_ROOT; };
 		514671C21D647AFE00C50113 /* BAActionsCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAActionsCenter.m; path = Batch/Modules/Actions/BAActionsCenter.m; sourceTree = SOURCE_ROOT; };
 		51496A2E25110D680051B8A4 /* BAPartialApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAPartialApplicationDelegate.h; sourceTree = "<group>"; };
 		514BA49F27D257F100B93FAF /* inboxFetcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inboxFetcherTests.swift; sourceTree = "<group>"; };
-		514CD72A1BFE2A2B00F79110 /* batchUserDataSQLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = batchUserDataSQLTests.m; path = batchTests/Modules/User/batchUserDataSQLTests.m; sourceTree = SOURCE_ROOT; };
+		514CD72A1BFE2A2B00F79110 /* batchUserDataSQLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = batchUserDataSQLTests.m; path = batchTests/Modules/User/ONSBatchUserDataSQLTests.m; sourceTree = SOURCE_ROOT; };
 		514FCA7325121DDF00CAF31A /* OCMock.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = OCMock.modulemap; sourceTree = "<group>"; };
 		514FCA7425121DED00CAF31A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		514FE7292209F5C0003C3426 /* batchOptOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = batchOptOutTests.m; sourceTree = "<group>"; };
@@ -1089,13 +1089,13 @@
 		5184045A22E9F5AF006322DF /* BALocalCampaignsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BALocalCampaignsService.h; sourceTree = "<group>"; };
 		5184DE072433882D003F2DBB /* msgpack-c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "msgpack-c.c"; sourceTree = "<group>"; };
 		5184DE082433882D003F2DBB /* msgpack-c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "msgpack-c.h"; sourceTree = "<group>"; };
-		5188CD261D65FDBE0023D4BE /* BatchMessagingPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchMessagingPrivate.h; path = Batch/BatchMessagingPrivate.h; sourceTree = SOURCE_ROOT; };
+		5188CD261D65FDBE0023D4BE /* BatchMessagingPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchMessagingPrivate.h; path = Batch/ONSBatchMessagingPrivate.h; sourceTree = SOURCE_ROOT; };
 		51898DDC24B63A3C009A332C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		518D886B2355F653007BF341 /* BAMessagingAnalyticsDeduplicatingDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMessagingAnalyticsDeduplicatingDelegate.h; sourceTree = "<group>"; };
 		518D886C2355F653007BF341 /* BAMessagingAnalyticsDeduplicatingDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMessagingAnalyticsDeduplicatingDelegate.m; sourceTree = "<group>"; };
 		518D886F23560C79007BF341 /* messagingAnalyticsDeduplicatingDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messagingAnalyticsDeduplicatingDelegateTests.swift; sourceTree = "<group>"; };
-		518E38411EA8EB93009AB274 /* BatchInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchInbox.h; path = Batch/BatchInbox.h; sourceTree = SOURCE_ROOT; };
-		518E38421EA8EB93009AB274 /* BatchInbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchInbox.m; path = Batch/BatchInbox.m; sourceTree = SOURCE_ROOT; };
+		518E38411EA8EB93009AB274 /* BatchInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchInbox.h; path = Batch/ONSBatchInbox.h; sourceTree = SOURCE_ROOT; };
+		518E38421EA8EB93009AB274 /* BatchInbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchInbox.m; path = Batch/ONSBatchInbox.m; sourceTree = SOURCE_ROOT; };
 		518E38471EAA45E5009AB274 /* BAInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAInbox.h; path = Batch/Modules/Inbox/BAInbox.h; sourceTree = SOURCE_ROOT; };
 		518E38481EAA45E5009AB274 /* BAInbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAInbox.m; path = Batch/Modules/Inbox/BAInbox.m; sourceTree = SOURCE_ROOT; };
 		518E384D1EAA5EF7009AB274 /* BAGETWebserviceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAGETWebserviceClient.h; path = Batch/Webservices/BAGETWebserviceClient.h; sourceTree = SOURCE_ROOT; };
@@ -1134,7 +1134,7 @@
 		51A41A231D059D4300187BC6 /* BAMSGGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAMSGGradientView.m; path = Batch/Modules/Messaging/Widgets/BAMSGGradientView.m; sourceTree = SOURCE_ROOT; };
 		51A939A11D1ABC4D00AACEAF /* BAMSGVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAMSGVideoView.h; path = Batch/Modules/Messaging/UI/BAMSGVideoView.h; sourceTree = SOURCE_ROOT; };
 		51A939A21D1ABC4D00AACEAF /* BAMSGVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAMSGVideoView.m; path = Batch/Modules/Messaging/UI/BAMSGVideoView.m; sourceTree = SOURCE_ROOT; };
-		51ACA05C2166193D006FAD04 /* batchUserDiffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = batchUserDiffTests.swift; path = User/batchUserDiffTests.swift; sourceTree = "<group>"; };
+		51ACA05C2166193D006FAD04 /* batchUserDiffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = batchUserDiffTests.swift; path = User/ONSBatchUserDiffTests.swift; sourceTree = "<group>"; };
 		51AE74612084AEE3005186D7 /* BAOptOut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAOptOut.h; sourceTree = "<group>"; };
 		51AE74622084AEE3005186D7 /* BAOptOut.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAOptOut.m; sourceTree = "<group>"; };
 		51AE746620850217005186D7 /* BAInstallationID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAInstallationID.h; sourceTree = "<group>"; };
@@ -1153,7 +1153,7 @@
 		51B6227A1F2E7E0200084EC4 /* BANewSessionSignal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BANewSessionSignal.m; sourceTree = "<group>"; };
 		51B8074724003DF70006882D /* BATMessagePackReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BATMessagePackReader.h; sourceTree = "<group>"; };
 		51B8074824003DF70006882D /* BATMessagePackReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATMessagePackReader.m; sourceTree = "<group>"; };
-		51BB37AB1E918D3600D9A142 /* Batch.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = Batch.modulemap; path = Batch/Batch.modulemap; sourceTree = SOURCE_ROOT; };
+		51BB37AB1E918D3600D9A142 /* Batch.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = Batch.modulemap; path = Batch/ONSBatch.modulemap; sourceTree = SOURCE_ROOT; };
 		51BD19252020759A00C2524D /* builtinActionsTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = builtinActionsTest.m; sourceTree = "<group>"; };
 		51BE2CC321A858AF002C1514 /* BATHtmlParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BATHtmlParser.h; sourceTree = "<group>"; };
 		51BE2CC421A858B0002C1514 /* BATHtmlParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATHtmlParser.m; sourceTree = "<group>"; };
@@ -1163,7 +1163,7 @@
 		51C6B11425CD53E200B531C5 /* localCampaignsCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = localCampaignsCenterTests.m; sourceTree = "<group>"; };
 		51C7D24E1B1359700038FAD7 /* BAWebserviceMetrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAWebserviceMetrics.h; path = Batch/Webservices/BAWebserviceMetrics.h; sourceTree = SOURCE_ROOT; };
 		51C7D24F1B1359700038FAD7 /* BAWebserviceMetrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAWebserviceMetrics.m; path = Batch/Webservices/BAWebserviceMetrics.m; sourceTree = SOURCE_ROOT; };
-		51C7D2531B14A1740038FAD7 /* BatchCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BatchCore.h; path = Batch/BatchCore.h; sourceTree = SOURCE_ROOT; };
+		51C7D2531B14A1740038FAD7 /* BatchCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BatchCore.h; path = Batch/ONSBatchCore.h; sourceTree = SOURCE_ROOT; };
 		51C7F6A81F615832003F2215 /* BAMSGPannableAnchoredContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMSGPannableAnchoredContainerView.h; sourceTree = "<group>"; };
 		51C7F6A91F615832003F2215 /* BAMSGPannableAnchoredContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMSGPannableAnchoredContainerView.m; sourceTree = "<group>"; };
 		51C7F6AC1F619190003F2215 /* BAMSGRemoteImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMSGRemoteImageView.h; sourceTree = "<group>"; };
@@ -1201,7 +1201,7 @@
 		51E042AE200CF85A00B30D49 /* BADBGCustomDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BADBGCustomDataViewController.m; sourceTree = "<group>"; };
 		51E042B1200D000800B30D49 /* BADBGCustomDataModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BADBGCustomDataModels.h; sourceTree = "<group>"; };
 		51E042B2200D000800B30D49 /* BADBGCustomDataModels.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BADBGCustomDataModels.m; sourceTree = "<group>"; };
-		51E22DC62451CA3C00D02CA8 /* batchUserEditorPublicAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = batchUserEditorPublicAPITests.m; path = User/batchUserEditorPublicAPITests.m; sourceTree = "<group>"; };
+		51E22DC62451CA3C00D02CA8 /* batchUserEditorPublicAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = batchUserEditorPublicAPITests.m; path = User/ONSBatchUserEditorPublicAPITests.m; sourceTree = "<group>"; };
 		51E445471D787DAF0075CAFD /* BAPushSystemHelperProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BAPushSystemHelperProtocol.h; path = Batch/Modules/Push/BAPushSystemHelperProtocol.h; sourceTree = SOURCE_ROOT; };
 		51E445481D7883C50075CAFD /* BAPushSystemHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAPushSystemHelper.h; path = Batch/Modules/Push/BAPushSystemHelper.h; sourceTree = SOURCE_ROOT; };
 		51E445491D7883C50075CAFD /* BAPushSystemHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAPushSystemHelper.m; path = Batch/Modules/Push/BAPushSystemHelper.m; sourceTree = SOURCE_ROOT; };
@@ -1254,7 +1254,7 @@
 		51F1FCF420DA954D006EDE43 /* BATaskDebouncer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATaskDebouncer.m; sourceTree = "<group>"; };
 		51F1FCFA20DAA0A6006EDE43 /* batchTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "batchTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		51F1FCFB20DAA0A7006EDE43 /* batchTaskDebouncerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = batchTaskDebouncerTest.swift; sourceTree = "<group>"; };
-		51F222AB1B4C16AC005DFBCE /* BatchLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchLogger.h; path = Batch/BatchLogger.h; sourceTree = SOURCE_ROOT; };
+		51F222AB1B4C16AC005DFBCE /* BatchLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchLogger.h; path = Batch/ONSBatchLogger.h; sourceTree = SOURCE_ROOT; };
 		51F58E35257FAA31000DE3E0 /* BAMessagingAnalyticsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMessagingAnalyticsDelegate.h; sourceTree = "<group>"; };
 		51F91A1E22DF1B00003A42F1 /* BAWebserviceURLBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAWebserviceURLBuilder.h; sourceTree = "<group>"; };
 		51F91A1F22DF1B00003A42F1 /* BAWebserviceURLBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAWebserviceURLBuilder.m; sourceTree = "<group>"; };
@@ -1318,7 +1318,7 @@
 		9373ECDC2211C9D800FA00A3 /* DeeplinkDelegateStub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeeplinkDelegateStub.m; sourceTree = "<group>"; };
 		939C569D2216CB9500A911D0 /* BAMSGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMSGViewController.h; sourceTree = "<group>"; };
 		939C569E2216CB9500A911D0 /* BAMSGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMSGViewController.m; sourceTree = "<group>"; };
-		93C78F5E220AE4120082A6F7 /* batchUserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = batchUserTests.m; path = User/batchUserTests.m; sourceTree = "<group>"; };
+		93C78F5E220AE4120082A6F7 /* batchUserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = batchUserTests.m; path = User/ONSBatchUserTests.m; sourceTree = "<group>"; };
 		93EB71E9220C33E900969E4C /* BAMSGImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMSGImageViewController.h; sourceTree = "<group>"; };
 		93EB71EA220C33E900969E4C /* BAMSGImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMSGImageViewController.m; sourceTree = "<group>"; };
 		93EB71ED220C7BA300969E4C /* BAMSGViewToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMSGViewToolbox.h; sourceTree = "<group>"; };
@@ -3107,7 +3107,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# workaround for bitcode generation problem with Xcode 7.3\nunset TOOLCHAINS\n\nexport CONFIGURATION=Release\n\n# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${PROJECT_DIR}/universal/Batch.embeddedframework\n\n# Step 1. Build Device and Simulator versions\nxcodebuild OTHER_CFLAGS=\"-fembed-bitcode\" -target Batch ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild OTHER_CFLAGS=\"-fembed-bitcode\" -target Batch ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# Remove the old output folder\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Recreate it\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Copy the generated framework\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/Batch.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Remove the old binary\nrm \"${UNIVERSAL_OUTPUTFOLDER}/Batch.framework/Batch\"\n\n# Extract Intel slices from the simulator binary\n# We can't support arm64 and arm64e for silicon macs in a fat framework, lipo will fail\nSIMULATOR_FRAMEWORK_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/Batch.framework/Batch\"\nlipo -extract \"x86_64\" -output \"${SIMULATOR_FRAMEWORK_PATH}-x86_64\" \"${SIMULATOR_FRAMEWORK_PATH}\"\n\n# Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/Batch.framework/Batch\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/Batch.framework/Batch\" \"${SIMULATOR_FRAMEWORK_PATH}-x86_64\" \n\n# make sure the resource directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}/Batch.bundle\"\nrm -R \"${UNIVERSAL_OUTPUTFOLDER}/Batch.bundle/\"\n\n# Move ressources.\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}/Batch.framework/en.lproj/\" #this may not exist\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/Batch.framework/en.lproj/\" \"${UNIVERSAL_OUTPUTFOLDER}/Batch.bundle/\"\nrm -R \"${UNIVERSAL_OUTPUTFOLDER}/Batch.framework/en.lproj/\"\ntouch \"${UNIVERSAL_OUTPUTFOLDER}/Batch.bundle/.gitignore\"\n\n# Clean up framework for public use\ncd \"${UNIVERSAL_OUTPUTFOLDER}/Batch.framework/\"\nsh ${PROJECT_DIR}/../Tools/Scripts/strip_public_swift_framework.sh\n";
+			shellScript = "# workaround for bitcode generation problem with Xcode 7.3\nunset TOOLCHAINS\n\nexport CONFIGURATION=Release\n\n# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${PROJECT_DIR}/universal/ONSBatch.embeddedframework\n\n# Step 1. Build Device and Simulator versions\nxcodebuild OTHER_CFLAGS=\"-fembed-bitcode\" -target Batch ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild OTHER_CFLAGS=\"-fembed-bitcode\" -target Batch ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# Remove the old output folder\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Recreate it\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Copy the generated framework\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/ONSBatch.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Remove the old binary\nrm \"${UNIVERSAL_OUTPUTFOLDER}/ONSBatch.framework/ONSBatch\"\n\n# Extract Intel slices from the simulator binary\n# We can't support arm64 and arm64e for silicon macs in a fat framework, lipo will fail\nSIMULATOR_FRAMEWORK_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/ONSBatch.framework/ONSBatch\"\nlipo -extract \"x86_64\" -output \"${SIMULATOR_FRAMEWORK_PATH}-x86_64\" \"${SIMULATOR_FRAMEWORK_PATH}\"\n\n# Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/ONSBatch.framework/ONSBatch\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/ONSBatch.framework/ONSBatch\" \"${SIMULATOR_FRAMEWORK_PATH}-x86_64\" \n\n# make sure the resource directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}/ONSBatch.bundle\"\nrm -R \"${UNIVERSAL_OUTPUTFOLDER}/ONSBatch.bundle/\"\n\n# Move ressources.\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}/ONSBatch.framework/en.lproj/\" #this may not exist\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/ONSBatch.framework/en.lproj/\" \"${UNIVERSAL_OUTPUTFOLDER}/ONSBatch.bundle/\"\nrm -R \"${UNIVERSAL_OUTPUTFOLDER}/ONSBatch.framework/en.lproj/\"\ntouch \"${UNIVERSAL_OUTPUTFOLDER}/ONSBatch.bundle/.gitignore\"\n\n# Clean up framework for public use\ncd \"${UNIVERSAL_OUTPUTFOLDER}/ONSBatch.framework/\"\nsh ${PROJECT_DIR}/../Tools/Scripts/strip_public_swift_framework.sh\n";
 		};
 		5113932C2BA3011B00DB58CE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3125,7 +3125,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "# Work around an issue where release builds of Batch on Xcode 15.3 need to have\n# a very high Deployment target to pass validation\n# https://github.com/BatchLabs/Batch-iOS-SDK/issues/35\n# We can't override this when building so we need to patch the plist before it's bundled\n# in the xcframework or signed\nINFO_PLIST_FILE=\"${BUILT_PRODUCTS_DIR}/Batch.framework/Info.plist\"\nif [ -f \"$INFO_PLIST_FILE\" ]; then   \n    # We are NOT in a catalyst environment: we only want to patch iOS/visionOS builds\n    # We also do not want to patch simulator builds\n    if [[ ${SDK_NAME} != *\"simulator\"* ]]; then\n        echo \"Patching MinimumOSVersion to 100.0\"\n        plutil -replace MinimumOSVersion -string 100.0 $INFO_PLIST_FILE\n    fi\nfi\n    \n";
+			shellScript = "# Work around an issue where release builds of Batch on Xcode 15.3 need to have\n# a very high Deployment target to pass validation\n# https://github.com/ONSBatchLabs/ONSBatch-iOS-SDK/issues/35\n# We can't override this when building so we need to patch the plist before it's bundled\n# in the xcframework or signed\nINFO_PLIST_FILE=\"${BUILT_PRODUCTS_DIR}/ONSBatch.framework/Info.plist\"\nif [ -f \"$INFO_PLIST_FILE\" ]; then   \n    # We are NOT in a catalyst environment: we only want to patch iOS/visionOS builds\n    # We also do not want to patch simulator builds\n    if [[ ${SDK_NAME} != *\"simulator\"* ]]; then\n        echo \"Patching MinimumOSVersion to 100.0\"\n        plutil -replace MinimumOSVersion -string 100.0 $INFO_PLIST_FILE\n    fi\nfi\n    \n";
 		};
 		516BBC0B22BD0D2900742649 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3141,7 +3141,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# workaround for bitcode generation problem with Xcode 7.3\nunset TOOLCHAINS\n\nexport CONFIGURATION=Release\n\n# define output folder environment variable\nARCHIVES_OUTPUTFOLDER=${PROJECT_DIR}/universal/Archives\nDSYMS_OUTPUTFOLDER=${PROJECT_DIR}/universal/dSYMs\nXCFRAMEWORK_OUTPUT=${PROJECT_DIR}/universal/ONSBatch.xcframework\n\n# Create the output folders\nmkdir -p \"${ARCHIVES_OUTPUTFOLDER}\"\nmkdir -p \"${DSYMS_OUTPUTFOLDER}\"\nrm -f \"${DSYMS_OUTPUTFOLDER}/*.dSYM\"\n\n# Step 1. Build Device, Simulator and macOS versions\nxcodebuild archive -scheme ONSBatch -destination \"generic/platform=iOS\" -configuration ${CONFIGURATION} -archivePath \"${ARCHIVES_OUTPUTFOLDER}/Batch-iphoneos.xcarchive\" SKIP_INSTALL=NO ONLY_ACTIVE_ARCH=NO OTHER_CFLAGS=\"-fembed-bitcode\" ARCHS=\"arm64 arm64e\" VALID_ARCHS=\"arm64 arm64e\"\nxcodebuild archive -scheme ONSBatch -destination \"generic/platform=iOS Simulator\" -configuration ${CONFIGURATION} -archivePath \"${ARCHIVES_OUTPUTFOLDER}/Batch-iphonesimulator.xcarchive\" SKIP_INSTALL=NO ONLY_ACTIVE_ARCH=NO OTHER_CFLAGS=\"-fembed-bitcode\"\nxcodebuild archive -scheme ONSBatch -destination \"platform=macOS\" -configuration ${CONFIGURATION} -archivePath \"${ARCHIVES_OUTPUTFOLDER}/Batch-macos.xcarchive\" SKIP_INSTALL=NO ONLY_ACTIVE_ARCH=NO OTHER_CFLAGS=\"-fembed-bitcode\"\n\n# Step 2. Copy the dSYMs\n\ncp -a \"${ARCHIVES_OUTPUTFOLDER}/Batch-iphoneos.xcarchive/dSYMs/Batch.framework.dSYM\" \"${DSYMS_OUTPUTFOLDER}/Batch_iphoneos.framework.dSYM\"\ncp -a \"${ARCHIVES_OUTPUTFOLDER}/Batch-iphonesimulator.xcarchive/dSYMs/Batch.framework.dSYM\" \"${DSYMS_OUTPUTFOLDER}/Batch_iphonesimulator.framework.dSYM\"\ncp -a \"${ARCHIVES_OUTPUTFOLDER}/Batch-macos.xcarchive/dSYMs/Batch.framework.dSYM\" \"${DSYMS_OUTPUTFOLDER}/Batch_macos.framework.dSYM\"\n\n# Step 3. Clean up the frameworks\n\npushd .\n\ncd \"${ARCHIVES_OUTPUTFOLDER}/Batch-iphoneos.xcarchive/Products/Library/Frameworks/Batch.framework/\"\nsh ${PROJECT_DIR}/../Tools/Scripts/strip_public_swift_framework.sh\n\ncd \"${ARCHIVES_OUTPUTFOLDER}/Batch-iphonesimulator.xcarchive/Products/Library/Frameworks/Batch.framework/\"\nsh ${PROJECT_DIR}/../Tools/Scripts/strip_public_swift_framework.sh\n\ncd \"${ARCHIVES_OUTPUTFOLDER}/Batch-macos.xcarchive/Products/Library/Frameworks/Batch.framework/Versions/A/\"\nsh ${PROJECT_DIR}/../Tools/Scripts/strip_public_swift_framework.sh\n\n## 3.1: Fix Xcode not creating the \"PrivateHeaders\" folder, which can break Azure Pipelines\n## https://github.com/bamlab/react-native-batch-push/issues/67\nmkdir \"PrivateHeaders\"\n\npopd\n\n# Step 4. Make the xcframework\n# Remove the old xcframework\nrm -rf \"${XCFRAMEWORK_OUTPUT}\"\n\n# Build the xcframework\n\npushd .\ncd \"${PROJECT_DIR}/universal\"\nxcodebuild -create-xcframework \\\n    -framework \"Archives/Batch-iphoneos.xcarchive/Products/Library/Frameworks/Batch.framework\" \\\n    -framework \"Archives/Batch-iphonesimulator.xcarchive/Products/Library/Frameworks/Batch.framework\" \\\n    -framework \"Archives/Batch-macos.xcarchive/Products/Library/Frameworks/Batch.framework\" \\\n    -output \"Batch.xcframework\"\n\n# Sign it for distribution\n# (Apple Enterprise Account)\n\nif [ \"$BATCHSDK_SIGN_XCFRAMEWORK\" == \"1\" ]\nthen\n    echo \"Signing Batch.xcframework\"\n    codesign --timestamp -v --sign \"iPhone Distribution: IMEDIAPP\" \"${XCFRAMEWORK_OUTPUT}\"\nfi\n";
+			shellScript = "# workaround for bitcode generation problem with Xcode 7.3\nunset TOOLCHAINS\n\nexport CONFIGURATION=Release\n\n# define output folder environment variable\nARCHIVES_OUTPUTFOLDER=${PROJECT_DIR}/universal/Archives\nDSYMS_OUTPUTFOLDER=${PROJECT_DIR}/universal/dSYMs\nXCFRAMEWORK_OUTPUT=${PROJECT_DIR}/universal/ONSBatch.xcframework\n\n# Create the output folders\nmkdir -p \"${ARCHIVES_OUTPUTFOLDER}\"\nmkdir -p \"${DSYMS_OUTPUTFOLDER}\"\nrm -f \"${DSYMS_OUTPUTFOLDER}/*.dSYM\"\n\n# Step 1. Build Device, Simulator and macOS versions\nxcodebuild archive -scheme ONSBatch -destination \"generic/platform=iOS\" -configuration ${CONFIGURATION} -archivePath \"${ARCHIVES_OUTPUTFOLDER}/ONSBatch-iphoneos.xcarchive\" SKIP_INSTALL=NO ONLY_ACTIVE_ARCH=NO OTHER_CFLAGS=\"-fembed-bitcode\" ARCHS=\"arm64 arm64e\" VALID_ARCHS=\"arm64 arm64e\"\nxcodebuild archive -scheme ONSBatch -destination \"generic/platform=iOS Simulator\" -configuration ${CONFIGURATION} -archivePath \"${ARCHIVES_OUTPUTFOLDER}/ONSBatch-iphonesimulator.xcarchive\" SKIP_INSTALL=NO ONLY_ACTIVE_ARCH=NO OTHER_CFLAGS=\"-fembed-bitcode\"\nxcodebuild archive -scheme ONSBatch -destination \"platform=macOS\" -configuration ${CONFIGURATION} -archivePath \"${ARCHIVES_OUTPUTFOLDER}/ONSBatch-macos.xcarchive\" SKIP_INSTALL=NO ONLY_ACTIVE_ARCH=NO OTHER_CFLAGS=\"-fembed-bitcode\"\n\n# Step 2. Copy the dSYMs\n\ncp -a \"${ARCHIVES_OUTPUTFOLDER}/ONSBatch-iphoneos.xcarchive/dSYMs/ONSBatch.framework.dSYM\" \"${DSYMS_OUTPUTFOLDER}/ONSBatch_iphoneos.framework.dSYM\"\ncp -a \"${ARCHIVES_OUTPUTFOLDER}/ONSBatch-iphonesimulator.xcarchive/dSYMs/ONSBatch.framework.dSYM\" \"${DSYMS_OUTPUTFOLDER}/ONSBatch_iphonesimulator.framework.dSYM\"\ncp -a \"${ARCHIVES_OUTPUTFOLDER}/ONSBatch-macos.xcarchive/dSYMs/ONSBatch.framework.dSYM\" \"${DSYMS_OUTPUTFOLDER}/ONSBatch_macos.framework.dSYM\"\n\n# Step 3. Clean up the frameworks\n\npushd .\n\ncd \"${ARCHIVES_OUTPUTFOLDER}/ONSBatch-iphoneos.xcarchive/Products/Library/Frameworks/ONSBatch.framework/\"\nsh ${PROJECT_DIR}/../Tools/Scripts/strip_public_swift_framework.sh\n\ncd \"${ARCHIVES_OUTPUTFOLDER}/ONSBatch-iphonesimulator.xcarchive/Products/Library/Frameworks/ONSBatch.framework/\"\nsh ${PROJECT_DIR}/../Tools/Scripts/strip_public_swift_framework.sh\n\ncd \"${ARCHIVES_OUTPUTFOLDER}/ONSBatch-macos.xcarchive/Products/Library/Frameworks/ONSBatch.framework/Versions/A/\"\nsh ${PROJECT_DIR}/../Tools/Scripts/strip_public_swift_framework.sh\n\n## 3.1: Fix Xcode not creating the \"PrivateHeaders\" folder, which can break Azure Pipelines\n## https://github.com/bamlab/react-native-batch-push/issues/67\nmkdir \"PrivateHeaders\"\n\npopd\n\n# Step 4. Make the xcframework\n# Remove the old xcframework\nrm -rf \"${XCFRAMEWORK_OUTPUT}\"\n\n# Build the xcframework\n\npushd .\ncd \"${PROJECT_DIR}/universal\"\nxcodebuild -create-xcframework \\\n    -framework \"Archives/ONSBatch-iphoneos.xcarchive/Products/Library/Frameworks/ONSBatch.framework\" \\\n    -framework \"Archives/ONSBatch-iphonesimulator.xcarchive/Products/Library/Frameworks/ONSBatch.framework\" \\\n    -framework \"Archives/ONSBatch-macos.xcarchive/Products/Library/Frameworks/ONSBatch.framework\" \\\n    -output \"ONSBatch.xcframework\"\n\n# Sign it for distribution\n# (Apple Enterprise Account)\n\nif [ \"$BATCHSDK_SIGN_XCFRAMEWORK\" == \"1\" ]\nthen\n    echo \"Signing ONSBatch.xcframework\"\n    codesign --timestamp -v --sign \"iPhone Distribution: IMEDIAPP\" \"${XCFRAMEWORK_OUTPUT}\"\nfi\n";
 		};
 		516C406723D9FD63000C11CF /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3694,12 +3694,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5L53U6LKUU;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/Batch/batch-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/ONSBatch/ONSBatch-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Batch/**";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/ONSBatch/**";
 				INFOPLIST_FILE = batchTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3716,11 +3716,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "foundation.p.ons.--PRODUCT-NAME-rfc1034identifier-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Batch/** $(PROJECT_DIR)/batchTests/Bridging\\ Headers/**";
-				SWIFT_OBJC_BRIDGING_HEADER = "batchTests/batchTests-Bridging-Header.h";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/ONSBatch/** $(PROJECT_DIR)/ONSBatchTests/Bridging\\ Headers/**";
+				SWIFT_OBJC_BRIDGING_HEADER = "batchTests/ONSBatchTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_TEMP_ROOT)/Variant-TSan/Batch.build/$(CONFIGURATION)-$(PLATFORM_NAME)/BatchTests.build/DerivedSources";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_TEMP_ROOT)/Variant-TSan/ONSBatch.build/$(CONFIGURATION)-$(PLATFORM_NAME)/ONSBatchTests.build/DerivedSources";
 			};
 			name = Debug;
 		};
@@ -3730,8 +3730,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5L53U6LKUU;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/Batch/batch-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Batch/**";
+				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/ONSBatch/ONSBatch-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/ONSBatch/**";
 				INFOPLIST_FILE = batchTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3748,10 +3748,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "foundation.p.ons.--PRODUCT-NAME-rfc1034identifier-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Batch/** $(PROJECT_DIR)/batchTests/Bridging\\ Headers/**";
-				SWIFT_OBJC_BRIDGING_HEADER = "batchTests/batchTests-Bridging-Header.h";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/ONSBatch/** $(PROJECT_DIR)/ONSBatchTests/Bridging\\ Headers/**";
+				SWIFT_OBJC_BRIDGING_HEADER = "batchTests/ONSBatchTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_TEMP_ROOT)/Variant-TSan/Batch.build/$(CONFIGURATION)-$(PLATFORM_NAME)/BatchTests.build/DerivedSources";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_TEMP_ROOT)/Variant-TSan/ONSBatch.build/$(CONFIGURATION)-$(PLATFORM_NAME)/ONSBatchTests.build/DerivedSources";
 			};
 			name = Release;
 		};
@@ -3836,7 +3836,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/Batch/batch-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/ONSBatch/ONSBatch-Prefix.pch";
 				INFOPLIST_FILE = Batch/Info.plist;
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INFOPLIST_PREFIX_HEADER = Batch/Versions.h;
@@ -3849,7 +3849,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = Batch/Batch.modulemap;
+				MODULEMAP_FILE = Batch/ONSBatch.modulemap;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -3891,7 +3891,7 @@
 				ENABLE_MODULE_VERIFIER = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/Batch/batch-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/ONSBatch/ONSBatch-Prefix.pch";
 				GENERATE_MASTER_OBJECT_FILE = YES;
 				INFOPLIST_FILE = Batch/Info.plist;
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
@@ -3905,7 +3905,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = Batch/Batch.modulemap;
+				MODULEMAP_FILE = Batch/ONSBatch.modulemap;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_FAST_MATH = YES;

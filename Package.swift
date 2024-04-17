@@ -18,8 +18,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ONSBatch",
-            url: "https://ons.pfs.gdn/assets/ios/spm/BatchSDK-ios_spm-xcframework-1.21.2.zip",
-            checksum: "5caa61a570d8317f4f5a75e4325c2bfcbc5f9b98349bffd5c2fc21375755da25"
+            url: "https://ons.pfs.gdn/assets/96398dee-6d62-422e-9b78-0dcf0393420f?download="
         )
     ]
 )
