@@ -692,8 +692,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		022AC42A19DAA36900BDC3E7 /* BatchUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchUserProfile.h; path = Batch/ONSBatchUserProfile.h; sourceTree = SOURCE_ROOT; };
-		022AC42B19DAA36900BDC3E7 /* BatchUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchUserProfile.m; path = Batch/ONSBatchUserProfile.m; sourceTree = SOURCE_ROOT; };
+		022AC42A19DAA36900BDC3E7 /* BatchUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchUserProfile.h; path = Batch/BatchUserProfile.h; sourceTree = SOURCE_ROOT; };
+		022AC42B19DAA36900BDC3E7 /* BatchUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchUserProfile.m; path = Batch/BatchUserProfile.m; sourceTree = SOURCE_ROOT; };
 		022AC43019DAA8EA00BDC3E7 /* BAUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAUserProfile.h; path = Batch/Modules/Core/BAUserProfile.h; sourceTree = SOURCE_ROOT; };
 		022AC43119DAA8EA00BDC3E7 /* BAUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAUserProfile.m; path = Batch/Modules/Core/BAUserProfile.m; sourceTree = SOURCE_ROOT; };
 		026C270219ED4A2A0079B969 /* BASecureDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BASecureDate.m; path = Batch/BASecureDate.m; sourceTree = SOURCE_ROOT; };
@@ -826,8 +826,8 @@
 		5101341D1E9D433E0053EF52 /* BAEventSQLiteDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAEventSQLiteDatasource.m; path = Batch/Modules/Tracker/BAEventSQLiteDatasource.m; sourceTree = SOURCE_ROOT; };
 		5101341E1E9D433E0053EF52 /* BAEventSQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAEventSQLiteHelper.h; path = Batch/Modules/Tracker/BAEventSQLiteHelper.h; sourceTree = SOURCE_ROOT; };
 		5101341F1E9D433E0053EF52 /* BAEventSQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAEventSQLiteHelper.m; path = Batch/Modules/Tracker/BAEventSQLiteHelper.m; sourceTree = SOURCE_ROOT; };
-		5101539D1BEA5318009E8B16 /* BatchUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchUser.h; path = Batch/ONSBatchUser.h; sourceTree = SOURCE_ROOT; };
-		5101539E1BEA5318009E8B16 /* BatchUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchUser.m; path = Batch/ONSBatchUser.m; sourceTree = SOURCE_ROOT; };
+		5101539D1BEA5318009E8B16 /* BatchUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchUser.h; path = Batch/BatchUser.h; sourceTree = SOURCE_ROOT; };
+		5101539E1BEA5318009E8B16 /* BatchUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchUser.m; path = Batch/BatchUser.m; sourceTree = SOURCE_ROOT; };
 		510153A31BED0F1B009E8B16 /* BAUserDatasourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAUserDatasourceProtocol.h; path = Batch/Modules/User/BAUserDatasourceProtocol.h; sourceTree = SOURCE_ROOT; };
 		510153A61BED11C4009E8B16 /* BAUserSQLiteDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAUserSQLiteDatasource.h; path = Batch/Modules/User/BAUserSQLiteDatasource.h; sourceTree = SOURCE_ROOT; };
 		510153A71BED11C4009E8B16 /* BAUserSQLiteDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAUserSQLiteDatasource.m; path = Batch/Modules/User/BAUserSQLiteDatasource.m; sourceTree = SOURCE_ROOT; };
@@ -887,8 +887,8 @@
 		512596B41CDCA4DF00AC934B /* BACSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BACSSParser.m; path = Batch/Modules/Messaging/CSS/BACSSParser.m; sourceTree = SOURCE_ROOT; };
 		512596B51CDCA4DF00AC934B /* BACSSToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BACSSToken.h; path = Batch/Modules/Messaging/CSS/BACSSToken.h; sourceTree = SOURCE_ROOT; };
 		512596B61CDCA4DF00AC934B /* BACSSToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BACSSToken.m; path = Batch/Modules/Messaging/CSS/BACSSToken.m; sourceTree = SOURCE_ROOT; };
-		512596C31CDCC73400AC934B /* BatchMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchMessaging.h; path = Batch/ONSBatchMessaging.h; sourceTree = SOURCE_ROOT; };
-		512596C41CDCC73400AC934B /* BatchMessaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchMessaging.m; path = Batch/ONSBatchMessaging.m; sourceTree = SOURCE_ROOT; };
+		512596C31CDCC73400AC934B /* BatchMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchMessaging.h; path = Batch/BatchMessaging.h; sourceTree = SOURCE_ROOT; };
+		512596C41CDCC73400AC934B /* BatchMessaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchMessaging.m; path = Batch/BatchMessaging.m; sourceTree = SOURCE_ROOT; };
 		512596C91CDCCBCA00AC934B /* BAMSGPayloadParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAMSGPayloadParser.h; path = Batch/Modules/Messaging/BAMSGPayloadParser.h; sourceTree = SOURCE_ROOT; };
 		512596CA1CDCCBCA00AC934B /* BAMSGPayloadParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAMSGPayloadParser.m; path = Batch/Modules/Messaging/BAMSGPayloadParser.m; sourceTree = SOURCE_ROOT; };
 		512596D51CDCCC2300AC934B /* BAMSGMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAMSGMessage.h; path = Batch/Modules/Messaging/BAMSGMessage.h; sourceTree = SOURCE_ROOT; };
@@ -910,14 +910,14 @@
 		51379B7E22FC5C0200AB7B82 /* BAInjectableImplementations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAInjectableImplementations.m; sourceTree = "<group>"; };
 		51379B8222FC7C3100AB7B82 /* BAOverlayedInjectable-Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BAOverlayedInjectable-Private.h"; sourceTree = "<group>"; };
 		513DA84322F87D6300144521 /* eventTrackerServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventTrackerServiceTests.swift; sourceTree = "<group>"; };
-		5142AD891EBCAB1500B94027 /* BatchInboxPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchInboxPrivate.h; path = Batch/ONSBatchInboxPrivate.h; sourceTree = SOURCE_ROOT; };
+		5142AD891EBCAB1500B94027 /* BatchInboxPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchInboxPrivate.h; path = Batch/BatchInboxPrivate.h; sourceTree = SOURCE_ROOT; };
 		5145C78124C1F036004A89FE /* BAConnectionContentType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAConnectionContentType.h; sourceTree = "<group>"; };
 		5145C78824C1FFC6004A89FE /* BATWebserviceHMAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BATWebserviceHMAC.h; sourceTree = "<group>"; };
 		5145C78924C1FFC6004A89FE /* BATWebserviceHMAC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATWebserviceHMAC.m; sourceTree = "<group>"; };
 		5145C78C24C587EA004A89FE /* BASHA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BASHA.h; sourceTree = "<group>"; };
 		5145C78D24C587EA004A89FE /* BASHA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BASHA.m; sourceTree = "<group>"; };
-		514671BA1D646F7100C50113 /* BatchActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchActions.h; path = Batch/ONSBatchActions.h; sourceTree = SOURCE_ROOT; };
-		514671BB1D646F7200C50113 /* BatchActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchActions.m; path = Batch/ONSBatchActions.m; sourceTree = SOURCE_ROOT; };
+		514671BA1D646F7100C50113 /* BatchActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchActions.h; path = Batch/BatchActions.h; sourceTree = SOURCE_ROOT; };
+		514671BB1D646F7200C50113 /* BatchActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchActions.m; path = Batch/BatchActions.m; sourceTree = SOURCE_ROOT; };
 		514671C11D647AFE00C50113 /* BAActionsCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAActionsCenter.h; path = Batch/Modules/Actions/BAActionsCenter.h; sourceTree = SOURCE_ROOT; };
 		514671C21D647AFE00C50113 /* BAActionsCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAActionsCenter.m; path = Batch/Modules/Actions/BAActionsCenter.m; sourceTree = SOURCE_ROOT; };
 		51496A2E25110D680051B8A4 /* BAPartialApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAPartialApplicationDelegate.h; sourceTree = "<group>"; };
@@ -1089,13 +1089,13 @@
 		5184045A22E9F5AF006322DF /* BALocalCampaignsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BALocalCampaignsService.h; sourceTree = "<group>"; };
 		5184DE072433882D003F2DBB /* msgpack-c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "msgpack-c.c"; sourceTree = "<group>"; };
 		5184DE082433882D003F2DBB /* msgpack-c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "msgpack-c.h"; sourceTree = "<group>"; };
-		5188CD261D65FDBE0023D4BE /* BatchMessagingPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchMessagingPrivate.h; path = Batch/ONSBatchMessagingPrivate.h; sourceTree = SOURCE_ROOT; };
+		5188CD261D65FDBE0023D4BE /* BatchMessagingPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchMessagingPrivate.h; path = Batch/BatchMessagingPrivate.h; sourceTree = SOURCE_ROOT; };
 		51898DDC24B63A3C009A332C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		518D886B2355F653007BF341 /* BAMessagingAnalyticsDeduplicatingDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMessagingAnalyticsDeduplicatingDelegate.h; sourceTree = "<group>"; };
 		518D886C2355F653007BF341 /* BAMessagingAnalyticsDeduplicatingDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMessagingAnalyticsDeduplicatingDelegate.m; sourceTree = "<group>"; };
 		518D886F23560C79007BF341 /* messagingAnalyticsDeduplicatingDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messagingAnalyticsDeduplicatingDelegateTests.swift; sourceTree = "<group>"; };
-		518E38411EA8EB93009AB274 /* BatchInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchInbox.h; path = Batch/ONSBatchInbox.h; sourceTree = SOURCE_ROOT; };
-		518E38421EA8EB93009AB274 /* BatchInbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchInbox.m; path = Batch/ONSBatchInbox.m; sourceTree = SOURCE_ROOT; };
+		518E38411EA8EB93009AB274 /* BatchInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchInbox.h; path = Batch/BatchInbox.h; sourceTree = SOURCE_ROOT; };
+		518E38421EA8EB93009AB274 /* BatchInbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BatchInbox.m; path = Batch/BatchInbox.m; sourceTree = SOURCE_ROOT; };
 		518E38471EAA45E5009AB274 /* BAInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAInbox.h; path = Batch/Modules/Inbox/BAInbox.h; sourceTree = SOURCE_ROOT; };
 		518E38481EAA45E5009AB274 /* BAInbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAInbox.m; path = Batch/Modules/Inbox/BAInbox.m; sourceTree = SOURCE_ROOT; };
 		518E384D1EAA5EF7009AB274 /* BAGETWebserviceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAGETWebserviceClient.h; path = Batch/Webservices/BAGETWebserviceClient.h; sourceTree = SOURCE_ROOT; };
@@ -1153,7 +1153,7 @@
 		51B6227A1F2E7E0200084EC4 /* BANewSessionSignal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BANewSessionSignal.m; sourceTree = "<group>"; };
 		51B8074724003DF70006882D /* BATMessagePackReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BATMessagePackReader.h; sourceTree = "<group>"; };
 		51B8074824003DF70006882D /* BATMessagePackReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATMessagePackReader.m; sourceTree = "<group>"; };
-		51BB37AB1E918D3600D9A142 /* Batch.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = Batch.modulemap; path = Batch/ONSBatch.modulemap; sourceTree = SOURCE_ROOT; };
+		51BB37AB1E918D3600D9A142 /* Batch.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = Batch.modulemap; path = Batch/Batch.modulemap; sourceTree = SOURCE_ROOT; };
 		51BD19252020759A00C2524D /* builtinActionsTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = builtinActionsTest.m; sourceTree = "<group>"; };
 		51BE2CC321A858AF002C1514 /* BATHtmlParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BATHtmlParser.h; sourceTree = "<group>"; };
 		51BE2CC421A858B0002C1514 /* BATHtmlParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATHtmlParser.m; sourceTree = "<group>"; };
@@ -1163,7 +1163,7 @@
 		51C6B11425CD53E200B531C5 /* localCampaignsCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = localCampaignsCenterTests.m; sourceTree = "<group>"; };
 		51C7D24E1B1359700038FAD7 /* BAWebserviceMetrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAWebserviceMetrics.h; path = Batch/Webservices/BAWebserviceMetrics.h; sourceTree = SOURCE_ROOT; };
 		51C7D24F1B1359700038FAD7 /* BAWebserviceMetrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAWebserviceMetrics.m; path = Batch/Webservices/BAWebserviceMetrics.m; sourceTree = SOURCE_ROOT; };
-		51C7D2531B14A1740038FAD7 /* BatchCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BatchCore.h; path = Batch/ONSBatchCore.h; sourceTree = SOURCE_ROOT; };
+		51C7D2531B14A1740038FAD7 /* BatchCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BatchCore.h; path = Batch/BatchCore.h; sourceTree = SOURCE_ROOT; };
 		51C7F6A81F615832003F2215 /* BAMSGPannableAnchoredContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMSGPannableAnchoredContainerView.h; sourceTree = "<group>"; };
 		51C7F6A91F615832003F2215 /* BAMSGPannableAnchoredContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMSGPannableAnchoredContainerView.m; sourceTree = "<group>"; };
 		51C7F6AC1F619190003F2215 /* BAMSGRemoteImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMSGRemoteImageView.h; sourceTree = "<group>"; };
@@ -1254,7 +1254,7 @@
 		51F1FCF420DA954D006EDE43 /* BATaskDebouncer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATaskDebouncer.m; sourceTree = "<group>"; };
 		51F1FCFA20DAA0A6006EDE43 /* batchTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "batchTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		51F1FCFB20DAA0A7006EDE43 /* batchTaskDebouncerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = batchTaskDebouncerTest.swift; sourceTree = "<group>"; };
-		51F222AB1B4C16AC005DFBCE /* BatchLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchLogger.h; path = Batch/ONSBatchLogger.h; sourceTree = SOURCE_ROOT; };
+		51F222AB1B4C16AC005DFBCE /* BatchLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BatchLogger.h; path = Batch/BatchLogger.h; sourceTree = SOURCE_ROOT; };
 		51F58E35257FAA31000DE3E0 /* BAMessagingAnalyticsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMessagingAnalyticsDelegate.h; sourceTree = "<group>"; };
 		51F91A1E22DF1B00003A42F1 /* BAWebserviceURLBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAWebserviceURLBuilder.h; sourceTree = "<group>"; };
 		51F91A1F22DF1B00003A42F1 /* BAWebserviceURLBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAWebserviceURLBuilder.m; sourceTree = "<group>"; };
@@ -3849,7 +3849,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = Batch/ONSBatch.modulemap;
+				MODULEMAP_FILE = Batch/Batch.modulemap;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -3905,7 +3905,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = Batch/ONSBatch.modulemap;
+				MODULEMAP_FILE = Batch/Batch.modulemap;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_FAST_MATH = YES;
