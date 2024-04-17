@@ -18,7 +18,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ONSBatch",
-            url: "https://ons.pfs.gdn/assets/96398dee-6d62-422e-9b78-0dcf0393420f?download=",
+            url: "https://ons.pfs.gdn/assets/96398dee-6d62-422e-9b78-0dcf0393420f/xcframework.zip",
             checksum: "b08b662e54e4d86cccbea490502345ad6f6f71479f6705e83301e674a4b3d6cd"
         )
     ]
