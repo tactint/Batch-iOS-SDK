@@ -6,7 +6,6 @@
 //  USE THE TOOL TO REGENERATE IF YOU NEED TO ADD/REMOVE HEADERS.
 //
 
-#import <ONSBatch/BatchInbox.h>
 #import <ONSBatch/BAWSQueryAttributesCheck.h>
 #import <ONSBatch/BAWSQueryLocalCampaigns.h>
 #import <ONSBatch/BAWSQueryStart.h>
@@ -52,24 +51,14 @@
 #import <ONSBatch/BAQueryWebserviceClientDelegate.h>
 #import <ONSBatch/BAQueryWebserviceClientDatasource.h>
 #import <ONSBatch/BALocalCampaignsJITService.h>
-#import <ONSBatch/BatchUser.h>
-#import <ONSBatch/BatchMessaging.h>
-#import <ONSBatch/Batch.h>
 #import <ONSBatch/BatchEventDataPrivate.h>
 #import <ONSBatch/BatchPushPrivate.h>
-#import <ONSBatch/BatchPush.h>
 #import <ONSBatch/BatchMessagingPrivate.h>
 #import <ONSBatch/Versions.h>
-#import <ONSBatch/BatchMessagingModels.h>
 #import <ONSBatch/BANotificationCenter.h>
 #import <ONSBatch/BatchInboxPrivate.h>
 #import <ONSBatch/BatchUserAttributePrivate.h>
 #import <ONSBatch/Defined.h>
-#import <ONSBatch/BatchCore.h>
-#import <ONSBatch/BatchUserAttribute.h>
-#import <ONSBatch/BatchEventData.h>
-#import <ONSBatch/BatchLogger.h>
-#import <ONSBatch/BatchActions.h>
 #import <ONSBatch/BASecureDate.h>
 #import <ONSBatch/BAErrorHelper.h>
 #import <ONSBatch/BALocalCampaignsManager.h>
@@ -217,8 +206,6 @@
 #import <ONSBatch/BADBGModule.h>
 #import <ONSBatch/BADBGLocalCampaignsViewController.h>
 #import <ONSBatch/BADBGNameValueListItem.h>
-#import <ONSBatch/BatchUserProfile.h>
-#import <ONSBatch/BatchEventDispatcher.h>
 #import <ONSBatch/BASHA.h>
 #import <ONSBatch/BAAESB64Cryptor.h>
 #import <ONSBatch/BAEncryptionProtocol.h>
