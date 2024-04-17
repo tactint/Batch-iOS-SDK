@@ -1,4 +1,4 @@
-framework module Batch {
+framework module ONSBatch {
     
     umbrella header "Batch.h"
     
@@ -52,10 +52,10 @@ framework module Batch {
 
 //#start-remove-prod
 // Do not remove the # comments are they're essential for sed to remove this easily
-explicit module Batch.Batch_Private {
+explicit module ONSBatch.Batch_Private {
     umbrella header "PrivateUmbrellaHeader.h"
     
-    link "Batch"
+    link "ONSBatch"
     export *
 }
 //#end-remove-prod

@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import <Batch/BatchCore.h>
+#import <ONSBatch/BatchCore.h>
 
 #define OptOutUserDefaultsSuite @"com.batch.sdk.optout"
 #define OptOutDefaultKey @"opted_out"

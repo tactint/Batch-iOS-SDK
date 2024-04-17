@@ -6,13 +6,13 @@
 //  Copyright (c) 2017 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BatchInbox.h>
+#import <ONSBatch/BatchInbox.h>
 
-#import <Batch/BAInbox.h>
-#import <Batch/BAMessagingCenter.h>
-#import <Batch/BATJsonDictionary.h>
-#import <Batch/BatchInboxPrivate.h>
-#import <Batch/BatchMessagingPrivate.h>
+#import <ONSBatch/BAInbox.h>
+#import <ONSBatch/BAMessagingCenter.h>
+#import <ONSBatch/BATJsonDictionary.h>
+#import <ONSBatch/BatchInboxPrivate.h>
+#import <ONSBatch/BatchMessagingPrivate.h>
 
 #define DEBUG_DOMAIN @"BatchInboxFetcher"
 #define LOGGER_DOMAIN @"BatchInboxNotificationContent"

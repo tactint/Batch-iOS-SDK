@@ -5,8 +5,8 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAEventTrackedSignal.h>
-#import <Batch/BAEventTrigger.h>
+#import <ONSBatch/BAEventTrackedSignal.h>
+#import <ONSBatch/BAEventTrigger.h>
 
 @implementation BAEventTrackedSignal
 

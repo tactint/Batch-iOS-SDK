@@ -4,13 +4,13 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BACounter.h>
-#import <Batch/BAMetric.h>
-#import <Batch/BAMetricManager.h>
-#import <Batch/BAMetricWebserviceClient.h>
-#import <Batch/BAObservation.h>
-#import <Batch/BASecureDateProvider.h>
-#import <Batch/BAWebserviceClientExecutor.h>
+#import <ONSBatch/BACounter.h>
+#import <ONSBatch/BAMetric.h>
+#import <ONSBatch/BAMetricManager.h>
+#import <ONSBatch/BAMetricWebserviceClient.h>
+#import <ONSBatch/BAObservation.h>
+#import <ONSBatch/BASecureDateProvider.h>
+#import <ONSBatch/BAWebserviceClientExecutor.h>
 
 #define LOGGER_DOMAIN @"BAMetricManager"
 

@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAInjection.h>
-#import <Batch/BAUserDatasourceProtocol.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BAUserDatasourceProtocol.h>
 #import <Foundation/Foundation.h>
 
 @interface BAUserSQLiteDatasource : NSObject <BAUserDatasourceProtocol>

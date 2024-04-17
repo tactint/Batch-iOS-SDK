@@ -5,8 +5,8 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGStackView.h>
-#import <Batch/BAMSGStackViewHorizontalItem.h>
+#import <ONSBatch/BAMSGStackView.h>
+#import <ONSBatch/BAMSGStackViewHorizontalItem.h>
 
 @implementation BAMSGStackViewHorizontalItem
 

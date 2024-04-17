@@ -1,7 +1,7 @@
-#import <Batch/BatchEventData.h>
-#import <Batch/BatchEventDataPrivate.h>
+#import <ONSBatch/BatchEventData.h>
+#import <ONSBatch/BatchEventDataPrivate.h>
 
-#import <Batch/BALogger.h>
+#import <ONSBatch/BALogger.h>
 
 #define MAXIMUM_VALUES 15
 #define MAXIMUM_TAGS 10

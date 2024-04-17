@@ -5,26 +5,26 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAMSGWebviewViewController.h>
+#import <ONSBatch/BAMSGWebviewViewController.h>
 
-#import <Batch/BAEventDispatcherCenter.h>
-#import <Batch/BAMSGAction.h>
-#import <Batch/BAMSGActivityIndicatorView.h>
-#import <Batch/BAMSGCloseButton.h>
-#import <Batch/BAMSGImageDownloader.h>
-#import <Batch/BAMSGMessage.h>
-#import <Batch/BAMSGPannableAlertContainerView.h>
-#import <Batch/BAMSGRemoteImageView.h>
-#import <Batch/BAMSGViewToolbox.h>
-#import <Batch/BAMessagingCenter.h>
-#import <Batch/BATWebviewBridgeLegacyWKHandler.h>
-#import <Batch/BATWebviewBridgeWKHandler.h>
-#import <Batch/BATWebviewJavascriptBridge.h>
-#import <Batch/BATWebviewUtils.h>
-#import <Batch/BAUptimeProvider.h>
-#import <Batch/BAWindowHelper.h>
-#import <Batch/BatchMessagingPrivate.h>
-#import <Batch/BatchUser.h>
+#import <ONSBatch/BAEventDispatcherCenter.h>
+#import <ONSBatch/BAMSGAction.h>
+#import <ONSBatch/BAMSGActivityIndicatorView.h>
+#import <ONSBatch/BAMSGCloseButton.h>
+#import <ONSBatch/BAMSGImageDownloader.h>
+#import <ONSBatch/BAMSGMessage.h>
+#import <ONSBatch/BAMSGPannableAlertContainerView.h>
+#import <ONSBatch/BAMSGRemoteImageView.h>
+#import <ONSBatch/BAMSGViewToolbox.h>
+#import <ONSBatch/BAMessagingCenter.h>
+#import <ONSBatch/BATWebviewBridgeLegacyWKHandler.h>
+#import <ONSBatch/BATWebviewBridgeWKHandler.h>
+#import <ONSBatch/BATWebviewJavascriptBridge.h>
+#import <ONSBatch/BATWebviewUtils.h>
+#import <ONSBatch/BAUptimeProvider.h>
+#import <ONSBatch/BAWindowHelper.h>
+#import <ONSBatch/BatchMessagingPrivate.h>
+#import <ONSBatch/BatchUser.h>
 
 #import <WebKit/WebKit.h>
 

@@ -1,23 +1,23 @@
-#import <Batch/BAMSGBannerViewController.h>
+#import <ONSBatch/BAMSGBannerViewController.h>
 
-#import <Batch/BAEventDispatcherCenter.h>
-#import <Batch/BAMessagingCenter.h>
+#import <ONSBatch/BAEventDispatcherCenter.h>
+#import <ONSBatch/BAMessagingCenter.h>
 
-#import <Batch/BAMSGButton.h>
-#import <Batch/BAMSGCloseButton.h>
-#import <Batch/BAMSGCountdownView.h>
-#import <Batch/BAMSGGradientView.h>
-#import <Batch/BAMSGLabel.h>
-#import <Batch/BAMSGPannableAlertContainerView.h>
-#import <Batch/BAMSGPannableAnchoredContainerView.h>
-#import <Batch/BAMSGRemoteImageView.h>
-#import <Batch/BAMSGStackViewItem.h>
-#import <Batch/BAMSGStylableView.h>
-#import <Batch/BAMSGVideoView.h>
-#import <Batch/BANotificationCenter.h>
-#import <Batch/BAThreading.h>
-#import <Batch/BAUptimeProvider.h>
-#import <Batch/BatchMessagingPrivate.h>
+#import <ONSBatch/BAMSGButton.h>
+#import <ONSBatch/BAMSGCloseButton.h>
+#import <ONSBatch/BAMSGCountdownView.h>
+#import <ONSBatch/BAMSGGradientView.h>
+#import <ONSBatch/BAMSGLabel.h>
+#import <ONSBatch/BAMSGPannableAlertContainerView.h>
+#import <ONSBatch/BAMSGPannableAnchoredContainerView.h>
+#import <ONSBatch/BAMSGRemoteImageView.h>
+#import <ONSBatch/BAMSGStackViewItem.h>
+#import <ONSBatch/BAMSGStylableView.h>
+#import <ONSBatch/BAMSGVideoView.h>
+#import <ONSBatch/BANotificationCenter.h>
+#import <ONSBatch/BAThreading.h>
+#import <ONSBatch/BAUptimeProvider.h>
+#import <ONSBatch/BatchMessagingPrivate.h>
 
 static NSString *kBAMSGInterstitialViewControllerHeroConstraint = @"BAMainHeroConstraint";
 

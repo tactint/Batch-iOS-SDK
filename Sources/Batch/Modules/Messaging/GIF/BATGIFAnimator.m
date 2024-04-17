@@ -1,4 +1,4 @@
-#import <Batch/BATGIFAnimator.h>
+#import <ONSBatch/BATGIFAnimator.h>
 
 /**
  Simple proxy that allows CADisplayLink's target to be weakly retained

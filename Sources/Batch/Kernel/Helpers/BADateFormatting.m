@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BADateFormatting.h>
+#import <ONSBatch/BADateFormatting.h>
 #import "Defined.h"
 
 @implementation BADateFormatting

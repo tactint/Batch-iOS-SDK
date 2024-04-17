@@ -9,7 +9,7 @@
 // Expose private constructors
 // This header is private and should NEVER be distributed within the framework
 
-#import <Batch/BatchPush.h>
+#import <ONSBatch/BatchPush.h>
 
 /// Remote notification setting status
 ///

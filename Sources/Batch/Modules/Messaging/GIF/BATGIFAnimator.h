@@ -1,4 +1,4 @@
-#import <Batch/BATGIFFile.h>
+#import <ONSBatch/BATGIFFile.h>
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN

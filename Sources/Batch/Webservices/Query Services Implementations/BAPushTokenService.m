@@ -5,11 +5,11 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAPushTokenService.h>
+#import <ONSBatch/BAPushTokenService.h>
 
-#import <Batch/BAWSQueryPushToken.h>
-#import <Batch/BAWSResponsePushToken.h>
-#import <Batch/BAWebserviceURLBuilder.h>
+#import <ONSBatch/BAWSQueryPushToken.h>
+#import <ONSBatch/BAWSResponsePushToken.h>
+#import <ONSBatch/BAWebserviceURLBuilder.h>
 
 @interface BAPushTokenServiceDatasource () {
     NSString *_token;

@@ -7,11 +7,11 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BACenterMulticastDelegate.h>
+#import <ONSBatch/BACenterMulticastDelegate.h>
 
-#import <Batch/BALocalCampaignSignalProtocol.h>
-#import <Batch/BALocalCampaignsManager.h>
-#import <Batch/BALocalCampaignsTracker.h>
+#import <ONSBatch/BALocalCampaignSignalProtocol.h>
+#import <ONSBatch/BALocalCampaignsManager.h>
+#import <ONSBatch/BALocalCampaignsTracker.h>
 
 @class BatchEventData;
 

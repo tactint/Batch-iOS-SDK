@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BARandom.h>
+#import <ONSBatch/BARandom.h>
 
 @implementation BARandom
 

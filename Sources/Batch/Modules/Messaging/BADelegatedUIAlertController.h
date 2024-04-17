@@ -5,9 +5,9 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGMessage.h>
-#import <Batch/BAMessagingCenter.h>
-#import <Batch/BatchMessaging.h>
+#import <ONSBatch/BAMSGMessage.h>
+#import <ONSBatch/BAMessagingCenter.h>
+#import <ONSBatch/BatchMessaging.h>
 #import <UIKit/UIKit.h>
 
 @interface BADelegatedUIAlertController : UIAlertController <BatchMessagingViewController>

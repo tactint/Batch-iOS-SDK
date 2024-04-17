@@ -5,10 +5,10 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAInbox.h>
-#import <Batch/BAInboxWebserviceClientType.h>
-#import <Batch/BAInboxWebserviceResponse.h>
-#import <Batch/BAWebserviceJsonClient.h>
+#import <ONSBatch/BAInbox.h>
+#import <ONSBatch/BAInboxWebserviceClientType.h>
+#import <ONSBatch/BAInboxWebserviceResponse.h>
+#import <ONSBatch/BAWebserviceJsonClient.h>
 #import <Foundation/Foundation.h>
 
 @interface BAInboxSyncWebserviceClient : BAWebserviceJsonClient <BAConnectionDelegate>

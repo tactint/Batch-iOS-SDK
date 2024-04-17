@@ -5,11 +5,11 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAWebserviceAESGCMCryptor.h>
+#import <ONSBatch/BAWebserviceAESGCMCryptor.h>
 
 #import <CommonCrypto/CommonCryptor.h>
 
-#import <Batch/BARandom.h>
+#import <ONSBatch/BARandom.h>
 
 #define KEY_SIZE 8
 

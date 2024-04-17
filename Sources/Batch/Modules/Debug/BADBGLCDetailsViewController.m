@@ -1,8 +1,8 @@
-#import <Batch/BADBGLCDetailsViewController.h>
+#import <ONSBatch/BADBGLCDetailsViewController.h>
 
-#import <Batch/BADBGNameValueListItem.h>
-#import <Batch/BAEventTrigger.h>
-#import <Batch/BANextSessionTrigger.h>
+#import <ONSBatch/BADBGNameValueListItem.h>
+#import <ONSBatch/BAEventTrigger.h>
+#import <ONSBatch/BANextSessionTrigger.h>
 
 #define DEFAULT_CELL_NAME @"cell"
 

@@ -7,9 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BABundleInfo.h>
-#import <Batch/BADisplayReceiptCache.h>
-#import <Batch/BALogger.h>
+#import <ONSBatch/BABundleInfo.h>
+#import <ONSBatch/BADisplayReceiptCache.h>
+#import <ONSBatch/BALogger.h>
 #import "Defined.h"
 
 #define BA_RECEIPT_CACHE_DIRECTORY @"com.batch.displayreceipts"

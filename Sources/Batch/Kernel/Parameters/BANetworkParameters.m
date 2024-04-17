@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BANetworkParameters.h>
+#import <ONSBatch/BANetworkParameters.h>
 
 #if TARGET_OS_MACCATALYST
 

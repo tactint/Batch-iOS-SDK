@@ -5,7 +5,7 @@
 //  Copyright © 2017 Batch. All rights reserved.
 //
 
-#import <Batch/BATJsonDictionary.h>
+#import <ONSBatch/BATJsonDictionary.h>
 
 @interface BATJsonDictionary () {
     NSDictionary *_backingDictionary;

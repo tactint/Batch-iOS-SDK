@@ -5,8 +5,8 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGButton.h>
-#import <Batch/BAMessagingCenter.h>
+#import <ONSBatch/BAMSGButton.h>
+#import <ONSBatch/BAMessagingCenter.h>
 
 static void *BAMSGButtonCornerRadiusContext = &BAMSGButtonCornerRadiusContext;
 

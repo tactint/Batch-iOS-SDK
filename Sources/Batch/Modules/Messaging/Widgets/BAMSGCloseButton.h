@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGStylableView.h>
+#import <ONSBatch/BAMSGStylableView.h>
 #import <UIKit/UIKit.h>
 
 @interface BAMSGCloseButton : UIButton <BAMSGStylableView>

@@ -1,4 +1,4 @@
-#import <Batch/BAMSGPannableAnchoredContainerView.h>
+#import <ONSBatch/BAMSGPannableAnchoredContainerView.h>
 
 #define DISMISS_THRESHOLD_TRANSLATE_HEIGHT_RATIO 0.5
 #define DISMISS_THRESHOLD_MINIMUM_VELOCITY 100

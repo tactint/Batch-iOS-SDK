@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAWSQueryStart.h>
+#import <ONSBatch/BAWSQueryStart.h>
 
-#import <Batch/BAThreading.h>
+#import <ONSBatch/BAThreading.h>
 
 @implementation BAWSQueryStart
 

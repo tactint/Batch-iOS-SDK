@@ -5,8 +5,8 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BACSS.h>
-#import <Batch/BALogger.h>
+#import <ONSBatch/BACSS.h>
+#import <ONSBatch/BALogger.h>
 
 #define SCREEN_MEDIA_QUERY_REGEXP @"@media (ios|android|\\*) and \\((max|min)-(width|height):\\s*(\\d*)\\)"
 

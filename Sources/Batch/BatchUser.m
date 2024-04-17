@@ -6,17 +6,17 @@
 //  Copyright (c) 2015 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAInjectable.h>
-#import <Batch/BAPropertiesCenter.h>
-#import <Batch/BATrackerCenter.h>
-#import <Batch/BAUserDataEditor.h>
-#import <Batch/BAUserDataManager.h>
-#import <Batch/BAUserProfile.h>
-#import <Batch/BAUserSQLiteDatasource.h>
-#import <Batch/BatchEventDataPrivate.h>
-#import <Batch/BatchUser.h>
-#import <Batch/BatchUserAttribute.h>
-#import <Batch/BatchUserAttributePrivate.h>
+#import <ONSBatch/BAInjectable.h>
+#import <ONSBatch/BAPropertiesCenter.h>
+#import <ONSBatch/BATrackerCenter.h>
+#import <ONSBatch/BAUserDataEditor.h>
+#import <ONSBatch/BAUserDataManager.h>
+#import <ONSBatch/BAUserProfile.h>
+#import <ONSBatch/BAUserSQLiteDatasource.h>
+#import <ONSBatch/BatchEventDataPrivate.h>
+#import <ONSBatch/BatchUser.h>
+#import <ONSBatch/BatchUserAttribute.h>
+#import <ONSBatch/BatchUserAttributePrivate.h>
 
 #define EVENT_NAME_REGEXP @"^[a-zA-Z0-9_]{1,30}$"
 

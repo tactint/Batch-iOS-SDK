@@ -5,7 +5,7 @@
 //  Copyright © 2017 Batch. All rights reserved.
 //
 
-#import <Batch/BAUptimeProvider.h>
+#import <ONSBatch/BAUptimeProvider.h>
 
 #include <errno.h>
 #include <sys/sysctl.h>

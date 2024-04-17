@@ -5,8 +5,8 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAInboxDBHelperProtocol.h>
-#import <Batch/BAInboxDatasourceProtocol.h>
+#import <ONSBatch/BAInboxDBHelperProtocol.h>
+#import <ONSBatch/BAInboxDatasourceProtocol.h>
 #import <Foundation/Foundation.h>
 #import <sqlite3.h>
 

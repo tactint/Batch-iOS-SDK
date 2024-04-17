@@ -5,13 +5,13 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BACenterMulticastDelegate.h>
-#import <Batch/BAMSGAction.h>
-#import <Batch/BAMessageEventPayload.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BAPushEventPayload.h>
-#import <Batch/BAPushPayload.h>
-#import <Batch/BatchEventDispatcher.h>
+#import <ONSBatch/BACenterMulticastDelegate.h>
+#import <ONSBatch/BAMSGAction.h>
+#import <ONSBatch/BAMessageEventPayload.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BAPushEventPayload.h>
+#import <ONSBatch/BAPushPayload.h>
+#import <ONSBatch/BatchEventDispatcher.h>
 
 @interface BAEventDispatcherCenter : NSObject <BACenterProtocol>
 

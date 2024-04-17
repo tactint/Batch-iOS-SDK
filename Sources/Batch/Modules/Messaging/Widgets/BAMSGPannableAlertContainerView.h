@@ -5,8 +5,8 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAMSGBaseContainerView.h>
-#import <Batch/BAMSGPannableContainerView.h>
+#import <ONSBatch/BAMSGBaseContainerView.h>
+#import <ONSBatch/BAMSGPannableContainerView.h>
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN

@@ -5,8 +5,8 @@
         "PrivateUmbrellaHeader.h": {
             "path": "Batch",
             "recursive": true,
-            "ignoredNames": "^(?!.*Private)Batch.*\\.h$",
-            "frameworkName": "Batch"
+            "ignoredNames": "^(?!.*Private)ONSBatch.*\\.h$",
+            "frameworkName": "ONSBatch"
         }
     }
 }

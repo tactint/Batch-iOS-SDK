@@ -1,4 +1,4 @@
-#import <Batch/BAMSGBaseContainerView.h>
+#import <ONSBatch/BAMSGBaseContainerView.h>
 
 @implementation BAMSGBaseContainerView {
     // corner radius set outside the class

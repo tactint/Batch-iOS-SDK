@@ -5,8 +5,8 @@
 //  Copyright © 2017 Batch. All rights reserved.
 //
 
-#import <Batch/BAEvent.h>
-#import <Batch/BAEventSQLiteHelper.h>
+#import <ONSBatch/BAEvent.h>
+#import <ONSBatch/BAEventSQLiteHelper.h>
 
 @implementation BAEventSQLiteHelper
 

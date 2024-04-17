@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BALogger.h>
-#import <Batch/BALoggerUnified.h>
-#import <Batch/BANullHelper.h>
-#import <Batch/BAOSHelper.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BALoggerUnified.h>
+#import <ONSBatch/BANullHelper.h>
+#import <ONSBatch/BAOSHelper.h>
 #import "Defined.h"
 
 #import <os/log.h>

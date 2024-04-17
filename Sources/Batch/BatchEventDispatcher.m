@@ -6,9 +6,9 @@
 //  Copyright (c) 2019 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAEventDispatcherCenter.h>
-#import <Batch/BAInjection.h>
-#import <Batch/BatchEventDispatcher.h>
+#import <ONSBatch/BAEventDispatcherCenter.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BatchEventDispatcher.h>
 
 @implementation BatchEventDispatcher
 

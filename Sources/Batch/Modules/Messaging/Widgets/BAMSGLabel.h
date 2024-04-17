@@ -5,9 +5,9 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGGradientView.h>
-#import <Batch/BAMSGStylableView.h>
-#import <Batch/BATHtmlParser.h>
+#import <ONSBatch/BAMSGGradientView.h>
+#import <ONSBatch/BAMSGStylableView.h>
+#import <ONSBatch/BATHtmlParser.h>
 #import <UIKit/UIKit.h>
 
 @interface BAMSGLabel : UILabel <BAMSGStylableView, BAMSGGradientBackgroundProtocol>

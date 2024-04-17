@@ -3,7 +3,7 @@
 //
 //  Copyright © Batch.com. All rights reserved.
 //
-#import <Batch/BAMetric.h>
+#import <ONSBatch/BAMetric.h>
 
 @protocol BAMetricProtocol <NSObject>
 

@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAMessageEventPayload.h>
+#import <ONSBatch/BAMessageEventPayload.h>
 
 @implementation BAMessageEventPayload {
     NSDictionary *_customPayload;

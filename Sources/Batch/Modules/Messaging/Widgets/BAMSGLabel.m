@@ -5,9 +5,9 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGLabel.h>
-#import <Batch/BAMSGStylableView.h>
-#import <Batch/BAMessagingCenter.h>
+#import <ONSBatch/BAMSGLabel.h>
+#import <ONSBatch/BAMSGStylableView.h>
+#import <ONSBatch/BAMessagingCenter.h>
 
 @interface BAMSGLabel () {
     float lineHeightMultiply;

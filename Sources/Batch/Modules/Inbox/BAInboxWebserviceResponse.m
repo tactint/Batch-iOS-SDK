@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAInboxWebserviceResponse.h>
+#import <ONSBatch/BAInboxWebserviceResponse.h>
 
 @implementation BAInboxWebserviceResponse
 @end

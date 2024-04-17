@@ -1,8 +1,8 @@
-#import <Batch/BAActionsCenter.h>
-#import <Batch/BALogger.h>
-#import <Batch/BATJsonDictionary.h>
-#import <Batch/BAUserEventBuiltinActions.h>
-#import <Batch/BatchUser.h>
+#import <ONSBatch/BAActionsCenter.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BATJsonDictionary.h>
+#import <ONSBatch/BAUserEventBuiltinActions.h>
+#import <ONSBatch/BatchUser.h>
 
 #define LOCAL_LOG_DOMAIN @"BatchActions"
 #define JSON_ERROR_DOMAIN @"com.batch.module.actions.builtin"

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BASessionManager.h>
+#import <ONSBatch/BASessionManager.h>
 
 @class BANotificationAuthorization;
 @class BATrackingAuthorization;

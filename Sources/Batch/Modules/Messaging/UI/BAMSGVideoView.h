@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import <Batch/BAMSGStylableView.h>
+#import <ONSBatch/BAMSGStylableView.h>
 
 @interface BAMSGVideoView : UIView <BAMSGStylableView>
 

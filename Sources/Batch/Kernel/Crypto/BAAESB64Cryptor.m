@@ -6,11 +6,11 @@
 //  Copyright (c) 2012 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAAESB64Cryptor.h>
+#import <ONSBatch/BAAESB64Cryptor.h>
 
 #import <CommonCrypto/CommonCryptor.h>
 
-#import <Batch/BANullHelper.h>
+#import <ONSBatch/BANullHelper.h>
 
 @interface BAAESB64Cryptor () {
     // Cryptor key.

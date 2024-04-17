@@ -5,17 +5,17 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BACSS.h>
-#import <Batch/BACoreCenter.h>
-#import <Batch/BAErrorHelper.h>
-#import <Batch/BAInboxDatasourceProtocol.h>
-#import <Batch/BAInboxFetchWebserviceClient.h>
-#import <Batch/BAInboxSyncWebserviceClient.h>
-#import <Batch/BAInjection.h>
-#import <Batch/BAJson.h>
-#import <Batch/BAPushPayload.h>
-#import <Batch/BATJsonDictionary.h>
-#import <Batch/BAWebserviceURLBuilder.h>
+#import <ONSBatch/BACSS.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BAErrorHelper.h>
+#import <ONSBatch/BAInboxDatasourceProtocol.h>
+#import <ONSBatch/BAInboxFetchWebserviceClient.h>
+#import <ONSBatch/BAInboxSyncWebserviceClient.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BAJson.h>
+#import <ONSBatch/BAPushPayload.h>
+#import <ONSBatch/BATJsonDictionary.h>
+#import <ONSBatch/BAWebserviceURLBuilder.h>
 
 #define DEBUG_DOMAIN @"InboxSyncWebserviceClient"
 

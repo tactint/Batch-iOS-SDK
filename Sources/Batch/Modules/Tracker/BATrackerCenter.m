@@ -6,20 +6,20 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAConcurrentQueue.h>
-#import <Batch/BACoreCenter.h>
-#import <Batch/BAEventSQLiteDatasource.h>
-#import <Batch/BAEventSQLiteHelper.h>
-#import <Batch/BALocalCampaignsCenter.h>
-#import <Batch/BANotificationCenter.h>
-#import <Batch/BAOSHelper.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAQueryWebserviceClient.h>
-#import <Batch/BARandom.h>
-#import <Batch/BATrackerCenter.h>
-#import <Batch/BATrackerSignpostHelper.h>
-#import <Batch/BatchEventDataPrivate.h>
+#import <ONSBatch/BAConcurrentQueue.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BAEventSQLiteDatasource.h>
+#import <ONSBatch/BAEventSQLiteHelper.h>
+#import <ONSBatch/BALocalCampaignsCenter.h>
+#import <ONSBatch/BANotificationCenter.h>
+#import <ONSBatch/BAOSHelper.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAQueryWebserviceClient.h>
+#import <ONSBatch/BARandom.h>
+#import <ONSBatch/BATrackerCenter.h>
+#import <ONSBatch/BATrackerSignpostHelper.h>
+#import <ONSBatch/BatchEventDataPrivate.h>
 
 #import <os/log.h>
 

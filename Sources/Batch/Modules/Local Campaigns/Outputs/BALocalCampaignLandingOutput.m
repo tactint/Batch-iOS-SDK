@@ -5,10 +5,10 @@
 //  Copyright © 2017 Batch. All rights reserved.
 //
 
-#import <Batch/BALocalCampaignLandingOutput.h>
+#import <ONSBatch/BALocalCampaignLandingOutput.h>
 
-#import <Batch/BAMessagingCenter.h>
-#import <Batch/BatchMessagingPrivate.h>
+#import <ONSBatch/BAMessagingCenter.h>
+#import <ONSBatch/BatchMessagingPrivate.h>
 
 @implementation BALocalCampaignLandingOutput {
     BatchInAppMessage *_message;

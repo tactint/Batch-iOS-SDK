@@ -5,9 +5,9 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAWebserviceURLBuilder.h>
+#import <ONSBatch/BAWebserviceURLBuilder.h>
 
-#import <Batch/BACoreCenter.h>
+#import <ONSBatch/BACoreCenter.h>
 
 @implementation BAWebserviceURLBuilder
 

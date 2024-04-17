@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAConnection.h>
+#import <ONSBatch/BAConnection.h>
 
-#import <Batch/BALogger.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BARandom.h>
-#import <Batch/BAThreading.h>
-#import <Batch/BAWebserviceCryptor.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BARandom.h>
+#import <ONSBatch/BAThreading.h>
+#import <ONSBatch/BAWebserviceCryptor.h>
 
 #define DEFAULT_RETRY_AFTER @60 // seconds
 

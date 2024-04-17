@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAActionsCenter.h>
+#import <ONSBatch/BAActionsCenter.h>
 
 #import <StoreKit/StoreKit.h>
 #import <UserNotifications/UserNotifications.h>
@@ -14,15 +14,15 @@
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #endif
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BALocalCampaignsCenter.h>
-#import <Batch/BALogger.h>
-#import <Batch/BAPushCenter.h>
-#import <Batch/BAQueryWebserviceClient.h>
-#import <Batch/BAUserDataBuiltinActions.h>
-#import <Batch/BAUserEventBuiltinActions.h>
-#import <Batch/BAWindowHelper.h>
-#import <Batch/BatchPush.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BALocalCampaignsCenter.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAPushCenter.h>
+#import <ONSBatch/BAQueryWebserviceClient.h>
+#import <ONSBatch/BAUserDataBuiltinActions.h>
+#import <ONSBatch/BAUserEventBuiltinActions.h>
+#import <ONSBatch/BAWindowHelper.h>
+#import <ONSBatch/BatchPush.h>
 
 NSString *const kBAActionsReservedIdentifierPrefix = @"batch.";
 // Special cased, as we need to prevent recursion. Make sure you change it alongside the reserved prefix

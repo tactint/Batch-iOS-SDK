@@ -5,7 +5,7 @@
 //  Copyright © 2018 Batch. All rights reserved.
 //
 
-#import <Batch/BATHtmlParser.h>
+#import <ONSBatch/BATHtmlParser.h>
 
 @implementation BATTextTransform
 

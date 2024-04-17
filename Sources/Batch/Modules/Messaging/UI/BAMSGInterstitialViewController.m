@@ -5,23 +5,23 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGInterstitialViewController.h>
+#import <ONSBatch/BAMSGInterstitialViewController.h>
 
-#import <Batch/BAEventDispatcherCenter.h>
-#import <Batch/BAMessagingCenter.h>
+#import <ONSBatch/BAEventDispatcherCenter.h>
+#import <ONSBatch/BAMessagingCenter.h>
 
-#import <Batch/BAMSGButton.h>
-#import <Batch/BAMSGCloseButton.h>
-#import <Batch/BAMSGGradientView.h>
-#import <Batch/BAMSGImageView.h>
-#import <Batch/BAMSGLabel.h>
-#import <Batch/BAMSGStackViewItem.h>
-#import <Batch/BAMSGStylableView.h>
-#import <Batch/BAMSGVideoView.h>
-#import <Batch/BATGIFAnimator.h>
-#import <Batch/BATGIFFile.h>
-#import <Batch/BAThreading.h>
-#import <Batch/BatchMessagingPrivate.h>
+#import <ONSBatch/BAMSGButton.h>
+#import <ONSBatch/BAMSGCloseButton.h>
+#import <ONSBatch/BAMSGGradientView.h>
+#import <ONSBatch/BAMSGImageView.h>
+#import <ONSBatch/BAMSGLabel.h>
+#import <ONSBatch/BAMSGStackViewItem.h>
+#import <ONSBatch/BAMSGStylableView.h>
+#import <ONSBatch/BAMSGVideoView.h>
+#import <ONSBatch/BATGIFAnimator.h>
+#import <ONSBatch/BATGIFFile.h>
+#import <ONSBatch/BAThreading.h>
+#import <ONSBatch/BatchMessagingPrivate.h>
 
 static NSString *kBAMSGInterstitialViewControllerHeroConstraint = @"BAMainHeroConstraint";
 

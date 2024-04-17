@@ -1,11 +1,11 @@
-#import <Batch/BAInstallationID.h>
+#import <ONSBatch/BAInstallationID.h>
 
-#import <Batch/BAAESB64Cryptor.h>
-#import <Batch/BADirectories.h>
-#import <Batch/BALogger.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAPropertiesCenter.h>
+#import <ONSBatch/BAAESB64Cryptor.h>
+#import <ONSBatch/BADirectories.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAPropertiesCenter.h>
 
 @implementation BAInstallationID
 

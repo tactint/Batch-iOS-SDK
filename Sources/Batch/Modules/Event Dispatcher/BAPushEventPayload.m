@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAPushCenter.h>
-#import <Batch/BAPushEventPayload.h>
+#import <ONSBatch/BAPushCenter.h>
+#import <ONSBatch/BAPushEventPayload.h>
 
 @implementation BAPushEventPayload
 

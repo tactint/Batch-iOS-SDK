@@ -19,7 +19,7 @@
       "target" : {
         "containerPath" : "container:Batch.xcodeproj",
         "identifier" : "02F7846A19B9EF5A0006FF07",
-        "name" : "BatchTests"
+        "name" : "ONSBatchTests"
       }
     }
   ],

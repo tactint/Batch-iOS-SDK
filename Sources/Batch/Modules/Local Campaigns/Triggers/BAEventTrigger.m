@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAEventTrigger.h>
+#import <ONSBatch/BAEventTrigger.h>
 
 @implementation BAEventTrigger
 

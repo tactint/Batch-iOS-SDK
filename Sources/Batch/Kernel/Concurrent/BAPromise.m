@@ -1,7 +1,7 @@
 //  https://batch.com
 //  Copyright (c) 2018 Batch SDK. All rights reserved.
 
-#import <Batch/BAPromise.h>
+#import <ONSBatch/BAPromise.h>
 
 /**
  A simple Promise-like implementation that is not thread-safe.

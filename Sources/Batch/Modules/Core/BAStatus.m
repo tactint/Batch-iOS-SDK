@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAStatus.h>
+#import <ONSBatch/BAStatus.h>
 
-#import <Batch/BAErrorHelper.h>
-#import <Batch/BANotificationCenter.h>
+#import <ONSBatch/BAErrorHelper.h>
+#import <ONSBatch/BANotificationCenter.h>
 
-#import <Batch/BABundleInfo.h>
-#import <Batch/BADBGFindMyInstallationHelper.h>
-#import <Batch/BANotificationAuthorization.h>
+#import <ONSBatch/BABundleInfo.h>
+#import <ONSBatch/BADBGFindMyInstallationHelper.h>
+#import <ONSBatch/BANotificationAuthorization.h>
 
 @implementation BAStatus {
     // Initialization.

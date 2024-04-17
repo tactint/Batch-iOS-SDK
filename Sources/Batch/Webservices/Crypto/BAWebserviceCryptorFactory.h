@@ -5,9 +5,9 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAConnectionContentType.h>
-#import <Batch/BATWebserviceHMAC.h>
-#import <Batch/BAWebserviceCryptor.h>
+#import <ONSBatch/BAConnectionContentType.h>
+#import <ONSBatch/BATWebserviceHMAC.h>
+#import <ONSBatch/BAWebserviceCryptor.h>
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN

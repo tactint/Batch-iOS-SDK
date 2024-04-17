@@ -5,13 +5,13 @@
 //  Copyright © 2017 Batch. All rights reserved.
 //
 
-#import <Batch/BASessionManager.h>
+#import <ONSBatch/BASessionManager.h>
 
-#import <Batch/BALocalCampaignsCenter.h>
-#import <Batch/BALogger.h>
-#import <Batch/BANotificationCenter.h>
-#import <Batch/BATrackerCenter.h>
-#import <Batch/BAUptimeProvider.h>
+#import <ONSBatch/BALocalCampaignsCenter.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BANotificationCenter.h>
+#import <ONSBatch/BATrackerCenter.h>
+#import <ONSBatch/BAUptimeProvider.h>
 
 #define LOCAL_LOGGER_DOMAIN @"SessionManager"
 

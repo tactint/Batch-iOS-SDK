@@ -1,4 +1,4 @@
-#import <Batch/BALocalCampaignCountedEvent.h>
+#import <ONSBatch/BALocalCampaignCountedEvent.h>
 
 @implementation BALocalCampaignCountedEvent
 

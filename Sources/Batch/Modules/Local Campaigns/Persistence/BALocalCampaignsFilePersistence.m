@@ -5,10 +5,10 @@
 //  Copyright © 2017 Batch. All rights reserved.
 //
 
-#import <Batch/BADirectories.h>
-#import <Batch/BAJson.h>
-#import <Batch/BALocalCampaignsFilePersistence.h>
-#import <Batch/BALogger.h>
+#import <ONSBatch/BADirectories.h>
+#import <ONSBatch/BAJson.h>
+#import <ONSBatch/BALocalCampaignsFilePersistence.h>
+#import <ONSBatch/BALogger.h>
 
 #define LOGGER_DOMAIN @"Local Campaigns - File Persistence"
 #define LOCAL_ERROR_DOMAIN @"com.batch.module.localcampaigns.filepersistence"

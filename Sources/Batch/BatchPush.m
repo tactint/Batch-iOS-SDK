@@ -6,12 +6,12 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BANotificationAuthorization.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAPushCenter.h>
-#import <Batch/BatchPush.h>
-#import <Batch/BatchPushPrivate.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BANotificationAuthorization.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAPushCenter.h>
+#import <ONSBatch/BatchPush.h>
+#import <ONSBatch/BatchPushPrivate.h>
 
 NSString *const BatchPushReceivedNotification = @"BatchPushReceivedNotification";
 

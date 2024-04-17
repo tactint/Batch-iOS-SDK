@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAWebserviceMsgPackClient.h>
+#import <ONSBatch/BAWebserviceMsgPackClient.h>
 
 @interface BADisplayReceiptWebserviceClient : BAWebserviceMsgPackClient <BAConnectionDelegate>
 

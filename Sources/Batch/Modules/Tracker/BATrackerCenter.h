@@ -9,10 +9,10 @@
 #import <CoreLocation/CoreLocation.h>
 #import <Foundation/Foundation.h>
 
-#import <Batch/BACenterMulticastDelegate.h>
-#import <Batch/BAEvent.h>
-#import <Batch/BAEventDatasourceProtocol.h>
-#import <Batch/BATrackerScheduler.h>
+#import <ONSBatch/BACenterMulticastDelegate.h>
+#import <ONSBatch/BAEvent.h>
+#import <ONSBatch/BAEventDatasourceProtocol.h>
+#import <ONSBatch/BATrackerScheduler.h>
 
 #define BA_PUBLIC_EVENT_KEY_LABEL @"label"
 #define BA_PUBLIC_EVENT_KEY_DATA @"data"

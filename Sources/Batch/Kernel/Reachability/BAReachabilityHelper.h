@@ -6,7 +6,7 @@
 //
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAReachability.h>
+#import <ONSBatch/BAReachability.h>
 
 /*
  typedef enum {

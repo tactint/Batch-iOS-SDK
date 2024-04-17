@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAWSQueryLocalCampaigns.h>
+#import <ONSBatch/BAWSQueryLocalCampaigns.h>
 
 @implementation BAWSQueryLocalCampaigns {
     NSDictionary<NSString *, BALocalCampaignCountedEvent *> *_viewEvents;

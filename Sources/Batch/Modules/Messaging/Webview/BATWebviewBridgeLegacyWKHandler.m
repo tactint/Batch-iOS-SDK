@@ -7,8 +7,8 @@
 
 #import "BATWebviewBridgeLegacyWKHandler.h"
 
-#import <Batch/BAJson.h>
-#import <Batch/BATJsonDictionary.h>
+#import <ONSBatch/BAJson.h>
+#import <ONSBatch/BATJsonDictionary.h>
 
 #define LOGGER_DOMAIN @"WebviewBridge"
 

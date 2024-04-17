@@ -5,17 +5,17 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAEventDispatcherCenter.h>
-#import <Batch/BAMSGCloseButton.h>
-#import <Batch/BAMSGImageDownloader.h>
-#import <Batch/BAMSGImageViewController.h>
-#import <Batch/BAMSGMessage.h>
-#import <Batch/BAMSGPannableAlertContainerView.h>
-#import <Batch/BAMSGRemoteImageView.h>
-#import <Batch/BAMSGViewToolbox.h>
-#import <Batch/BAMessagingCenter.h>
-#import <Batch/BAUptimeProvider.h>
-#import <Batch/BatchMessagingPrivate.h>
+#import <ONSBatch/BAEventDispatcherCenter.h>
+#import <ONSBatch/BAMSGCloseButton.h>
+#import <ONSBatch/BAMSGImageDownloader.h>
+#import <ONSBatch/BAMSGImageViewController.h>
+#import <ONSBatch/BAMSGMessage.h>
+#import <ONSBatch/BAMSGPannableAlertContainerView.h>
+#import <ONSBatch/BAMSGRemoteImageView.h>
+#import <ONSBatch/BAMSGViewToolbox.h>
+#import <ONSBatch/BAMessagingCenter.h>
+#import <ONSBatch/BAUptimeProvider.h>
+#import <ONSBatch/BatchMessagingPrivate.h>
 
 @interface BAMSGTapControl : UIControl
 @end // A simple control that dims a little upon touch

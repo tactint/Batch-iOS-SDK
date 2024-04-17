@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAWindowHelper.h>
+#import <ONSBatch/BAWindowHelper.h>
 
 @implementation BAWindowHelper
 

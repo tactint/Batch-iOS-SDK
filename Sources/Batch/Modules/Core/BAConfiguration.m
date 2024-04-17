@@ -6,12 +6,12 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAConfiguration.h>
-#import <Batch/BAErrorHelper.h>
-#import <Batch/BANotificationCenter.h>
-#import <Batch/BANullHelper.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BatchLogger.h>
+#import <ONSBatch/BAConfiguration.h>
+#import <ONSBatch/BAErrorHelper.h>
+#import <ONSBatch/BANotificationCenter.h>
+#import <ONSBatch/BANullHelper.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BatchLogger.h>
 
 NSString *const kBATConfigurationChangedNotification = @"ConfigurationChangedNotification";
 

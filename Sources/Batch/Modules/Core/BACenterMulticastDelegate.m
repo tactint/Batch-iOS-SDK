@@ -6,18 +6,18 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BACenterMulticastDelegate.h>
+#import <ONSBatch/BACenterMulticastDelegate.h>
 
-#import <Batch/BAActionsCenter.h>
-#import <Batch/BACoreCenter.h>
-#import <Batch/BADisplayReceiptCenter.h>
-#import <Batch/BAEventDispatcherCenter.h>
-#import <Batch/BALocalCampaignsCenter.h>
-#import <Batch/BAMessagingCenter.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BAPushCenter.h>
-#import <Batch/BATrackerCenter.h>
-#import <Batch/BAUserCenter.h>
+#import <ONSBatch/BAActionsCenter.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BADisplayReceiptCenter.h>
+#import <ONSBatch/BAEventDispatcherCenter.h>
+#import <ONSBatch/BALocalCampaignsCenter.h>
+#import <ONSBatch/BAMessagingCenter.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BAPushCenter.h>
+#import <ONSBatch/BATrackerCenter.h>
+#import <ONSBatch/BAUserCenter.h>
 
 @implementation BACenterMulticastDelegate
 

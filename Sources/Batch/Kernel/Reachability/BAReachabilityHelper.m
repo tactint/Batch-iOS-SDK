@@ -7,8 +7,8 @@
 
 #define kBAReachabilityHelperNetworkStatusDidChangeNotification @"reachability.network.statuschanged"
 
-#import <Batch/BANotificationCenter.h>
-#import <Batch/BAReachabilityHelper.h>
+#import <ONSBatch/BANotificationCenter.h>
+#import <ONSBatch/BAReachabilityHelper.h>
 
 @interface BAReachabilityHelper () {
    @private

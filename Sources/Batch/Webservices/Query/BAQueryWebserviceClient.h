@@ -8,14 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAConnectionDelegate.h>
-#import <Batch/BAWSQuery.h>
-#import <Batch/BAWSResponse.h>
-#import <Batch/BAWebserviceJsonClient.h>
+#import <ONSBatch/BAConnectionDelegate.h>
+#import <ONSBatch/BAWSQuery.h>
+#import <ONSBatch/BAWSResponse.h>
+#import <ONSBatch/BAWebserviceJsonClient.h>
 
-#import <Batch/BAQueryWebserviceClientDatasource.h>
-#import <Batch/BAQueryWebserviceClientDelegate.h>
-#import <Batch/BAQueryWebserviceIdentifiersProviding.h>
+#import <ONSBatch/BAQueryWebserviceClientDatasource.h>
+#import <ONSBatch/BAQueryWebserviceClientDelegate.h>
+#import <ONSBatch/BAQueryWebserviceIdentifiersProviding.h>
 
 /*!
  @class BAQueryWebservice

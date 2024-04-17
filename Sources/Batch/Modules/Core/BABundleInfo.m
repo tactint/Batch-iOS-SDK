@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BABundleInfo.h>
+#import <ONSBatch/BABundleInfo.h>
 
 #if TARGET_OS_MACCATALYST
 #define PROVISION_ENVIRONMENT_KEY @"com.apple.developer.aps-environment"

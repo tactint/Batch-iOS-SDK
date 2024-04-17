@@ -5,11 +5,11 @@
 //  https://batch.com
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
-#import <Batch/BASecureDate.h>
+#import <ONSBatch/BASecureDate.h>
 
-#import <Batch/BANotificationCenter.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAUptimeProvider.h>
+#import <ONSBatch/BANotificationCenter.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAUptimeProvider.h>
 
 @interface BASecureDate ()
 

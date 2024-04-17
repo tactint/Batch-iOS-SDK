@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGGradientView.h>
+#import <ONSBatch/BAMSGGradientView.h>
 
 @implementation BAMSGGradientView
 

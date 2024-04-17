@@ -5,9 +5,9 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAInbox.h>
-#import <Batch/BAInboxWebserviceClientType.h>
-#import <Batch/BAInboxWebserviceResponse.h>
+#import <ONSBatch/BAInbox.h>
+#import <ONSBatch/BAInboxWebserviceClientType.h>
+#import <ONSBatch/BAInboxWebserviceResponse.h>
 #import <Foundation/Foundation.h>
 
 /*!

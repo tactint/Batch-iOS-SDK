@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAWebserviceMetrics.h>
+#import <ONSBatch/BAWebserviceMetrics.h>
 
 @interface BAWebserviceMetrics () {
     NSMutableDictionary *_metrics;

@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <UserNotifications/UserNotifications.h>
 
-#import <Batch/BACenterMulticastDelegate.h>
-#import <Batch/BAPartialApplicationDelegate.h>
-#import <Batch/BatchPush.h>
+#import <ONSBatch/BACenterMulticastDelegate.h>
+#import <ONSBatch/BAPartialApplicationDelegate.h>
+#import <ONSBatch/BatchPush.h>
 
 // Is the push open coming from UNUserNotificationCenterDelegate's didResponse callback?
 extern NSString *const kBATPushOpenedNotificationOriginatesFromUNResponseKey;

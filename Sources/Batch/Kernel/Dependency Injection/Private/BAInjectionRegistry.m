@@ -5,8 +5,8 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAInjectionRegistrar.h>
-#import <Batch/BAInjectionRegistry.h>
+#import <ONSBatch/BAInjectionRegistrar.h>
+#import <ONSBatch/BAInjectionRegistry.h>
 
 @interface BAInjectionRegistry () {
     NSMapTable<Class, BAInjectable *> *_classInjectables;

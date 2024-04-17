@@ -1,8 +1,8 @@
-#import <Batch/BADBGDebugViewController.h>
+#import <ONSBatch/BADBGDebugViewController.h>
 
-#import <Batch/BADBGCustomDataViewController.h>
-#import <Batch/BADBGIdentifiersViewController.h>
-#import <Batch/BADBGLocalCampaignsViewController.h>
+#import <ONSBatch/BADBGCustomDataViewController.h>
+#import <ONSBatch/BADBGIdentifiersViewController.h>
+#import <ONSBatch/BADBGLocalCampaignsViewController.h>
 
 #define DEFAULT_CELL_NAME @"cell"
 

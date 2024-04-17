@@ -5,10 +5,10 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGBaseContainerView.h>
-#import <Batch/BAMSGGradientView.h>
-#import <Batch/BAMSGStylableView.h>
-#import <Batch/BAMessagingCenter.h>
+#import <ONSBatch/BAMSGBaseContainerView.h>
+#import <ONSBatch/BAMSGGradientView.h>
+#import <ONSBatch/BAMSGStylableView.h>
+#import <ONSBatch/BAMessagingCenter.h>
 
 @implementation BAMSGStylableViewHelper
 

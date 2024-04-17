@@ -5,8 +5,8 @@
 //
 
 #import "BAUserEmailSubscription.h"
-#import <Batch/BALogger.h>
-#import <Batch/BATrackerCenter.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BATrackerCenter.h>
 
 #define DEBUG_DOMAIN @"BAUserEmailSubscription"
 

@@ -6,10 +6,10 @@
 //  Copyright (c) 2015 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BADirectories.h>
-#import <Batch/BALogger.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAUserSQLiteDatasource.h>
+#import <ONSBatch/BADirectories.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAUserSQLiteDatasource.h>
 #import <sqlite3.h>
 
 #define USER_DATABASE_NAME @"ba_user_profile.db"

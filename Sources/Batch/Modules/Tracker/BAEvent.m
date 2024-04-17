@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BADateFormatting.h>
-#import <Batch/BAEvent.h>
-#import <Batch/BAJson.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAPropertiesCenter.h>
-#import <Batch/BASecureDate.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BADateFormatting.h>
+#import <ONSBatch/BAEvent.h>
+#import <ONSBatch/BAJson.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAPropertiesCenter.h>
+#import <ONSBatch/BASecureDate.h>
 
 @implementation BAEvent
 

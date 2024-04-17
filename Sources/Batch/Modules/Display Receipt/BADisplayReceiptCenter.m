@@ -5,15 +5,15 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BADisplayReceipt.h>
-#import <Batch/BADisplayReceiptCache.h>
-#import <Batch/BADisplayReceiptCenter.h>
-#import <Batch/BADisplayReceiptWebserviceClient.h>
-#import <Batch/BAInjection.h>
-#import <Batch/BALogger.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BAWebserviceClientExecutor.h>
-#import <Batch/BAWebserviceURLBuilder.h>
+#import <ONSBatch/BADisplayReceipt.h>
+#import <ONSBatch/BADisplayReceiptCache.h>
+#import <ONSBatch/BADisplayReceiptCenter.h>
+#import <ONSBatch/BADisplayReceiptWebserviceClient.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BAWebserviceClientExecutor.h>
+#import <ONSBatch/BAWebserviceURLBuilder.h>
 
 #define LOGGER_DOMAIN @"BADisplayReceiptCenter"
 

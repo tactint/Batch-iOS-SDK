@@ -3,10 +3,10 @@
 //
 //  Copyright © Batch.com. All rights reserved.
 //
-#import <Batch/BACounter.h>
-#import <Batch/BAInjection.h>
-#import <Batch/BAMetric.h>
-#import <Batch/BAMetricManager.h>
+#import <ONSBatch/BACounter.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BAMetric.h>
+#import <ONSBatch/BAMetricManager.h>
 
 #define LOGGER_DOMAIN @"BAMetric"
 

@@ -7,9 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAInjectable.h>
-#import <Batch/BAOverlayedInjectable-Private.h>
-#import <Batch/BAOverlayedInjectable.h>
+#import <ONSBatch/BAInjectable.h>
+#import <ONSBatch/BAOverlayedInjectable-Private.h>
+#import <ONSBatch/BAOverlayedInjectable.h>
 
 @interface BAInjectionRegistry : NSObject
 

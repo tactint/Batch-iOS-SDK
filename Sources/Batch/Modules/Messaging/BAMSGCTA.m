@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGCTA.h>
+#import <ONSBatch/BAMSGCTA.h>
 
 @implementation BAMSGCTA
 

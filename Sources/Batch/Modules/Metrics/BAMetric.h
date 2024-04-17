@@ -3,8 +3,8 @@
 //
 //  Copyright © Batch.com. All rights reserved.
 //
-#import <Batch/BAMetricProtocol.h>
-#import <Batch/BATMessagePackWriter.h>
+#import <ONSBatch/BAMetricProtocol.h>
+#import <ONSBatch/BATMessagePackWriter.h>
 #import <Foundation/Foundation.h>
 
 @interface BAMetric : NSObject <BAMetricProtocol, NSCopying>

@@ -5,8 +5,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAInjection.h>
-#import <Batch/BAMessagingAnalyticsDelegate.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BAMessagingAnalyticsDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

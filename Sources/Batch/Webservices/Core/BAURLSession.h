@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAURLSessionProtocol.h>
+#import <ONSBatch/BAURLSessionProtocol.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

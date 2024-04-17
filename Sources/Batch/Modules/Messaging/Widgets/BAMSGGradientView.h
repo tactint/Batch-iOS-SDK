@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAMSGPassthroughProtocol.h>
+#import <ONSBatch/BAMSGPassthroughProtocol.h>
 
 @protocol BAMSGGradientBackgroundProtocol <NSObject>
 

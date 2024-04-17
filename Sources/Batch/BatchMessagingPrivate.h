@@ -9,11 +9,11 @@
 // Expose private constructors
 // This header is private and should NEVER be distributed within the framework
 
-#import <Batch/BALocalCampaign.h>
-#import <Batch/BAMSGCTA.h>
-#import <Batch/BAMSGMessage.h>
-#import <Batch/BatchMessaging.h>
-#import <Batch/BatchMessagingModels.h>
+#import <ONSBatch/BALocalCampaign.h>
+#import <ONSBatch/BAMSGCTA.h>
+#import <ONSBatch/BAMSGMessage.h>
+#import <ONSBatch/BatchMessaging.h>
+#import <ONSBatch/BatchMessagingModels.h>
 
 @interface BatchAlertMessageCTA ()
 

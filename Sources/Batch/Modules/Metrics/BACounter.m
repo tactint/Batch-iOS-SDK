@@ -4,7 +4,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BACounter.h>
+#import <ONSBatch/BACounter.h>
 
 @interface BACounter (Protected)
 

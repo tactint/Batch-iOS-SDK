@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAWSQueryAttributesCheck.h>
+#import <ONSBatch/BAWSQueryAttributesCheck.h>
 
 @interface BAWSQueryAttributesCheck () {
     NSString *_transactionID;

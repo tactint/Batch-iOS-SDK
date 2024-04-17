@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAThreading.h>
+#import <ONSBatch/BAThreading.h>
 
 @implementation BAThreading
 

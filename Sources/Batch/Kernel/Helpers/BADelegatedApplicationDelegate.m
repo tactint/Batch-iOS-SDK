@@ -8,7 +8,7 @@
 
 #import "BADelegatedApplicationDelegate.h"
 
-#import <Batch/BAPushCenter.h>
+#import <ONSBatch/BAPushCenter.h>
 #import <objc/runtime.h>
 
 #define DEBUG_SWIZZLE NO

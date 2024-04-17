@@ -5,8 +5,8 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAMSGModalViewController.h>
-#import <Batch/BAMSGPannableAlertContainerView.h>
+#import <ONSBatch/BAMSGModalViewController.h>
+#import <ONSBatch/BAMSGPannableAlertContainerView.h>
 
 @implementation BAMSGModalViewController
 

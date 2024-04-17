@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAEvent.h>
+#import <ONSBatch/BAEvent.h>
 #import <Foundation/Foundation.h>
 #import <sqlite3.h>
 

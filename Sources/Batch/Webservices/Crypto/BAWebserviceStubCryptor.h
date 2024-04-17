@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAWebserviceCryptor.h>
+#import <ONSBatch/BAWebserviceCryptor.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

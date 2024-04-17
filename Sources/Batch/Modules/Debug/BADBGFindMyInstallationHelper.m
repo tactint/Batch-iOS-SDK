@@ -3,10 +3,10 @@
 //
 //  Copyright © Batch.com. All rights reserved.
 //
-#import <Batch/BADBGFindMyInstallationHelper.h>
-#import <Batch/BATrackerCenter.h>
-#import <Batch/BatchLogger.h>
-#import <Batch/BatchUser.h>
+#import <ONSBatch/BADBGFindMyInstallationHelper.h>
+#import <ONSBatch/BATrackerCenter.h>
+#import <ONSBatch/BatchLogger.h>
+#import <ONSBatch/BatchUser.h>
 
 #define MAX_DELAY_BETWEEN_FOREGROUNDS 20000
 

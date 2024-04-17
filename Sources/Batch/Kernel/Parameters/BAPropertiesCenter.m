@@ -5,18 +5,18 @@
 //  Copyright (c) 2012 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAPropertiesCenter.h>
+#import <ONSBatch/BAPropertiesCenter.h>
 
-#import <Batch/BANetworkParameters.h>
-#import <Batch/BAParameter.h>
+#import <ONSBatch/BANetworkParameters.h>
+#import <ONSBatch/BAParameter.h>
 
-#import <Batch/BABundleInfo.h>
-#import <Batch/BACoreCenter.h>
-#import <Batch/BADirectories.h>
-#import <Batch/BAInstallationID.h>
-#import <Batch/BANotificationAuthorization.h>
-#import <Batch/BAOSHelper.h>
-#import <Batch/BAThreading.h>
+#import <ONSBatch/BABundleInfo.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BADirectories.h>
+#import <ONSBatch/BAInstallationID.h>
+#import <ONSBatch/BANotificationAuthorization.h>
+#import <ONSBatch/BAOSHelper.h>
+#import <ONSBatch/BAThreading.h>
 
 #import <CommonCrypto/CommonCrypto.h>
 

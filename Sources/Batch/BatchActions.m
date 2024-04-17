@@ -5,9 +5,9 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BatchActions.h>
+#import <ONSBatch/BatchActions.h>
 
-#import <Batch/BAActionsCenter.h>
+#import <ONSBatch/BAActionsCenter.h>
 
 @implementation BatchManualUserActionSource
 

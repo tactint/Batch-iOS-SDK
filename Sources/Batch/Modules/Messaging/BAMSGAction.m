@@ -5,7 +5,7 @@
 //  Copyright © 2017 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGAction.h>
+#import <ONSBatch/BAMSGAction.h>
 
 @implementation BAMSGAction
 

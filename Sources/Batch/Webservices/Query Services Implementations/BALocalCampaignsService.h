@@ -7,12 +7,12 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAQueryWebserviceClientDatasource.h>
-#import <Batch/BAQueryWebserviceClientDelegate.h>
+#import <ONSBatch/BAQueryWebserviceClientDatasource.h>
+#import <ONSBatch/BAQueryWebserviceClientDelegate.h>
 
-#import <Batch/BALocalCampaignCountedEvent.h>
+#import <ONSBatch/BALocalCampaignCountedEvent.h>
 
-#import <Batch/BALocalCampaignsCenter.h>
+#import <ONSBatch/BALocalCampaignsCenter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

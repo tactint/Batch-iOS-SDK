@@ -1,4 +1,4 @@
-#import <Batch/BAMSGCountdownView.h>
+#import <ONSBatch/BAMSGCountdownView.h>
 
 @implementation BAMSGCountdownView {
     UIView *_progressView;

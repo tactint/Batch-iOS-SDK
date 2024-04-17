@@ -6,7 +6,7 @@
 //
 
 #import <Accelerate/Accelerate.h>
-#import <Batch/BAMSGImageView.h>
+#import <ONSBatch/BAMSGImageView.h>
 
 @interface BAMSGImageView () {
     BOOL hasBackgroundColor;

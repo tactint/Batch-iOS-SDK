@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <Batch/BAMSGStylableView.h>
+#import <ONSBatch/BAMSGStylableView.h>
 
 @interface BAMSGButton : UIButton <BAMSGStylableView>
 

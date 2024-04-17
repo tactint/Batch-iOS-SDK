@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import <Batch/BatchActions.h>
+#import <ONSBatch/BatchActions.h>
 
 @interface BAUserDataBuiltinActions : NSObject
 

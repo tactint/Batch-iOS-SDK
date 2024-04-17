@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAHTTPHeaders.h>
-#import <Batch/BAWebserviceMsgPackClient.h>
+#import <ONSBatch/BAHTTPHeaders.h>
+#import <ONSBatch/BAWebserviceMsgPackClient.h>
 
 #define BA_METRIC_HEADER_SDK_VERSION @"x-batch-sdk-version"
 #define BA_METRIC_HEADER_SCHEMA_VERSION @"x-batch-protocol-version"

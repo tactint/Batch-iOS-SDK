@@ -3,8 +3,8 @@
 //  Batch
 //
 
-#import <Batch/BAMessagingAnalyticsDeduplicatingDelegate.h>
-#import <Batch/BAMessagingCenter.h>
+#import <ONSBatch/BAMessagingAnalyticsDeduplicatingDelegate.h>
+#import <ONSBatch/BAMessagingCenter.h>
 
 #define ENSURE_ONCE                                                 \
     if ([self ensureMethodCalledOnce:NSStringFromSelector(_cmd)]) { \

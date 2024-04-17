@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGStackView.h>
+#import <ONSBatch/BAMSGStackView.h>
 
 @implementation BAMSGStackView {
     NSMutableArray<BAMSGStackViewItem *> *items;

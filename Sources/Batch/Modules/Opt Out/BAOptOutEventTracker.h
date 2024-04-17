@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAEvent.h>
-#import <Batch/BAPromise.h>
+#import <ONSBatch/BAEvent.h>
+#import <ONSBatch/BAPromise.h>
 
 /**
  Event tracker that works for opt-out purposes.

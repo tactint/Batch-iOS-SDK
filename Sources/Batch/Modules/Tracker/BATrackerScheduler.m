@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BATrackerScheduler.h>
+#import <ONSBatch/BATrackerScheduler.h>
 
-#import <Batch/BAErrorHelper.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAReachabilityHelper.h>
-#import <Batch/BAThreading.h>
-#import <Batch/BATrackerSender.h>
+#import <ONSBatch/BAErrorHelper.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAReachabilityHelper.h>
+#import <ONSBatch/BAThreading.h>
+#import <ONSBatch/BATrackerSender.h>
 
 @interface BATrackerScheduler () {
     BATrackerSender *_sender;

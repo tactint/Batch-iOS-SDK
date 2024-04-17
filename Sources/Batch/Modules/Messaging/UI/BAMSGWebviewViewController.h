@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAMSGViewController.h>
+#import <ONSBatch/BAMSGViewController.h>
 #import <UIKit/UIKit.h>
 
 @class BAMSGMessageWebView;

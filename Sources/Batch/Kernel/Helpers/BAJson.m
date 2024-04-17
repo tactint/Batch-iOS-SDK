@@ -2,7 +2,7 @@
 //  BAJson.m
 //  Batch
 
-#import <Batch/BAJson.h>
+#import <ONSBatch/BAJson.h>
 
 #define LOCAL_ERROR_DOMAIN @"com.batch.core.json"
 

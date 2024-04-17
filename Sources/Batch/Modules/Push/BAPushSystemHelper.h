@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAPushSystemHelperProtocol.h>
+#import <ONSBatch/BAPushSystemHelperProtocol.h>
 
 // UNUserNotification based implementation
 @interface BAPushSystemHelper : NSObject <BAPushSystemHelperProtocol>

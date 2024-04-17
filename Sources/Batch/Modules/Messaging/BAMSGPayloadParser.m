@@ -5,10 +5,10 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BALogger.h>
-#import <Batch/BAMSGPayloadParser.h>
-#import <Batch/BATJsonDictionary.h>
-#import <Batch/BatchMessagingPrivate.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAMSGPayloadParser.h>
+#import <ONSBatch/BATJsonDictionary.h>
+#import <ONSBatch/BatchMessagingPrivate.h>
 
 #define LOGGER_DOMAIN @"BAMSGPayloadParser"
 

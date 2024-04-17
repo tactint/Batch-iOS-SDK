@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAResponseHelper.h>
+#import <ONSBatch/BAResponseHelper.h>
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BAErrorHelper.h>
-#import <Batch/BAParameter.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BAErrorHelper.h>
+#import <ONSBatch/BAParameter.h>
 
-#import <Batch/BASecureDate.h>
+#import <ONSBatch/BASecureDate.h>
 
 @implementation BAResponseHelper
 

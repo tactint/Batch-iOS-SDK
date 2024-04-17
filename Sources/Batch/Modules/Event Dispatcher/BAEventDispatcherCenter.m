@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAEventDispatcherCenter.h>
+#import <ONSBatch/BAEventDispatcherCenter.h>
 
 #define LOGGER_DOMAIN @"EventDispatcher"
 

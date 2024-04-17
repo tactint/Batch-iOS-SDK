@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <objc/objc.h>
 
-#import <Batch/BAPartialApplicationDelegate.h>
+#import <ONSBatch/BAPartialApplicationDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

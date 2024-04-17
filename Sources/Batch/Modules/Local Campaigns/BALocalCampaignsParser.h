@@ -7,9 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAEventTrigger.h>
-#import <Batch/BALocalCampaign.h>
-#import <Batch/BALocalCampaignsGlobalCappings.h>
+#import <ONSBatch/BAEventTrigger.h>
+#import <ONSBatch/BALocalCampaign.h>
+#import <ONSBatch/BALocalCampaignsGlobalCappings.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

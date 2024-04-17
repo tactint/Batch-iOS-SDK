@@ -1,13 +1,13 @@
-#import <Batch/BANotificationAuthorization.h>
+#import <ONSBatch/BANotificationAuthorization.h>
 
 #import <UserNotifications/UserNotifications.h>
 
-#import <Batch/BANotificationCenter.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BASessionManager.h>
-#import <Batch/BAThreading.h>
-#import <Batch/BATrackerCenter.h>
-#import <Batch/BatchPushPrivate.h>
+#import <ONSBatch/BANotificationCenter.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BASessionManager.h>
+#import <ONSBatch/BAThreading.h>
+#import <ONSBatch/BATrackerCenter.h>
+#import <ONSBatch/BatchPushPrivate.h>
 
 @implementation BANotificationAuthorizationSettings
 

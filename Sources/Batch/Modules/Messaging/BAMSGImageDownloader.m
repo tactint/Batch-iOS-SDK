@@ -5,8 +5,8 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGImageDownloader.h>
-#import <Batch/BATGIFFile.h>
+#import <ONSBatch/BAMSGImageDownloader.h>
+#import <ONSBatch/BATGIFFile.h>
 #import "BATMessagingCloseErrorCause.h"
 
 @implementation BAMSGImageDownloader

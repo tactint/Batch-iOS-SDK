@@ -5,13 +5,13 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BADirectories.h>
-#import <Batch/BAInboxSQLiteDatasource.h>
-#import <Batch/BAJson.h>
-#import <Batch/BALogger.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAPushPayload.h>
-#import <Batch/BATJsonDictionary.h>
+#import <ONSBatch/BADirectories.h>
+#import <ONSBatch/BAInboxSQLiteDatasource.h>
+#import <ONSBatch/BAJson.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAPushPayload.h>
+#import <ONSBatch/BATJsonDictionary.h>
 #import <sqlite3.h>
 
 #define LOCAL_ERROR_DOMAIN @"com.batch.inbox.cache"

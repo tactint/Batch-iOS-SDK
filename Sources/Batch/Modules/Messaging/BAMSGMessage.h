@@ -5,9 +5,9 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGCTA.h>
-#import <Batch/BATHtmlParser.h>
-#import <Batch/BatchMessaging.h>
+#import <ONSBatch/BAMSGCTA.h>
+#import <ONSBatch/BATHtmlParser.h>
+#import <ONSBatch/BatchMessaging.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 

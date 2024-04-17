@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BatchPush.h>
+#import <ONSBatch/BatchPush.h>
 
 @protocol BAPushSystemHelperProtocol
 

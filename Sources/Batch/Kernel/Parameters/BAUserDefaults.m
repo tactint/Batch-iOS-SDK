@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAUserDefaults.h>
+#import <ONSBatch/BAUserDefaults.h>
 
-#import <Batch/BAOSHelper.h>
+#import <ONSBatch/BAOSHelper.h>
 
 // Internal methods and parameters.
 @interface BAUserDefaults () {

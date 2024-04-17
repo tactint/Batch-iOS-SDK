@@ -5,8 +5,8 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BATMessagePackReader.h>
-#import <Batch/BATMessagePackWriter.h>
+#import <ONSBatch/BATMessagePackReader.h>
+#import <ONSBatch/BATMessagePackWriter.h>
 #import <Foundation/Foundation.h>
 
 @interface BADisplayReceipt : NSObject

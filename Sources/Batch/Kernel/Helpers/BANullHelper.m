@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BANullHelper.h>
+#import <ONSBatch/BANullHelper.h>
 
 @implementation BANullHelper
 

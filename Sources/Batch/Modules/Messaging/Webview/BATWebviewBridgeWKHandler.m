@@ -7,7 +7,7 @@
 
 #import "BATWebviewBridgeWKHandler.h"
 
-#import <Batch/BATJsonDictionary.h>
+#import <ONSBatch/BATJsonDictionary.h>
 
 @implementation BATWebviewBridgeWKHandler {
     BATWebviewJavascriptBridge *_bridge;

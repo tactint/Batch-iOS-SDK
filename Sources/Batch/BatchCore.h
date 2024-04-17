@@ -6,8 +6,8 @@
 //  Copyright (c) Batch SDK. All rights reserved.
 //
 
-#import <Batch/BatchLogger.h>
-#import <Batch/BatchUserProfile.h>
+#import <ONSBatch/BatchLogger.h>
+#import <ONSBatch/BatchUserProfile.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 

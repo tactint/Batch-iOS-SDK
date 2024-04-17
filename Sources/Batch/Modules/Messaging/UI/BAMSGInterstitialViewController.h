@@ -5,13 +5,13 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BACSS.h>
-#import <Batch/BACSSParser.h>
-#import <Batch/BAMSGMessage.h>
-#import <Batch/BAMSGStackView.h>
-#import <Batch/BAMSGViewController.h>
-#import <Batch/BatchMessaging.h>
-#import <Batch/BatchMessagingModels.h>
+#import <ONSBatch/BACSS.h>
+#import <ONSBatch/BACSSParser.h>
+#import <ONSBatch/BAMSGMessage.h>
+#import <ONSBatch/BAMSGStackView.h>
+#import <ONSBatch/BAMSGViewController.h>
+#import <ONSBatch/BatchMessaging.h>
+#import <ONSBatch/BatchMessagingModels.h>
 #import <UIKit/UIKit.h>
 
 @interface BAMSGInterstitialViewController : BAMSGViewController <BatchMessagingViewController,

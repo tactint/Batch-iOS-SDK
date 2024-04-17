@@ -5,9 +5,9 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGVideoView.h>
+#import <ONSBatch/BAMSGVideoView.h>
 
-#import <Batch/BALogger.h>
+#import <ONSBatch/BALogger.h>
 
 @import AVFoundation;
 

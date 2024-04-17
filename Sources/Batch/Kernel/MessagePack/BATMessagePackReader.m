@@ -2,7 +2,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BATMessagePackReader.h>
+#import <ONSBatch/BATMessagePackReader.h>
 #include "msgpack-c.h" // not #import
 
 #define LOCAL_ERROR_DOMAIN @"BATMessagePackReader"

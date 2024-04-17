@@ -5,10 +5,10 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BADisplayReceipt.h>
-#import <Batch/BADisplayReceiptWebserviceClient.h>
-#import <Batch/BAErrorHelper.h>
-#import <Batch/BAWebserviceURLBuilder.h>
+#import <ONSBatch/BADisplayReceipt.h>
+#import <ONSBatch/BADisplayReceiptWebserviceClient.h>
+#import <ONSBatch/BAErrorHelper.h>
+#import <ONSBatch/BAWebserviceURLBuilder.h>
 
 #define LOGGER_DOMAIN @"BADisplayReceiptWebserviceClient"
 

@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BatchEventData.h>
+#import <ONSBatch/BatchEventData.h>
 
 #define BA_EVENT_DATA_TAGS_KEY @"tags"
 #define BA_EVENT_DATA_ATTRIBUTES_KEY @"attributes"

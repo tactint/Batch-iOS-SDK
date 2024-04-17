@@ -5,19 +5,19 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BALocalCampaignsService.h>
+#import <ONSBatch/BALocalCampaignsService.h>
 
-#import <Batch/BAInjection.h>
-#import <Batch/BALogger.h>
-#import <Batch/BAWebserviceURLBuilder.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAWebserviceURLBuilder.h>
 
-#import <Batch/BALocalCampaignsCenter.h>
+#import <ONSBatch/BALocalCampaignsCenter.h>
 
-#import <Batch/BAMetricRegistry.h>
-#import <Batch/BAWSQueryLocalCampaigns.h>
-#import <Batch/BAWSResponseLocalCampaigns.h>
+#import <ONSBatch/BAMetricRegistry.h>
+#import <ONSBatch/BAWSQueryLocalCampaigns.h>
+#import <ONSBatch/BAWSResponseLocalCampaigns.h>
 
-#import <Batch/BALocalCampaignCountedEvent.h>
+#import <ONSBatch/BALocalCampaignCountedEvent.h>
 
 @interface BALocalCampaignsServiceDatasource () {
     NSDictionary<NSString *, BALocalCampaignCountedEvent *> *_viewEvents;

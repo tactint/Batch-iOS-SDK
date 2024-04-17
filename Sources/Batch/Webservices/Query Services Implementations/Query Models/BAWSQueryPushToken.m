@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAWSQueryPushToken.h>
+#import <ONSBatch/BAWSQueryPushToken.h>
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BAPropertiesCenter.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BAPropertiesCenter.h>
 
 @interface BAWSQueryPushToken () {
     // Token to send

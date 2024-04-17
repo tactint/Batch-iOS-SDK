@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAWSResponseStart.h>
+#import <ONSBatch/BAWSResponseStart.h>
 
 @implementation BAWSResponseStart
 

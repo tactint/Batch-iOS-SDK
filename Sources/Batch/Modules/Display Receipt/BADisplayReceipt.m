@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BADisplayReceipt.h>
+#import <ONSBatch/BADisplayReceipt.h>
 
 #define LOGGER_DOMAIN @"BADisplayReceipt"
 

@@ -6,14 +6,14 @@
 //  Copyright (c) 2016 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAPushSystemHelper.h>
+#import <ONSBatch/BAPushSystemHelper.h>
 
 #import <UserNotifications/UserNotifications.h>
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BALogger.h>
-#import <Batch/BANotificationAuthorization.h>
-#import <Batch/BAThreading.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BANotificationAuthorization.h>
+#import <ONSBatch/BAThreading.h>
 
 @implementation BAPushSystemHelper
 

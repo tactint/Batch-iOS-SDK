@@ -5,38 +5,38 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMessagingCenter.h>
+#import <ONSBatch/BAMessagingCenter.h>
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BADelegatedUIAlertController.h>
-#import <Batch/BAEventDispatcherCenter.h>
-#import <Batch/BAMSGAction.h>
-#import <Batch/BAMSGBannerViewController.h>
-#import <Batch/BAMSGButton.h>
-#import <Batch/BAMSGImageViewController.h>
-#import <Batch/BAMSGInterstitialViewController.h>
-#import <Batch/BAMSGLabel.h>
-#import <Batch/BAMSGPayloadParser.h>
-#import <Batch/BAMSGWebviewViewController.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BAPushCenter.h>
-#import <Batch/BatchPush.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BADelegatedUIAlertController.h>
+#import <ONSBatch/BAEventDispatcherCenter.h>
+#import <ONSBatch/BAMSGAction.h>
+#import <ONSBatch/BAMSGBannerViewController.h>
+#import <ONSBatch/BAMSGButton.h>
+#import <ONSBatch/BAMSGImageViewController.h>
+#import <ONSBatch/BAMSGInterstitialViewController.h>
+#import <ONSBatch/BAMSGLabel.h>
+#import <ONSBatch/BAMSGPayloadParser.h>
+#import <ONSBatch/BAMSGWebviewViewController.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BAPushCenter.h>
+#import <ONSBatch/BatchPush.h>
 
-#import <Batch/BAMSGImageDownloader.h>
+#import <ONSBatch/BAMSGImageDownloader.h>
 
-#import <Batch/BAActionsCenter.h>
-#import <Batch/BANotificationCenter.h>
-#import <Batch/BAOSHelper.h>
-#import <Batch/BAThreading.h>
-#import <Batch/BATrackerCenter.h>
-#import <Batch/BatchMessaging.h>
-#import <Batch/BatchMessagingPrivate.h>
+#import <ONSBatch/BAActionsCenter.h>
+#import <ONSBatch/BANotificationCenter.h>
+#import <ONSBatch/BAOSHelper.h>
+#import <ONSBatch/BAThreading.h>
+#import <ONSBatch/BATrackerCenter.h>
+#import <ONSBatch/BatchMessaging.h>
+#import <ONSBatch/BatchMessagingPrivate.h>
 
-#import <Batch/BACSSBuiltinImportProvider.h>
-#import <Batch/BALocalCampaignsCenter.h>
-#import <Batch/BatchMessagingModels.h>
+#import <ONSBatch/BACSSBuiltinImportProvider.h>
+#import <ONSBatch/BALocalCampaignsCenter.h>
+#import <ONSBatch/BatchMessagingModels.h>
 
-#import <Batch/BAWindowHelper.h>
+#import <ONSBatch/BAWindowHelper.h>
 
 #import <SafariServices/SafariServices.h>
 #import <objc/runtime.h>

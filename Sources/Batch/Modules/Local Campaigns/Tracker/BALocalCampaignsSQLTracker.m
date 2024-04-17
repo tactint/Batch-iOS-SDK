@@ -1,7 +1,7 @@
-#import <Batch/BADirectories.h>
-#import <Batch/BALocalCampaignCountedEvent.h>
-#import <Batch/BALocalCampaignsSQLTracker.h>
-#import <Batch/BAParameter.h>
+#import <ONSBatch/BADirectories.h>
+#import <ONSBatch/BALocalCampaignCountedEvent.h>
+#import <ONSBatch/BALocalCampaignsSQLTracker.h>
+#import <ONSBatch/BAParameter.h>
 
 #import <sqlite3.h>
 

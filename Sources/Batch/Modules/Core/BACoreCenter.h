@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAConfiguration.h>
-#import <Batch/BAStatus.h>
+#import <ONSBatch/BAConfiguration.h>
+#import <ONSBatch/BAStatus.h>
 
-#import <Batch/BACenterMulticastDelegate.h>
+#import <ONSBatch/BACenterMulticastDelegate.h>
 
 @class BAOffer;
 

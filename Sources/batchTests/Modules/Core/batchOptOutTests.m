@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/Batch.h>
+#import <ONSBatch/Batch.h>
 #import <XCTest/XCTest.h>
 #import "BACoreCenter.h"
 #import "BAInstallationID.h"

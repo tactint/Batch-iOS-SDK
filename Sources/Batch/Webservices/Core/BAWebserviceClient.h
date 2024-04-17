@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAConnection.h>
+#import <ONSBatch/BAConnection.h>
 
 typedef NS_ENUM(NSUInteger, BAWebserviceClientRequestMethod) {
     BAWebserviceClientRequestMethodGet,

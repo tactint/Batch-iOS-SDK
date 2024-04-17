@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BALocalCampaignCountedEvent.h>
-#import <Batch/BAWSQuery.h>
+#import <ONSBatch/BALocalCampaignCountedEvent.h>
+#import <ONSBatch/BAWSQuery.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

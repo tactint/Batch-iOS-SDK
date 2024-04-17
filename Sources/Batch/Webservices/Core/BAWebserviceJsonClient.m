@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAWebserviceJsonClient.h>
+#import <ONSBatch/BAWebserviceJsonClient.h>
 
 @implementation BAWebserviceJsonClient
 

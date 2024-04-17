@@ -4,8 +4,8 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BACounter.h>
-#import <Batch/BAObservation.h>
+#import <ONSBatch/BACounter.h>
+#import <ONSBatch/BAObservation.h>
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN

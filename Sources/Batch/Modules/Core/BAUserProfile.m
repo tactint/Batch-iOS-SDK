@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAUserProfile.h>
+#import <ONSBatch/BAUserProfile.h>
 
-#import <Batch/BAParameter.h>
-#import <Batch/BAPropertiesCenter.h>
-#import <Batch/BATrackerCenter.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAPropertiesCenter.h>
+#import <ONSBatch/BATrackerCenter.h>
 
 @implementation BAUserProfile {
     NSObject *_lock;

@@ -5,11 +5,11 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BADelegatedUIAlertController.h>
-#import <Batch/BatchMessagingPrivate.h>
+#import <ONSBatch/BADelegatedUIAlertController.h>
+#import <ONSBatch/BatchMessagingPrivate.h>
 
-#import <Batch/BAInjection.h>
-#import <Batch/BAMessagingCenter.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BAMessagingCenter.h>
 
 @implementation BADelegatedUIAlertController {
     id<BAMessagingAnalyticsDelegate> _messagingAnalyticsDelegate;

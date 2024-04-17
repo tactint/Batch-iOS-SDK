@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAUserAttribute.h>
+#import <ONSBatch/BAUserAttribute.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

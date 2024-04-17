@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGCloseButton.h>
+#import <ONSBatch/BAMSGCloseButton.h>
 #import <QuartzCore/QuartzCore.h>
 
 #define BAMSGCLOSE_DEFAULT_SIZE 32

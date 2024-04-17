@@ -5,8 +5,8 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BATGZIP.h>
-#import <Batch/BAWebserviceAESGCMGzipCryptor.h>
+#import <ONSBatch/BATGZIP.h>
+#import <ONSBatch/BAWebserviceAESGCMGzipCryptor.h>
 
 @implementation BAWebserviceAESGCMGzipCryptor
 

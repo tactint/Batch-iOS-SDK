@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAWebserviceClient.h>
+#import <ONSBatch/BAWebserviceClient.h>
 
 /*!
  @class BAWebserviceMsgPackClient

@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAWebserviceStubCryptor.h>
+#import <ONSBatch/BAWebserviceStubCryptor.h>
 
 @implementation BAWebserviceStubCryptor
 

@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BATaskDebouncer.h>
+#import <ONSBatch/BATaskDebouncer.h>
 
 @implementation BATaskDebouncer {
     NSTimeInterval _delayTime;

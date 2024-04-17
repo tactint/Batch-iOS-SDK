@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAWSQuery.h>
+#import <ONSBatch/BAWSQuery.h>
 
-#import <Batch/BARandom.h>
+#import <ONSBatch/BARandom.h>
 
 @implementation BAWSQuery
 

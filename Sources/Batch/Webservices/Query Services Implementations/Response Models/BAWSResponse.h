@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAResponseHelper.h>
+#import <ONSBatch/BAResponseHelper.h>
 
 /*!
  @protocol BAWSResponse

@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAConcurrentQueue.h>
+#import <ONSBatch/BAConcurrentQueue.h>
 
 @interface BAConcurrentQueue () {
     NSMutableArray *_backingArray;

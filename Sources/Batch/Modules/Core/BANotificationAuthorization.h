@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import <Batch/BatchPushPrivate.h>
+#import <ONSBatch/BatchPushPrivate.h>
 
 typedef NS_OPTIONS(NSUInteger, BANotificationAuthorizationTypes) {
     BANotificationAuthorizationTypesNone = 0,

@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAUserDataOperation.h>
+#import <ONSBatch/BAUserDataOperation.h>
 
 @implementation BAUserDataOperation
 

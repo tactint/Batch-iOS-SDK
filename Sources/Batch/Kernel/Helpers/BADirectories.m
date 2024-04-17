@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BADirectories.h>
+#import <ONSBatch/BADirectories.h>
 #import "Defined.h"
 
 @implementation BADirectories

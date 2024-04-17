@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAMSGBannerViewController.h>
+#import <ONSBatch/BAMSGBannerViewController.h>
 
 @implementation BAMSGBannerViewController
 

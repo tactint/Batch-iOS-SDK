@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BALoggerProtocol.h>
+#import <ONSBatch/BALoggerProtocol.h>
 #import <Foundation/Foundation.h>
 
 #pragma mark -

@@ -6,13 +6,13 @@
 //  Copyright (c) 2016 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BALogger.h>
-#import <Batch/BAMSGPayloadParser.h>
-#import <Batch/BAMessagingCenter.h>
-#import <Batch/BANullHelper.h>
-#import <Batch/BAThreading.h>
-#import <Batch/BatchMessaging.h>
-#import <Batch/BatchMessagingPrivate.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAMSGPayloadParser.h>
+#import <ONSBatch/BAMessagingCenter.h>
+#import <ONSBatch/BANullHelper.h>
+#import <ONSBatch/BAThreading.h>
+#import <ONSBatch/BatchMessaging.h>
+#import <ONSBatch/BatchMessagingPrivate.h>
 
 NSString *const kBatchMessagingCloseButtonTrackingIdentifier = @"close";
 NSInteger const BatchMessageGlobalActionIndex = -1;

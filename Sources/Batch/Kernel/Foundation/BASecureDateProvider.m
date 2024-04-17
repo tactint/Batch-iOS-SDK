@@ -5,9 +5,9 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BASecureDateProvider.h>
+#import <ONSBatch/BASecureDateProvider.h>
 
-#import <Batch/BASecureDate.h>
+#import <ONSBatch/BASecureDate.h>
 
 @interface BASecureDateProvider () {
     BASecureDate *_secureDate;

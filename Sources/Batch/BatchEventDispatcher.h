@@ -6,7 +6,7 @@
 //  Copyright (c) 2019 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BatchMessaging.h>
+#import <ONSBatch/BatchMessaging.h>
 
 /// Protocol to access data associated with a dispatched event.
 @protocol BatchEventDispatcherPayload

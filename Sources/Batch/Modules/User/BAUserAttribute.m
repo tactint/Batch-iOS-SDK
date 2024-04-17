@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAUserAttribute.h>
+#import <ONSBatch/BAUserAttribute.h>
 
 @implementation BAUserAttribute
 

@@ -1,5 +1,5 @@
-#import <Batch/BAMSGImageDownloader.h>
-#import <Batch/BAMSGImageView.h>
+#import <ONSBatch/BAMSGImageDownloader.h>
+#import <ONSBatch/BAMSGImageView.h>
 
 @interface BAMSGRemoteImageView : BAMSGImageView
 

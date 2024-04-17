@@ -5,8 +5,8 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAMSGViewToolbox.h>
-#import <Batch/BAWindowHelper.h>
+#import <ONSBatch/BAMSGViewToolbox.h>
+#import <ONSBatch/BAWindowHelper.h>
 
 @implementation BAMSGViewToolbox
 

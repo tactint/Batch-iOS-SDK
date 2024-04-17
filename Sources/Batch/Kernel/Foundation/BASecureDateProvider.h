@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BADateProviderProtocol.h>
-#import <Batch/BASystemDateProvider.h>
+#import <ONSBatch/BADateProviderProtocol.h>
+#import <ONSBatch/BASystemDateProvider.h>
 
 /**
  Secure Date provider implementation of the BADateProviderProtocol.

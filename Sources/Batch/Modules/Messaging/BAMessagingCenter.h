@@ -8,16 +8,16 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import <Batch/BABatchMessagingDelegateWrapper.h>
-#import <Batch/BACenterMulticastDelegate.h>
-#import <Batch/BAMSGBannerViewController.h>
-#import <Batch/BAMSGMessage.h>
-#import <Batch/BAMSGModalViewController.h>
-#import <Batch/BAMSGOverlayWindow.h>
-#import <Batch/BAMessagingAnalyticsDelegate.h>
-#import <Batch/BatchMessaging.h>
+#import <ONSBatch/BABatchMessagingDelegateWrapper.h>
+#import <ONSBatch/BACenterMulticastDelegate.h>
+#import <ONSBatch/BAMSGBannerViewController.h>
+#import <ONSBatch/BAMSGMessage.h>
+#import <ONSBatch/BAMSGModalViewController.h>
+#import <ONSBatch/BAMSGOverlayWindow.h>
+#import <ONSBatch/BAMessagingAnalyticsDelegate.h>
+#import <ONSBatch/BatchMessaging.h>
 
-#import <Batch/BAInjection.h>
+#import <ONSBatch/BAInjection.h>
 
 extern NSString *_Nonnull const kBATMessagingMessageDidAppear;
 extern NSString *_Nonnull const kBATMessagingMessageDidDisappear;

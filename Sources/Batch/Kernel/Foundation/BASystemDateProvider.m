@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BASystemDateProvider.h>
+#import <ONSBatch/BASystemDateProvider.h>
 
 @implementation BASystemDateProvider
 

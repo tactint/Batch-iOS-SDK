@@ -1,4 +1,4 @@
-#import <Batch/BAUserDataDiff.h>
+#import <ONSBatch/BAUserDataDiff.h>
 
 typedef NSMutableDictionary<NSString *, NSSet<NSString *> *> BAMutableUserTagCollections;
 typedef NSSet<NSString *> TagSet;

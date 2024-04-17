@@ -9,7 +9,7 @@
 // Expose private constructors
 // This header is private and should NEVER be distributed within the framework
 
-#import <Batch/BatchInbox.h>
+#import <ONSBatch/BatchInbox.h>
 
 @interface BatchInboxNotificationContentMessage ()
 

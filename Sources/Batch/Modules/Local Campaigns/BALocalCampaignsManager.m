@@ -5,22 +5,22 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BALocalCampaignsManager.h>
+#import <ONSBatch/BALocalCampaignsManager.h>
 
-#import <Batch/BALogger.h>
+#import <ONSBatch/BALogger.h>
 
-#import <Batch/BALocalCampaignTrackerProtocol.h>
-#import <Batch/BASecureDateProvider.h>
+#import <ONSBatch/BALocalCampaignTrackerProtocol.h>
+#import <ONSBatch/BASecureDateProvider.h>
 
-#import <Batch/BAEventTrigger.h>
-#import <Batch/BALocalCampaign.h>
+#import <ONSBatch/BAEventTrigger.h>
+#import <ONSBatch/BALocalCampaign.h>
 
-#import <Batch/BALocalCampaignCountedEvent.h>
+#import <ONSBatch/BALocalCampaignCountedEvent.h>
 
-#import <Batch/BALocalCampaignsCenter.h>
-#import <Batch/BALocalCampaignsJITService.h>
-#import <Batch/BAStandardQueryWebserviceIdentifiersProvider.h>
-#import <Batch/BAWebserviceClientExecutor.h>
+#import <ONSBatch/BALocalCampaignsCenter.h>
+#import <ONSBatch/BALocalCampaignsJITService.h>
+#import <ONSBatch/BAStandardQueryWebserviceIdentifiersProvider.h>
+#import <ONSBatch/BAWebserviceClientExecutor.h>
 
 #define LOG_DOMAIN @"LocalCampaignsManager"
 

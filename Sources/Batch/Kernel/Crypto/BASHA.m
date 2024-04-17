@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BASHA.h>
+#import <ONSBatch/BASHA.h>
 #import <CommonCrypto/CommonCrypto.h>
 
 @implementation BASHA

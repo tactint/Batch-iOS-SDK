@@ -6,41 +6,41 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/Batch.h>
-#import <Batch/BatchPush.h>
+#import <ONSBatch/Batch.h>
+#import <ONSBatch/BatchPush.h>
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BAPushCenter.h>
-#import <Batch/BAThreading.h>
-#import <Batch/BATrackerCenter.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BAPushCenter.h>
+#import <ONSBatch/BAThreading.h>
+#import <ONSBatch/BATrackerCenter.h>
 
-#import <Batch/BABundleInfo.h>
+#import <ONSBatch/BABundleInfo.h>
 
-#import <Batch/BAApplicationLifecycle.h>
+#import <ONSBatch/BAApplicationLifecycle.h>
 
-#import <Batch/BAStartService.h>
+#import <ONSBatch/BAStartService.h>
 
-#import <Batch/BAErrorHelper.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BAParameter.h>
+#import <ONSBatch/BAErrorHelper.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BAParameter.h>
 
-#import <Batch/BAPropertiesCenter.h>
-#import <Batch/BAReachabilityHelper.h>
+#import <ONSBatch/BAPropertiesCenter.h>
+#import <ONSBatch/BAReachabilityHelper.h>
 
-#import <Batch/BAStringUtils.h>
+#import <ONSBatch/BAStringUtils.h>
 
-#import <Batch/BAQueryWebserviceClient.h>
-#import <Batch/BAWebserviceClientExecutor.h>
+#import <ONSBatch/BAQueryWebserviceClient.h>
+#import <ONSBatch/BAWebserviceClientExecutor.h>
 
 #import <SafariServices/SafariServices.h>
 #import <UIKit/UIKit.h>
 
-#import <Batch/BAWindowHelper.h>
+#import <ONSBatch/BAWindowHelper.h>
 
-#import <Batch/BAApplicationLifecycle.h>
-#import <Batch/BAEventDispatcherCenter.h>
-#import <Batch/BAInjection.h>
-#import <Batch/BATUserActivity.h>
+#import <ONSBatch/BAApplicationLifecycle.h>
+#import <ONSBatch/BAEventDispatcherCenter.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BATUserActivity.h>
 
 #define LOGGER_DOMAIN @"Core"
 

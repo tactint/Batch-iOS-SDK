@@ -5,12 +5,12 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAOptOutEventTracker.h>
+#import <ONSBatch/BAOptOutEventTracker.h>
 
-#import <Batch/BAConcurrentQueue.h>
-#import <Batch/BAOptOutWebserviceClient.h>
-#import <Batch/BATaskDebouncer.h>
-#import <Batch/BAWebserviceClientExecutor.h>
+#import <ONSBatch/BAConcurrentQueue.h>
+#import <ONSBatch/BAOptOutWebserviceClient.h>
+#import <ONSBatch/BATaskDebouncer.h>
+#import <ONSBatch/BAWebserviceClientExecutor.h>
 
 #define DEBOUNCE_DELAY_SEC 1
 

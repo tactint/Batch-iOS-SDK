@@ -5,8 +5,8 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAOverlayedInjectable-Private.h>
-#import <Batch/BAOverlayedInjectable.h>
+#import <ONSBatch/BAOverlayedInjectable-Private.h>
+#import <ONSBatch/BAOverlayedInjectable.h>
 
 @implementation BAOverlayedInjectable {
     BAOverlayedInjectableCallback _callback;

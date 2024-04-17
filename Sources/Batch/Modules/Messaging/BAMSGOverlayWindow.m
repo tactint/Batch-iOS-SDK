@@ -1,5 +1,5 @@
-#import <Batch/BAMSGOverlayWindow.h>
-#import <Batch/BAWindowHelper.h>
+#import <ONSBatch/BAMSGOverlayWindow.h>
+#import <ONSBatch/BAWindowHelper.h>
 #import <SafariServices/SafariServices.h>
 
 @implementation BAMSGOverlayWindow

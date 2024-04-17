@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAWebserviceClientExecutor.h>
+#import <ONSBatch/BAWebserviceClientExecutor.h>
 
 @interface BAWebserviceClientExecutor () {
     NSOperationQueue *_queue;

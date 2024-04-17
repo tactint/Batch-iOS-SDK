@@ -5,14 +5,14 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAEventTrackerService.h>
+#import <ONSBatch/BAEventTrackerService.h>
 
-#import <Batch/BAWSQueryTracking.h>
-#import <Batch/BAWSResponseTracking.h>
-#import <Batch/BAWebserviceURLBuilder.h>
+#import <ONSBatch/BAWSQueryTracking.h>
+#import <ONSBatch/BAWSResponseTracking.h>
+#import <ONSBatch/BAWebserviceURLBuilder.h>
 
-#import <Batch/BAPromise.h>
-#import <Batch/BATrackerCenter.h>
+#import <ONSBatch/BAPromise.h>
+#import <ONSBatch/BATrackerCenter.h>
 
 @interface BAEventTrackerService () {
     NSArray *_events;

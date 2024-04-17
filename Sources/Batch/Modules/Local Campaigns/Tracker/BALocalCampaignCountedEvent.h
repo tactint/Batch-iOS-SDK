@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import <Batch/BALocalCampaignTrackerProtocol.h>
+#import <ONSBatch/BALocalCampaignTrackerProtocol.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

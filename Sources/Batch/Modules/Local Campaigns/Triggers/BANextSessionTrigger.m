@@ -5,7 +5,7 @@
 //  Copyright © 2017 Batch. All rights reserved.
 //
 
-#import <Batch/BANextSessionTrigger.h>
+#import <ONSBatch/BANextSessionTrigger.h>
 
 @implementation BANextSessionTrigger
 

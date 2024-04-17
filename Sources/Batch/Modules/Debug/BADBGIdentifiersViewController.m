@@ -1,12 +1,12 @@
-#import <Batch/BADBGIdentifiersViewController.h>
+#import <ONSBatch/BADBGIdentifiersViewController.h>
 
-#import <Batch/BABundleInfo.h>
-#import <Batch/BACoreCenter.h>
-#import <Batch/BAPropertiesCenter.h>
-#import <Batch/BatchPush.h>
-#import <Batch/BatchUser.h>
+#import <ONSBatch/BABundleInfo.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BAPropertiesCenter.h>
+#import <ONSBatch/BatchPush.h>
+#import <ONSBatch/BatchUser.h>
 
-#import <Batch/BADBGNameValueListItem.h>
+#import <ONSBatch/BADBGNameValueListItem.h>
 
 #define DEFAULT_CELL_NAME @"cell"
 

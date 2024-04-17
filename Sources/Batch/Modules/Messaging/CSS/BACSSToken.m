@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BACSSToken.h>
+#import <ONSBatch/BACSSToken.h>
 
 static const char kBACSSTokenChar_rulesetStart = '{';
 static const char kBACSSTokenChar_rulesetEnd = '}';

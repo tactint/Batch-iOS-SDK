@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BACSSBuiltinImportProvider.h>
+#import <ONSBatch/BACSSBuiltinImportProvider.h>
 
 static NSDictionary<NSString *, NSArray<NSString *> *> *kBACSSBuiltinImportProviderMetaImports;
 

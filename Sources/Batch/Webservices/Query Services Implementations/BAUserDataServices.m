@@ -6,16 +6,16 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAUserDataServices.h>
+#import <ONSBatch/BAUserDataServices.h>
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BARandom.h>
-#import <Batch/BAUserDataManager.h>
-#import <Batch/BAWSQueryAttributes.h>
-#import <Batch/BAWSQueryAttributesCheck.h>
-#import <Batch/BAWSResponseAttributes.h>
-#import <Batch/BAWSResponseAttributesCheck.h>
-#import <Batch/BAWebserviceURLBuilder.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BARandom.h>
+#import <ONSBatch/BAUserDataManager.h>
+#import <ONSBatch/BAWSQueryAttributes.h>
+#import <ONSBatch/BAWSQueryAttributesCheck.h>
+#import <ONSBatch/BAWSResponseAttributes.h>
+#import <ONSBatch/BAWSResponseAttributesCheck.h>
+#import <ONSBatch/BAWebserviceURLBuilder.h>
 
 #define DEFAULT_RECHECK_WAIT_TIME @(15000)
 

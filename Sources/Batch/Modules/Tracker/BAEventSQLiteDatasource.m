@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BADirectories.h>
-#import <Batch/BAEventSQLiteDatasource.h>
-#import <Batch/BALogger.h>
-#import <Batch/BAParameter.h>
+#import <ONSBatch/BADirectories.h>
+#import <ONSBatch/BAEventSQLiteDatasource.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAParameter.h>
 #import <sqlite3.h>
 
 #define TABLE_EVENTS @"events"

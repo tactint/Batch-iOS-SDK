@@ -6,19 +6,19 @@
 //  Copyright (c) 2015 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BAEmailUtils.h>
-#import <Batch/BAInjection.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BATrackerCenter.h>
-#import <Batch/BAUserDataDiff.h>
-#import <Batch/BAUserDataEditor.h>
-#import <Batch/BAUserDataManager.h>
-#import <Batch/BAUserDatasourceProtocol.h>
-#import <Batch/BAUserEmailSubscription.h>
-#import <Batch/BAUserProfile.h>
-#import <Batch/BAUserSQLiteDatasource.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BAEmailUtils.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BATrackerCenter.h>
+#import <ONSBatch/BAUserDataDiff.h>
+#import <ONSBatch/BAUserDataEditor.h>
+#import <ONSBatch/BAUserDataManager.h>
+#import <ONSBatch/BAUserDatasourceProtocol.h>
+#import <ONSBatch/BAUserEmailSubscription.h>
+#import <ONSBatch/BAUserProfile.h>
+#import <ONSBatch/BAUserSQLiteDatasource.h>
 
 #define PUBLIC_DOMAIN @"BatchUser - Editor"
 #define DEBUG_DOMAIN @"UserDataEditor"

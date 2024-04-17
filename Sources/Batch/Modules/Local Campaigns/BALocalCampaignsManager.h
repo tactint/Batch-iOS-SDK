@@ -7,10 +7,10 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BADateProviderProtocol.h>
-#import <Batch/BALocalCampaign.h>
-#import <Batch/BALocalCampaignSignalProtocol.h>
-#import <Batch/BALocalCampaignsGlobalCappings.h>
+#import <ONSBatch/BADateProviderProtocol.h>
+#import <ONSBatch/BALocalCampaign.h>
+#import <ONSBatch/BALocalCampaignSignalProtocol.h>
+#import <ONSBatch/BALocalCampaignsGlobalCappings.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

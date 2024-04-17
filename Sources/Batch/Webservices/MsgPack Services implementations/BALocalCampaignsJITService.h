@@ -4,9 +4,9 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BALocalCampaignTrackerProtocol.h>
-#import <Batch/BAWebserviceMsgPackClient.h>
-#import <Batch/Batch.h>
+#import <ONSBatch/BALocalCampaignTrackerProtocol.h>
+#import <ONSBatch/BAWebserviceMsgPackClient.h>
+#import <ONSBatch/Batch.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

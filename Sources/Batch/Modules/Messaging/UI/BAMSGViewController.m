@@ -5,15 +5,15 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BACSS.h>
-#import <Batch/BAEventDispatcherCenter.h>
-#import <Batch/BAInjection.h>
-#import <Batch/BAMSGViewController.h>
-#import <Batch/BAMSGViewToolbox.h>
-#import <Batch/BAMessageEventPayload.h>
-#import <Batch/BAMessagingCenter.h>
-#import <Batch/BAUptimeProvider.h>
-#import <Batch/BAWindowHelper.h>
+#import <ONSBatch/BACSS.h>
+#import <ONSBatch/BAEventDispatcherCenter.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BAMSGViewController.h>
+#import <ONSBatch/BAMSGViewToolbox.h>
+#import <ONSBatch/BAMessageEventPayload.h>
+#import <ONSBatch/BAMessagingCenter.h>
+#import <ONSBatch/BAUptimeProvider.h>
+#import <ONSBatch/BAWindowHelper.h>
 
 #define LOGGER_DOMAIN @"BAMSGViewController"
 

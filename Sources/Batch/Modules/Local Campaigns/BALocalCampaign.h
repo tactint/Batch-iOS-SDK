@@ -5,10 +5,10 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BALocalCampaignOutputProtocol.h>
-#import <Batch/BALocalCampaignTrackerProtocol.h>
-#import <Batch/BALocalCampaignTriggerProtocol.h>
-#import <Batch/BATZAwareDate.h>
+#import <ONSBatch/BALocalCampaignOutputProtocol.h>
+#import <ONSBatch/BALocalCampaignTrackerProtocol.h>
+#import <ONSBatch/BALocalCampaignTriggerProtocol.h>
+#import <ONSBatch/BATZAwareDate.h>
 #import <Foundation/Foundation.h>
 
 /**

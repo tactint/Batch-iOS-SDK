@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAWSQueryAttributes.h>
+#import <ONSBatch/BAWSQueryAttributes.h>
 
 @interface BAWSQueryAttributes () {
     NSDictionary *_attributes;

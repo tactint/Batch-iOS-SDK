@@ -5,7 +5,7 @@
 //  Copyright (c) 2012 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BANotificationAuthorization.h>
+#import <ONSBatch/BANotificationAuthorization.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 

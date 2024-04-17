@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BatchUserProfile.h>
+#import <ONSBatch/BatchUserProfile.h>
 
-#import <Batch/BAPropertiesCenter.h>
-#import <Batch/BAUserProfile.h>
+#import <ONSBatch/BAPropertiesCenter.h>
+#import <ONSBatch/BAUserProfile.h>
 
 @interface BatchUserProfile ()
 

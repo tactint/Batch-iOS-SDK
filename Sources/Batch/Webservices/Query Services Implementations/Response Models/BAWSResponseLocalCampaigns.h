@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BALocalCampaign.h>
-#import <Batch/BAWSResponse.h>
+#import <ONSBatch/BALocalCampaign.h>
+#import <ONSBatch/BAWSResponse.h>
 
 /*!
  @class BAWSResponseLocalCampaigns

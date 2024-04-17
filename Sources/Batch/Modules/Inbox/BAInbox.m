@@ -5,18 +5,18 @@
 //  Copyright © 2017 Batch. All rights reserved.
 //
 
-#import <Batch/BAInbox.h>
-#import <Batch/BAInboxFetchWebserviceClient.h>
-#import <Batch/BAInboxSQLiteDatasource.h>
-#import <Batch/BAInboxSQLiteHelper.h>
-#import <Batch/BAInboxSyncWebserviceClient.h>
-#import <Batch/BAInjection.h>
-#import <Batch/BAPropertiesCenter.h>
-#import <Batch/BAThreading.h>
-#import <Batch/BATrackerCenter.h>
-#import <Batch/BAWebserviceClientExecutor.h>
-#import <Batch/BatchInbox.h>
-#import <Batch/BatchInboxPrivate.h>
+#import <ONSBatch/BAInbox.h>
+#import <ONSBatch/BAInboxFetchWebserviceClient.h>
+#import <ONSBatch/BAInboxSQLiteDatasource.h>
+#import <ONSBatch/BAInboxSQLiteHelper.h>
+#import <ONSBatch/BAInboxSyncWebserviceClient.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BAPropertiesCenter.h>
+#import <ONSBatch/BAThreading.h>
+#import <ONSBatch/BATrackerCenter.h>
+#import <ONSBatch/BAWebserviceClientExecutor.h>
+#import <ONSBatch/BatchInbox.h>
+#import <ONSBatch/BatchInboxPrivate.h>
 
 #define DEBUG_DOMAIN @"Inbox"
 

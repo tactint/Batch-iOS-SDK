@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAStringUtils.h>
+#import <ONSBatch/BAStringUtils.h>
 
 #import <CommonCrypto/CommonDigest.h>
 

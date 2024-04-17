@@ -4,11 +4,11 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAErrorHelper.h>
-#import <Batch/BAMetric.h>
-#import <Batch/BAMetricWebserviceClient.h>
-#import <Batch/BATMessagePackWriter.h>
-#import <Batch/BAWebserviceURLBuilder.h>
+#import <ONSBatch/BAErrorHelper.h>
+#import <ONSBatch/BAMetric.h>
+#import <ONSBatch/BAMetricWebserviceClient.h>
+#import <ONSBatch/BATMessagePackWriter.h>
+#import <ONSBatch/BAWebserviceURLBuilder.h>
 
 #define LOGGER_DOMAIN @"BAMetricsWebserviceClient"
 

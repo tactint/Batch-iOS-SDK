@@ -5,8 +5,8 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAWSQuery.h>
-#import <Batch/BAWSResponse.h>
+#import <ONSBatch/BAWSQuery.h>
+#import <ONSBatch/BAWSResponse.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

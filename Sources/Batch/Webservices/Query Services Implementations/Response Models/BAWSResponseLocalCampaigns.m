@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAWSResponseLocalCampaigns.h>
+#import <ONSBatch/BAWSResponseLocalCampaigns.h>
 
-#import <Batch/BALocalCampaignsParser.h>
+#import <ONSBatch/BALocalCampaignsParser.h>
 
 @interface BAWSResponseLocalCampaigns () {
     NSDictionary *_payload;

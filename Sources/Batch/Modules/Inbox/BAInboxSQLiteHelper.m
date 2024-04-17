@@ -5,9 +5,9 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAInbox.h>
-#import <Batch/BAInboxSQLiteHelper.h>
-#import <Batch/BAJson.h>
+#import <ONSBatch/BAInbox.h>
+#import <ONSBatch/BAInboxSQLiteHelper.h>
+#import <ONSBatch/BAJson.h>
 
 @implementation BAInboxSQLiteHelper
 

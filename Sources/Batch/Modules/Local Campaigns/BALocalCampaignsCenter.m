@@ -5,35 +5,35 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BALocalCampaignsCenter.h>
+#import <ONSBatch/BALocalCampaignsCenter.h>
 
-#import <Batch/BALocalCampaignCountedEvent.h>
-#import <Batch/BALocalCampaignsParser.h>
-#import <Batch/BALocalCampaignsSQLTracker.h>
-#import <Batch/BALogger.h>
-#import <Batch/BAMessagingCenter.h>
-#import <Batch/BANotificationCenter.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BASecureDateProvider.h>
-#import <Batch/BASessionManager.h>
-#import <Batch/BAThreading.h>
-#import <Batch/BATrackerCenter.h>
-#import <Batch/BatchEventData.h>
-#import <Batch/BatchMessagingPrivate.h>
+#import <ONSBatch/BALocalCampaignCountedEvent.h>
+#import <ONSBatch/BALocalCampaignsParser.h>
+#import <ONSBatch/BALocalCampaignsSQLTracker.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAMessagingCenter.h>
+#import <ONSBatch/BANotificationCenter.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BASecureDateProvider.h>
+#import <ONSBatch/BASessionManager.h>
+#import <ONSBatch/BAThreading.h>
+#import <ONSBatch/BATrackerCenter.h>
+#import <ONSBatch/BatchEventData.h>
+#import <ONSBatch/BatchMessagingPrivate.h>
 
-#import <Batch/BALocalCampaignsFilePersistence.h>
-#import <Batch/BALocalCampaignsPersisting.h>
+#import <ONSBatch/BALocalCampaignsFilePersistence.h>
+#import <ONSBatch/BALocalCampaignsPersisting.h>
 
-#import <Batch/BAEventTrackedSignal.h>
-#import <Batch/BANewSessionSignal.h>
-#import <Batch/BAPublicEventTrackedSignal.h>
+#import <ONSBatch/BAEventTrackedSignal.h>
+#import <ONSBatch/BANewSessionSignal.h>
+#import <ONSBatch/BAPublicEventTrackedSignal.h>
 
-#import <Batch/BALocalCampaignsService.h>
-#import <Batch/BAQueryWebserviceClient.h>
-#import <Batch/BAWebserviceClientExecutor.h>
+#import <ONSBatch/BALocalCampaignsService.h>
+#import <ONSBatch/BAQueryWebserviceClient.h>
+#import <ONSBatch/BAWebserviceClientExecutor.h>
 
-#import <Batch/BAInjection.h>
+#import <ONSBatch/BAInjection.h>
 
 #define LOGGER_DOMAIN @"BALocalCampaignsCenter"
 

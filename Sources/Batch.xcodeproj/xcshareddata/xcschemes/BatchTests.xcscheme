@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1500"
+   LastUpgradeVersion = "1530"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -23,8 +23,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "02F7846A19B9EF5A0006FF07"
-               BuildableName = "BatchTests.xctest"
-               BlueprintName = "BatchTests"
+               BuildableName = "ONSBatchTests.xctest"
+               BlueprintName = "ONSBatchTests"
                ReferencedContainer = "container:Batch.xcodeproj">
             </BuildableReference>
          </TestableReference>

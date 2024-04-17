@@ -1,20 +1,20 @@
-#import <Batch/BAOptOut.h>
+#import <ONSBatch/BAOptOut.h>
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BADisplayReceiptCache.h>
-#import <Batch/BAInboxDatasourceProtocol.h>
-#import <Batch/BAInjection.h>
-#import <Batch/BAInstallationID.h>
-#import <Batch/BALocalCampaignsCenter.h>
-#import <Batch/BALogger.h>
-#import <Batch/BANotificationCenter.h>
-#import <Batch/BAOptOutEventTracker.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAPromise.h>
-#import <Batch/BAPropertiesCenter.h>
-#import <Batch/BAThreading.h>
-#import <Batch/BATrackerCenter.h>
-#import <Batch/BatchCore.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BADisplayReceiptCache.h>
+#import <ONSBatch/BAInboxDatasourceProtocol.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BAInstallationID.h>
+#import <ONSBatch/BALocalCampaignsCenter.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BANotificationCenter.h>
+#import <ONSBatch/BAOptOutEventTracker.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAPromise.h>
+#import <ONSBatch/BAPropertiesCenter.h>
+#import <ONSBatch/BAThreading.h>
+#import <ONSBatch/BATrackerCenter.h>
+#import <ONSBatch/BatchCore.h>
 
 NSString *const kBATOptOutChangedNotification = @"batch.optout.changed";
 NSString *const kBATOptOutValueKey = @"optout";

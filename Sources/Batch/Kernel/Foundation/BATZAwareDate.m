@@ -3,7 +3,7 @@
 //  Batch
 //
 
-#import <Batch/BATZAwareDate.h>
+#import <ONSBatch/BATZAwareDate.h>
 
 @implementation BATZAwareDate {
     NSDate *_date;

@@ -5,8 +5,8 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BASHA.h>
-#import <Batch/BATWebserviceHMAC.h>
+#import <ONSBatch/BASHA.h>
+#import <ONSBatch/BATWebserviceHMAC.h>
 #import <CommonCrypto/CommonCrypto.h>
 
 #define DEBUG_DOMAIN @"BatchWebserviceHMAC"

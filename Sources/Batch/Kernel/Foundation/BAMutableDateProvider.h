@@ -4,7 +4,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BADateProviderProtocol.h>
+#import <ONSBatch/BADateProviderProtocol.h>
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN

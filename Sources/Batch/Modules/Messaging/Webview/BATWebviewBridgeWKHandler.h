@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <WebKit/WebKit.h>
 
-#import <Batch/BATWebviewJavascriptBridge.h>
+#import <ONSBatch/BATWebviewJavascriptBridge.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

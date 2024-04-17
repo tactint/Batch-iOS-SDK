@@ -5,9 +5,9 @@
 //  Copyright © 2017 Batch. All rights reserved.
 //
 
-#import <Batch/BANewSessionSignal.h>
+#import <ONSBatch/BANewSessionSignal.h>
 
-#import <Batch/BANextSessionTrigger.h>
+#import <ONSBatch/BANextSessionTrigger.h>
 
 @implementation BANewSessionSignal
 

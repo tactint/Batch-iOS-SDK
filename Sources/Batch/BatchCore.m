@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BatchCore.h>
-#import <Batch/BatchUserProfile.h>
+#import <ONSBatch/BatchCore.h>
+#import <ONSBatch/BatchUserProfile.h>
 
-#import <Batch/BACenterMulticastDelegate.h>
-#import <Batch/BACoreCenter.h>
-#import <Batch/BADBGFindMyInstallationHelper.h>
-#import <Batch/BADBGModule.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BATrackerCenter.h>
+#import <ONSBatch/BACenterMulticastDelegate.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BADBGFindMyInstallationHelper.h>
+#import <ONSBatch/BADBGModule.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BATrackerCenter.h>
 
 @implementation Batch
 

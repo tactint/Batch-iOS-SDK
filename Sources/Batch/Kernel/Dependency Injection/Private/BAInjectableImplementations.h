@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAInjectable.h>
+#import <ONSBatch/BAInjectable.h>
 
 /**
  A BAInjectable that simply returns a value

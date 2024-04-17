@@ -6,15 +6,15 @@
 //
 
 #import "BATWebviewJavascriptBridge.h"
-#import <Batch/BAInstallationID.h>
-#import <Batch/BAJson.h>
-#import <Batch/BANullHelper.h>
-#import <Batch/BAPropertiesCenter.h>
-#import <Batch/BATJsonDictionary.h>
-#import <Batch/BAUserProfile.h>
-#import <Batch/BatchMessagingModels.h>
-#import <Batch/BatchMessagingPrivate.h>
-#import <Batch/BatchUser.h>
+#import <ONSBatch/BAInstallationID.h>
+#import <ONSBatch/BAJson.h>
+#import <ONSBatch/BANullHelper.h>
+#import <ONSBatch/BAPropertiesCenter.h>
+#import <ONSBatch/BATJsonDictionary.h>
+#import <ONSBatch/BAUserProfile.h>
+#import <ONSBatch/BatchMessagingModels.h>
+#import <ONSBatch/BatchMessagingPrivate.h>
+#import <ONSBatch/BatchUser.h>
 
 #define LOGGER_DOMAIN @"WebviewBridge"
 

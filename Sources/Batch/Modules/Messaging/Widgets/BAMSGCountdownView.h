@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-#import <Batch/BAMSGStylableView.h>
+#import <ONSBatch/BAMSGStylableView.h>
 
 @interface BAMSGCountdownView : UIView <BAMSGStylableView>
 

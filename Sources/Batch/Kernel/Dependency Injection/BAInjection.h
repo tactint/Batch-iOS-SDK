@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAInjectable.h>
-#import <Batch/BAOverlayedInjectable.h>
+#import <ONSBatch/BAInjectable.h>
+#import <ONSBatch/BAOverlayedInjectable.h>
 
 #define bainjection_instance_singleton(initializer) \
     static id instance = nil;                       \

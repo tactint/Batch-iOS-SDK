@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BatchCore.h>
+#import <ONSBatch/BatchCore.h>
 
 extern NSString *_Nonnull const kBATConfigurationChangedNotification;
 

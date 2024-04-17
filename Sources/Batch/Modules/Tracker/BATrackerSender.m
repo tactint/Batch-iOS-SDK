@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAParameter.h>
-#import <Batch/BAQueryWebserviceClient.h>
-#import <Batch/BATrackerCenter.h>
-#import <Batch/BATrackerSender.h>
-#import <Batch/BAWebserviceClientExecutor.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAQueryWebserviceClient.h>
+#import <ONSBatch/BATrackerCenter.h>
+#import <ONSBatch/BATrackerSender.h>
+#import <ONSBatch/BAWebserviceClientExecutor.h>
 
-#import <Batch/BAEventTrackerService.h>
+#import <ONSBatch/BAEventTrackerService.h>
 
-#import <Batch/BatchUser.h>
+#import <ONSBatch/BatchUser.h>
 
 @interface BATrackerSender () {
     BOOL _isSending;

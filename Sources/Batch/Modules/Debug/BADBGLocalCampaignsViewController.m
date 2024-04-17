@@ -1,7 +1,7 @@
-#import <Batch/BADBGLocalCampaignsViewController.h>
+#import <ONSBatch/BADBGLocalCampaignsViewController.h>
 
-#import <Batch/BADBGLCListViewController.h>
-#import <Batch/BALocalCampaignsCenter.h>
+#import <ONSBatch/BADBGLCListViewController.h>
+#import <ONSBatch/BALocalCampaignsCenter.h>
 
 #define DEFAULT_CELL_NAME @"cell"
 

@@ -5,8 +5,8 @@
 //  Copyright © 2020 Batch. All rights reserved.
 //
 
-#import <Batch/BALogger.h>
-#import <Batch/BATGZIP.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BATGZIP.h>
 #import <zlib.h>
 
 #define LOCAL_DEBUG_DOMAIN @"com.batch.core.gzip"

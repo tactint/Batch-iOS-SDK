@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BALogger.h>
-#import <Batch/BANullHelper.h>
-#import <Batch/BAPushPayload.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BANullHelper.h>
+#import <ONSBatch/BAPushPayload.h>
 #import "Defined.h"
 
 @interface BAPushPayload () {

@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAInbox.h>
+#import <ONSBatch/BAInbox.h>
 #import <Foundation/Foundation.h>
 #import <sqlite3.h>
 

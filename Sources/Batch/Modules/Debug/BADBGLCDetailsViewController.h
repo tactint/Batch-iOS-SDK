@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-#import <Batch/BALocalCampaign.h>
+#import <ONSBatch/BALocalCampaign.h>
 
 @interface BADBGLCDetailsViewController : UITableViewController
 

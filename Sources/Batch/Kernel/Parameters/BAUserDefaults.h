@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAEncryptionProtocol.h>
+#import <ONSBatch/BAEncryptionProtocol.h>
 
 /*!
  @class BAUserDefaults

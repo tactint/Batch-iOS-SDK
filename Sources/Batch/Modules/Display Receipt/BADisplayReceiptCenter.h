@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BACenterMulticastDelegate.h>
+#import <ONSBatch/BACenterMulticastDelegate.h>
 
 @interface BADisplayReceiptCenter : NSObject <BACenterProtocol>
 

@@ -5,12 +5,12 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAStandardQueryWebserviceIdentifiersProvider.h>
+#import <ONSBatch/BAStandardQueryWebserviceIdentifiersProvider.h>
 
-#import <Batch/BABundleInfo.h>
-#import <Batch/BACoreCenter.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAPropertiesCenter.h>
+#import <ONSBatch/BABundleInfo.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAPropertiesCenter.h>
 
 @implementation BAStandardQueryWebserviceIdentifiersProvider
 

@@ -5,11 +5,11 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAMSGMessage.h>
+#import <ONSBatch/BAMSGMessage.h>
 
-#import <Batch/BAMSGAction.h>
+#import <ONSBatch/BAMSGAction.h>
 
-#import <Batch/BATMessagingCloseErrorCause.h>
+#import <ONSBatch/BATMessagingCloseErrorCause.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

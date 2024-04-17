@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAUserDataEnums.h>
+#import <ONSBatch/BAUserDataEnums.h>
 
 @interface BAUserAttribute : NSObject
 

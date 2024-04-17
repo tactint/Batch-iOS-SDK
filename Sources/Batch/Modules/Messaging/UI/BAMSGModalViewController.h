@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAMSGBaseBannerViewController.h>
+#import <ONSBatch/BAMSGBaseBannerViewController.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

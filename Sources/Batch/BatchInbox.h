@@ -6,8 +6,8 @@
 //  Copyright (c) Batch SDK. All rights reserved.
 //
 
-#import <Batch/BatchMessaging.h>
-#import <Batch/BatchPush.h>
+#import <ONSBatch/BatchMessaging.h>
+#import <ONSBatch/BatchPush.h>
 #import <Foundation/Foundation.h>
 
 /// Notification message object

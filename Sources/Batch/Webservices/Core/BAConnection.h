@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAConnectionContentType.h>
-#import <Batch/BAConnectionDelegate.h>
-#import <Batch/BAURLSessionProtocol.h>
-#import <Batch/BAWebserviceCryptorFactory.h>
+#import <ONSBatch/BAConnectionContentType.h>
+#import <ONSBatch/BAConnectionDelegate.h>
+#import <ONSBatch/BAURLSessionProtocol.h>
+#import <ONSBatch/BAWebserviceCryptorFactory.h>
 
 @class BAConnection;
 

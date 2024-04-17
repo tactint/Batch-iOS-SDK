@@ -5,9 +5,9 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BABatchMessagingDelegateWrapper.h>
-#import <Batch/BAErrorHelper.h>
-#import <Batch/BAThreading.h>
+#import <ONSBatch/BABatchMessagingDelegateWrapper.h>
+#import <ONSBatch/BAErrorHelper.h>
+#import <ONSBatch/BAThreading.h>
 
 @implementation BABatchMessagingDelegateWrapper
 

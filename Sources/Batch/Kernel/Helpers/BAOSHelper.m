@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAOSHelper.h>
+#import <ONSBatch/BAOSHelper.h>
 
 #import <UIKit/UIKit.h>
 #import <sys/sysctl.h>

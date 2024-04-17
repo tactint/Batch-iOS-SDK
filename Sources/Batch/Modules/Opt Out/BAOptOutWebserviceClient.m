@@ -5,9 +5,9 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAOptOutWebserviceClient.h>
+#import <ONSBatch/BAOptOutWebserviceClient.h>
 
-#import <Batch/BAEventTrackerService.h>
+#import <ONSBatch/BAEventTrackerService.h>
 
 @implementation BAOptOutWebserviceClient
 

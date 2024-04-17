@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAMSGPannableAlertContainerView.h>
+#import <ONSBatch/BAMSGPannableAlertContainerView.h>
 
 // Various constants that define the alert pan look & feel
 #define ANIMATION_DURATION 0.5

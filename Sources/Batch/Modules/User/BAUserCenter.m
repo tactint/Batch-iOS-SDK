@@ -6,12 +6,12 @@
 //  Copyright (c) 2015 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BALogger.h>
-#import <Batch/BANotificationCenter.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAUserCenter.h>
-#import <Batch/BAUserDataManager.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BANotificationCenter.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAUserCenter.h>
+#import <ONSBatch/BAUserDataManager.h>
 
 /*
  @abstract Class responsible

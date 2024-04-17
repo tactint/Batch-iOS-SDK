@@ -5,8 +5,8 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BACSS.h>
-#import <Batch/BACSSImportProvider.h>
+#import <ONSBatch/BACSS.h>
+#import <ONSBatch/BACSSImportProvider.h>
 #import <Foundation/Foundation.h>
 
 @interface BACSSParser : NSObject

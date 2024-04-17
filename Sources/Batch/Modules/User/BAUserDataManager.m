@@ -6,21 +6,21 @@
 //  Copyright (c) 2015 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAUserDataManager.h>
+#import <ONSBatch/BAUserDataManager.h>
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BAInjection.h>
-#import <Batch/BALogger.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAQueryWebserviceClient.h>
-#import <Batch/BATrackerCenter.h>
-#import <Batch/BAUserDataDiff.h>
-#import <Batch/BAUserDataManager.h>
-#import <Batch/BAUserDataServices.h>
-#import <Batch/BAUserDatasourceProtocol.h>
-#import <Batch/BAUserSQLiteDatasource.h>
-#import <Batch/BAWebserviceClientExecutor.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAQueryWebserviceClient.h>
+#import <ONSBatch/BATrackerCenter.h>
+#import <ONSBatch/BAUserDataDiff.h>
+#import <ONSBatch/BAUserDataManager.h>
+#import <ONSBatch/BAUserDataServices.h>
+#import <ONSBatch/BAUserDatasourceProtocol.h>
+#import <ONSBatch/BAUserSQLiteDatasource.h>
+#import <ONSBatch/BAWebserviceClientExecutor.h>
 
 #define PUBLIC_DOMAIN @"BatchUser - Manager"
 #define DEBUG_DOMAIN @"UserDataManager"

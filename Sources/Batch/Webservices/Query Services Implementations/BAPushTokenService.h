@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BAQueryWebserviceClientDatasource.h>
+#import <ONSBatch/BAQueryWebserviceClientDatasource.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

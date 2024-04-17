@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAWebserviceClient.h>
+#import <ONSBatch/BAWebserviceClient.h>
 
-#import <Batch/BAConnection.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAURLSession.h>
+#import <ONSBatch/BAConnection.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAURLSession.h>
 
 // Internal methods and parameters.
 @interface BAWebserviceClient () {

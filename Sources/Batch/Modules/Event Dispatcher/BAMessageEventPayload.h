@@ -5,10 +5,10 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BatchEventDispatcher.h>
-#import <Batch/BatchMessaging.h>
-#import <Batch/BatchMessagingModels.h>
-#import <Batch/BatchMessagingPrivate.h>
+#import <ONSBatch/BatchEventDispatcher.h>
+#import <ONSBatch/BatchMessaging.h>
+#import <ONSBatch/BatchMessagingModels.h>
+#import <ONSBatch/BatchMessagingPrivate.h>
 
 @interface BAMessageEventPayload : NSObject <BatchEventDispatcherPayload>
 

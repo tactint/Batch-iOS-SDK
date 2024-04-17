@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAErrorHelper.h>
+#import <ONSBatch/BAErrorHelper.h>
 
 @implementation BAErrorHelper
 

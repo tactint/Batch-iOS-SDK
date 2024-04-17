@@ -5,22 +5,22 @@
 //
 
 #import "BALocalCampaignsJITService.h"
-#import <Batch/BAErrorHelper.h>
-#import <Batch/BALocalCampaign.h>
-#import <Batch/BATMessagePackReader.h>
-#import <Batch/BATMessagePackWriter.h>
-#import <Batch/BAWebserviceURLBuilder.h>
+#import <ONSBatch/BAErrorHelper.h>
+#import <ONSBatch/BALocalCampaign.h>
+#import <ONSBatch/BATMessagePackReader.h>
+#import <ONSBatch/BATMessagePackWriter.h>
+#import <ONSBatch/BAWebserviceURLBuilder.h>
 
-#import <Batch/BALocalCampaignCountedEvent.h>
+#import <ONSBatch/BALocalCampaignCountedEvent.h>
 
-#import <Batch/BAPushCenter.h>
-#import <Batch/BAStandardQueryWebserviceIdentifiersProvider.h>
-#import <Batch/BATrackerCenter.h>
+#import <ONSBatch/BAPushCenter.h>
+#import <ONSBatch/BAStandardQueryWebserviceIdentifiersProvider.h>
+#import <ONSBatch/BATrackerCenter.h>
 
-#import <Batch/BAInjection.h>
-#import <Batch/BAMetricRegistry.h>
-#import <Batch/BAStandardQueryWebserviceIdentifiersProvider.h>
-#import <Batch/BAUserDatasourceProtocol.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BAMetricRegistry.h>
+#import <ONSBatch/BAStandardQueryWebserviceIdentifiersProvider.h>
+#import <ONSBatch/BAUserDatasourceProtocol.h>
 
 #define LOGGER_DOMAIN @"BALocalCampaignsJITService"
 

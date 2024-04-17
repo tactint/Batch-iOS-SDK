@@ -6,11 +6,11 @@
 //  Copyright (c) 2016 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAHTTPHeaders.h>
+#import <ONSBatch/BAHTTPHeaders.h>
 
-#import <Batch/BACoreCenter.h>
+#import <ONSBatch/BACoreCenter.h>
 
-#import <Batch/BAOSHelper.h>
+#import <ONSBatch/BAOSHelper.h>
 
 @implementation BAHTTPHeaders
 

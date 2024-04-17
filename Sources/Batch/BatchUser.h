@@ -6,7 +6,7 @@
 //  Copyright (c) Batch SDK. All rights reserved.
 //
 
-#import <Batch/BatchEventData.h>
+#import <ONSBatch/BatchEventData.h>
 #import <CoreLocation/CoreLocation.h>
 #import <Foundation/Foundation.h>
 

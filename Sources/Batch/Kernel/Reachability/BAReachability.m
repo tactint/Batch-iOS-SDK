@@ -52,8 +52,8 @@
 
 #import <CoreFoundation/CoreFoundation.h>
 
-#import <Batch/BANotificationCenter.h>
-#import <Batch/BAReachability.h>
+#import <ONSBatch/BANotificationCenter.h>
+#import <ONSBatch/BAReachability.h>
 
 NSString *kBAReachabilityChangedNotification = @"kBANetworkReachabilityChangedNotification";
 

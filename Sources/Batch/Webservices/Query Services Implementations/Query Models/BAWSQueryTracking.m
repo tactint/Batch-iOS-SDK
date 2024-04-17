@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAWSQueryTracking.h>
+#import <ONSBatch/BAWSQueryTracking.h>
 
-#import <Batch/BAEvent.h>
-#import <Batch/BAJson.h>
+#import <ONSBatch/BAEvent.h>
+#import <ONSBatch/BAJson.h>
 
 @interface BAWSQueryTracking () {
     // Events to send

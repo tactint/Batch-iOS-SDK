@@ -6,31 +6,31 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAPushCenter.h>
+#import <ONSBatch/BAPushCenter.h>
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BAInjection.h>
-#import <Batch/BAParameter.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BAInjection.h>
+#import <ONSBatch/BAParameter.h>
 
-#import <Batch/BAPushTokenService.h>
-#import <Batch/BAQueryWebserviceClient.h>
-#import <Batch/BAWebserviceClientExecutor.h>
+#import <ONSBatch/BAPushTokenService.h>
+#import <ONSBatch/BAQueryWebserviceClient.h>
+#import <ONSBatch/BAWebserviceClientExecutor.h>
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BAEventDispatcherCenter.h>
-#import <Batch/BALogger.h>
-#import <Batch/BAOptOut.h>
-#import <Batch/BAPropertiesCenter.h>
-#import <Batch/BAPushPayload.h>
-#import <Batch/BATrackerCenter.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BAEventDispatcherCenter.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAOptOut.h>
+#import <ONSBatch/BAPropertiesCenter.h>
+#import <ONSBatch/BAPushPayload.h>
+#import <ONSBatch/BATrackerCenter.h>
 
-#import <Batch/BADelegatedApplicationDelegate.h>
-#import <Batch/BAOSHelper.h>
-#import <Batch/BAStringUtils.h>
+#import <ONSBatch/BADelegatedApplicationDelegate.h>
+#import <ONSBatch/BAOSHelper.h>
+#import <ONSBatch/BAStringUtils.h>
 
-#import <Batch/BAApplicationLifecycle.h>
-#import <Batch/BANotificationAuthorization.h>
-#import <Batch/BAPushSystemHelperProtocol.h>
+#import <ONSBatch/BAApplicationLifecycle.h>
+#import <ONSBatch/BANotificationAuthorization.h>
+#import <ONSBatch/BAPushSystemHelperProtocol.h>
 
 #import <UIKit/UIKit.h>
 #import <UserNotifications/UserNotifications.h>

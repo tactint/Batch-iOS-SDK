@@ -5,16 +5,16 @@
 //  Copyright © 2017 Batch. All rights reserved.
 //
 
-#import <Batch/BALocalCampaignsParser.h>
+#import <ONSBatch/BALocalCampaignsParser.h>
 
-#import <Batch/BAEventTrigger.h>
-#import <Batch/BANextSessionTrigger.h>
-#import <Batch/BATJsonDictionary.h>
+#import <ONSBatch/BAEventTrigger.h>
+#import <ONSBatch/BANextSessionTrigger.h>
+#import <ONSBatch/BATJsonDictionary.h>
 
-#import <Batch/BALocalCampaignLandingOutput.h>
-#import <Batch/BALocalCampaignOutputProtocol.h>
+#import <ONSBatch/BALocalCampaignLandingOutput.h>
+#import <ONSBatch/BALocalCampaignOutputProtocol.h>
 
-#import <Batch/BATZAwareDate.h>
+#import <ONSBatch/BATZAwareDate.h>
 
 @implementation BALocalCampaignsParser
 

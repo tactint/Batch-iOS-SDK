@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAMSGBaseContainerView.h>
+#import <ONSBatch/BAMSGBaseContainerView.h>
 
 @protocol BAMSGPannableContainerViewDelegate <NSObject>
 

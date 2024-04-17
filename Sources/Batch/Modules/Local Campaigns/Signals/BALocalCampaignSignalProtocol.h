@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BALocalCampaignTriggerProtocol.h>
+#import <ONSBatch/BALocalCampaignTriggerProtocol.h>
 
 /**
  Represents an signal

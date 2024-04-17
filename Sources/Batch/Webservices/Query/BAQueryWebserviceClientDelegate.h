@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAWSResponse.h>
+#import <ONSBatch/BAWSResponse.h>
 
 @class BAQueryWebserviceClient;
 

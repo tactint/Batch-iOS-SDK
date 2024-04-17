@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BACenterMulticastDelegate.h>
-#import <Batch/BatchActions.h>
+#import <ONSBatch/BACenterMulticastDelegate.h>
+#import <ONSBatch/BatchActions.h>
 
 extern NSString *_Nonnull const kBAActionsReservedIdentifierPrefix;
 

@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BACSS.h>
+#import <ONSBatch/BACSS.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 

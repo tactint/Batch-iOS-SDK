@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BatchMessaging.h>
+#import <ONSBatch/BatchMessaging.h>
 #import <Foundation/Foundation.h>
 
 /**

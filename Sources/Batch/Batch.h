@@ -14,14 +14,14 @@ FOUNDATION_EXPORT double BatchVersionNumber;
 //! Project version string for Batch.
 FOUNDATION_EXPORT const unsigned char BatchVersionString[];
 
-#import <Batch/BatchActions.h>
-#import <Batch/BatchCore.h>
-#import <Batch/BatchEventData.h>
-#import <Batch/BatchEventDispatcher.h>
-#import <Batch/BatchInbox.h>
-#import <Batch/BatchLogger.h>
-#import <Batch/BatchMessaging.h>
-#import <Batch/BatchMessagingModels.h>
-#import <Batch/BatchPush.h>
-#import <Batch/BatchUser.h>
-#import <Batch/BatchUserAttribute.h>
+#import <ONSBatch/BatchActions.h>
+#import <ONSBatch/BatchCore.h>
+#import <ONSBatch/BatchEventData.h>
+#import <ONSBatch/BatchEventDispatcher.h>
+#import <ONSBatch/BatchInbox.h>
+#import <ONSBatch/BatchLogger.h>
+#import <ONSBatch/BatchMessaging.h>
+#import <ONSBatch/BatchMessagingModels.h>
+#import <ONSBatch/BatchPush.h>
+#import <ONSBatch/BatchUser.h>
+#import <ONSBatch/BatchUserAttribute.h>

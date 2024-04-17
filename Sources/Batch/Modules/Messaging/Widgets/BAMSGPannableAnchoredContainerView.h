@@ -1,5 +1,5 @@
-#import <Batch/BAMSGBaseContainerView.h>
-#import <Batch/BAMSGPannableContainerView.h>
+#import <ONSBatch/BAMSGBaseContainerView.h>
+#import <ONSBatch/BAMSGPannableContainerView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BALocalCampaign.h>
-#import <Batch/BALocalCampaignOutputProtocol.h>
+#import <ONSBatch/BALocalCampaign.h>
+#import <ONSBatch/BALocalCampaignOutputProtocol.h>
 
 @interface BALocalCampaignLandingOutput : NSObject <BALocalCampaignOutputProtocol>
 

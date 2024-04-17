@@ -5,9 +5,9 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAMSGCloseButton.h>
-#import <Batch/BAMessagingAnalyticsDelegate.h>
-#import <Batch/BAPromise.h>
+#import <ONSBatch/BAMSGCloseButton.h>
+#import <ONSBatch/BAMessagingAnalyticsDelegate.h>
+#import <ONSBatch/BAPromise.h>
 #import <Foundation/Foundation.h>
 
 @class BACSSDocument, BACSSDOMNode, BAMSGMessage, BAMSGCTA;

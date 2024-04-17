@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAParameter.h>
-#import <Batch/BAUserDefaults.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAUserDefaults.h>
 
-#import <Batch/BAErrorHelper.h>
-#import <Batch/BANullHelper.h>
+#import <ONSBatch/BAErrorHelper.h>
+#import <ONSBatch/BANullHelper.h>
 
-#import <Batch/BAAESB64Cryptor.h>
+#import <ONSBatch/BAAESB64Cryptor.h>
 
-#import <Batch/BAOSHelper.h>
+#import <ONSBatch/BAOSHelper.h>
 
 // Internal methods and parameters.
 @interface BAParameter () {

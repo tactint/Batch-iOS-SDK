@@ -5,12 +5,12 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAWebserviceCryptorFactory.h>
+#import <ONSBatch/BAWebserviceCryptorFactory.h>
 
-#import <Batch/BAConnection.h>
-#import <Batch/BAWebserviceAESGCMCryptor.h>
-#import <Batch/BAWebserviceAESGCMGzipCryptor.h>
-#import <Batch/BAWebserviceStubCryptor.h>
+#import <ONSBatch/BAConnection.h>
+#import <ONSBatch/BAWebserviceAESGCMCryptor.h>
+#import <ONSBatch/BAWebserviceAESGCMGzipCryptor.h>
+#import <ONSBatch/BAWebserviceStubCryptor.h>
 
 @implementation BAWebserviceCryptorFactory
 

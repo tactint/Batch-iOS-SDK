@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1500"
+   LastUpgradeVersion = "1530"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "516BBC0A22BD0D2900742649"
-               BuildableName = "BatchXCFramework"
-               BlueprintName = "BatchXCFramework"
+               BuildableName = "ONSBatchXCFramework"
+               BlueprintName = "ONSBatchXCFramework"
                ReferencedContainer = "container:Batch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -51,8 +51,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "516BBC0A22BD0D2900742649"
-            BuildableName = "BatchXCFramework"
-            BlueprintName = "BatchXCFramework"
+            BuildableName = "ONSBatchXCFramework"
+            BlueprintName = "ONSBatchXCFramework"
             ReferencedContainer = "container:Batch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

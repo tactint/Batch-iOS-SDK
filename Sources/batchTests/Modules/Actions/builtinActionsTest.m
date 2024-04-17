@@ -1,4 +1,4 @@
-#import <Batch/Batch.h>
+#import <ONSBatch/Batch.h>
 #import <XCTest/XCTest.h>
 #import "BAActionsCenter.h"
 #import "DeeplinkDelegateStub.h"

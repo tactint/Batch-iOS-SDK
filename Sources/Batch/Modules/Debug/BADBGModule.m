@@ -1,6 +1,6 @@
-#import <Batch/BADBGModule.h>
+#import <ONSBatch/BADBGModule.h>
 
-#import <Batch/BADBGDebugViewController.h>
+#import <ONSBatch/BADBGDebugViewController.h>
 
 @implementation BADBGModule
 

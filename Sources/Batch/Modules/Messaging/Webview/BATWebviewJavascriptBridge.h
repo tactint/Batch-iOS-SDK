@@ -5,8 +5,8 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAMSGMessage.h>
-#import <Batch/BAPromise.h>
+#import <ONSBatch/BAMSGMessage.h>
+#import <ONSBatch/BAPromise.h>
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN

@@ -1,8 +1,8 @@
-#import <Batch/BALogger.h>
-#import <Batch/BAMSGRemoteImageView.h>
-#import <Batch/BATGIFAnimator.h>
-#import <Batch/BATGIFFile.h>
-#import <Batch/BAThreading.h>
+#import <ONSBatch/BALogger.h>
+#import <ONSBatch/BAMSGRemoteImageView.h>
+#import <ONSBatch/BATGIFAnimator.h>
+#import <ONSBatch/BATGIFFile.h>
+#import <ONSBatch/BAThreading.h>
 
 @interface BAMSGRemoteImageView () <BATGIFAnimatorDelegate> {
     BATGIFAnimator *_animator;

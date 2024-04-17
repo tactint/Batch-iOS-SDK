@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 
-#import <Batch/BAMSGGradientView.h>
-#import <Batch/BAMSGPassthroughProtocol.h>
+#import <ONSBatch/BAMSGGradientView.h>
+#import <ONSBatch/BAMSGPassthroughProtocol.h>
 
 @protocol BAMSGContainerViewProtocol
 @required

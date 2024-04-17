@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAURLSession.h>
+#import <ONSBatch/BAURLSession.h>
 
 @interface NSURLSession () <BAURLSessionProtocol>
 

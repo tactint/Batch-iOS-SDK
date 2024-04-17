@@ -5,10 +5,10 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGBaseContainerView.h>
-#import <Batch/BAMSGStackViewHorizontalItem.h>
-#import <Batch/BAMSGStackViewItem.h>
-#import <Batch/BAMSGStylableView.h>
+#import <ONSBatch/BAMSGBaseContainerView.h>
+#import <ONSBatch/BAMSGStackViewHorizontalItem.h>
+#import <ONSBatch/BAMSGStackViewItem.h>
+#import <ONSBatch/BAMSGStylableView.h>
 #import <UIKit/UIKit.h>
 
 @class BAMSGStackView;

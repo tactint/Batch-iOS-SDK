@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BACSSImportProvider.h>
+#import <ONSBatch/BACSSImportProvider.h>
 
 @interface BACSSBuiltinImportProvider : NSObject <BACSSImportProvider>
 

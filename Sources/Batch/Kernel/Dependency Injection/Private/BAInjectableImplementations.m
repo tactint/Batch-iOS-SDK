@@ -5,7 +5,7 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAInjectableImplementations.h>
+#import <ONSBatch/BAInjectableImplementations.h>
 
 /**
  BAInjectable class cluster

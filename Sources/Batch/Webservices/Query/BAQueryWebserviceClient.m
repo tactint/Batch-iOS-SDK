@@ -6,27 +6,27 @@
 //  Copyright (c) 2014 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BAQueryWebserviceClient.h>
+#import <ONSBatch/BAQueryWebserviceClient.h>
 
-#import <Batch/BACoreCenter.h>
-#import <Batch/BAWebserviceMetrics.h>
+#import <ONSBatch/BACoreCenter.h>
+#import <ONSBatch/BAWebserviceMetrics.h>
 
-#import <Batch/BAJson.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAPropertiesCenter.h>
-#import <Batch/BAUserProfile.h>
+#import <ONSBatch/BAJson.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAPropertiesCenter.h>
+#import <ONSBatch/BAUserProfile.h>
 
-#import <Batch/BAStandardQueryWebserviceIdentifiersProvider.h>
+#import <ONSBatch/BAStandardQueryWebserviceIdentifiersProvider.h>
 
-#import <Batch/BAErrorHelper.h>
+#import <ONSBatch/BAErrorHelper.h>
 
-#import <Batch/BAHTTPHeaders.h>
-#import <Batch/BANotificationAuthorization.h>
-#import <Batch/BAPushCenter.h>
-#import <Batch/BATrackerCenter.h>
+#import <ONSBatch/BAHTTPHeaders.h>
+#import <ONSBatch/BANotificationAuthorization.h>
+#import <ONSBatch/BAPushCenter.h>
+#import <ONSBatch/BATrackerCenter.h>
 
-#import <Batch/BABundleInfo.h>
-#import <Batch/BAQueryWebserviceIdentifiersProviding.h>
+#import <ONSBatch/BABundleInfo.h>
+#import <ONSBatch/BAQueryWebserviceIdentifiersProviding.h>
 
 #define LOCAL_ERROR_DOMAIN @"BatchQueryWebservice"
 

@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BatchUser.h>
+#import <ONSBatch/BatchUser.h>
 #import <Foundation/Foundation.h>
 
 @interface BAUserDataEditor : NSObject

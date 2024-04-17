@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BAMSGMessage.h>
+#import <ONSBatch/BAMSGMessage.h>
 #import <Foundation/Foundation.h>
 
 @interface BAMSGPayloadParser : NSObject

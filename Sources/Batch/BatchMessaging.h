@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BatchActions.h>
+#import <ONSBatch/BatchActions.h>
 
 @class BatchInAppMessage, BatchMessage, BatchPushMessage, BatchMessageAction;
 

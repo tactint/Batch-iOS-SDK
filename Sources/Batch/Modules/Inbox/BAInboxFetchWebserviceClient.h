@@ -5,9 +5,9 @@
 //  Copyright © 2017 Batch. All rights reserved.
 //
 
-#import <Batch/BAGETWebserviceClient.h>
-#import <Batch/BAInboxWebserviceClientType.h>
-#import <Batch/BAInboxWebserviceResponse.h>
+#import <ONSBatch/BAGETWebserviceClient.h>
+#import <ONSBatch/BAInboxWebserviceClientType.h>
+#import <ONSBatch/BAInboxWebserviceResponse.h>
 #import <Foundation/Foundation.h>
 
 @interface BAInboxFetchWebserviceClient : BAGETWebserviceClient <BAConnectionDelegate>

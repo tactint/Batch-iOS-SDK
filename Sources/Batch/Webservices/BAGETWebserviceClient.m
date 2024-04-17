@@ -5,11 +5,11 @@
 //  Copyright © 2017 Batch. All rights reserved.
 //
 
-#import <Batch/BAGETWebserviceClient.h>
+#import <ONSBatch/BAGETWebserviceClient.h>
 
-#import <Batch/BAHTTPHeaders.h>
-#import <Batch/BAParameter.h>
-#import <Batch/BAStringUtils.h>
+#import <ONSBatch/BAHTTPHeaders.h>
+#import <ONSBatch/BAParameter.h>
+#import <ONSBatch/BAStringUtils.h>
 
 #define DEFAULT_GET_TIMEOUT 15 // Seconds
 

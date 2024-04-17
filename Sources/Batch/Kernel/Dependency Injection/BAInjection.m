@@ -5,9 +5,9 @@
 //  Copyright © Batch.com. All rights reserved.
 //
 
-#import <Batch/BAInjection.h>
+#import <ONSBatch/BAInjection.h>
 
-#import <Batch/BAInjectionRegistry.h>
+#import <ONSBatch/BAInjectionRegistry.h>
 
 @implementation BAInjection
 

@@ -5,7 +5,7 @@
 //  Copyright © 2016 Batch. All rights reserved.
 //
 
-#import <Batch/BALocalCampaign.h>
+#import <ONSBatch/BALocalCampaign.h>
 
 @implementation BALocalCampaign
 

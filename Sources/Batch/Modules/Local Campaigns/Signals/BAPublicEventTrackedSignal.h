@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Batch/BALocalCampaignSignalProtocol.h>
+#import <ONSBatch/BALocalCampaignSignalProtocol.h>
 
 @class BatchEventData;
 

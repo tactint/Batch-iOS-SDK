@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import <Batch/BAPromise.h>
+#import <ONSBatch/BAPromise.h>
 
 @interface BAMSGOverlayWindow : UIWindow
 
