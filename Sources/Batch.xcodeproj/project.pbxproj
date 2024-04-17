@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		02849C3219BA00350013408B /* BatchUniversal */ = {
+		02849C3219BA00350013408B /* ONSBatchUniversal */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 02849C3319BA00350013408B /* Build configuration list for PBXAggregateTarget "BatchUniversal" */;
+			buildConfigurationList = 02849C3319BA00350013408B /* Build configuration list for PBXAggregateTarget "ONSBatchUniversal" */;
 			buildPhases = (
 				02849C3619BA00480013408B /* ShellScript */,
 			);
 			dependencies = (
 			);
-			name = BatchUniversal;
+			name = ONSBatchUniversal;
 			productName = universal;
 		};
-		516BBC0A22BD0D2900742649 /* BatchXCFramework */ = {
+		516BBC0A22BD0D2900742649 /* ONSBatchXCFramework */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 516BBC0D22BD0D2900742649 /* Build configuration list for PBXAggregateTarget "BatchXCFramework" */;
+			buildConfigurationList = 516BBC0D22BD0D2900742649 /* Build configuration list for PBXAggregateTarget "ONSBatchXCFramework" */;
 			buildPhases = (
 				516BBC0B22BD0D2900742649 /* ShellScript */,
 			);
 			dependencies = (
 			);
-			name = BatchXCFramework;
+			name = ONSBatchXCFramework;
 			productName = universal;
 		};
 /* End PBXAggregateTarget section */
@@ -105,7 +105,7 @@
 		510D906F24C83A81005981AC /* shaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510D906E24C83A81005981AC /* shaTests.swift */; };
 		510FFEE822FD800700BBF277 /* dependencyInjectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510FFEE622FD7FE500BBF277 /* dependencyInjectionTests.swift */; };
 		51103A792A7405B50082987C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 51103A782A7405B40082987C /* PrivacyInfo.xcprivacy */; };
-		511B91FE22CE32A3002BC4A8 /* Batch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517D701822BBC34A00E374FB /* Batch.framework */; };
+		511B91FE22CE32A3002BC4A8 /* ONSBatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517D701822BBC34A00E374FB /* ONSBatch.framework */; };
 		511B920322CE416D002BC4A8 /* BAWebserviceCryptorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 511B920122CE416D002BC4A8 /* BAWebserviceCryptorFactory.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		511B920422CE416D002BC4A8 /* BAWebserviceCryptorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 511B920222CE416D002BC4A8 /* BAWebserviceCryptorFactory.m */; };
 		511B920622CE4287002BC4A8 /* BAWebserviceCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 511B920522CE4287002BC4A8 /* BAWebserviceCryptor.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -230,7 +230,7 @@
 		516D7172260924E500CF7F5B /* OCProtocolMockObject.h in Sources */ = {isa = PBXBuildFile; fileRef = 5154640B25121BC10008E201 /* OCProtocolMockObject.h */; };
 		516D7173260924E500CF7F5B /* OCProtocolMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5154644125121BC40008E201 /* OCProtocolMockObject.m */; };
 		516D7174260924E500CF7F5B /* OCMock.h in Sources */ = {isa = PBXBuildFile; fileRef = 515463E925121B960008E201 /* OCMock.h */; };
-		516D717A260924F000CF7F5B /* libOCMock-Batch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 516D7117260924CC00CF7F5B /* libOCMock-Batch.a */; };
+		516D717A260924F000CF7F5B /* libOCMock-ONSBatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 516D7117260924CC00CF7F5B /* libOCMock-ONSBatch.a */; };
 		51711AC023D60A5300FF2B9D /* PrivateUmbrellaHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 51711ABF23D60A5300FF2B9D /* PrivateUmbrellaHeader.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		51711AC123D60CBA00FF2B9D /* BAEventDispatcherCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 625870312354CA01006B0287 /* BAEventDispatcherCenter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		51711AC223D60CBB00FF2B9D /* BAQueryWebserviceClientDatasource.h in Headers */ = {isa = PBXBuildFile; fileRef = 51697DCD22DC847D0043FE49 /* BAQueryWebserviceClientDatasource.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -779,7 +779,7 @@
 		029B334F1A39A1F7006B9DC6 /* batchPropertiesCenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = batchPropertiesCenterTests.m; sourceTree = "<group>"; };
 		029B33501A39A1F7006B9DC6 /* batchUserDefaultsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = batchUserDefaultsTests.m; sourceTree = "<group>"; };
 		02F7846419B9EF5A0006FF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02F7846B19B9EF5A0006FF07 /* BatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F7846B19B9EF5A0006FF07 /* ONSBatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONSBatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F7846E19B9EF5A0006FF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E104EAD28E6F43D00E998AE /* BAUserEmailSubscription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAUserEmailSubscription.h; sourceTree = "<group>"; };
 		1E104EAE28E6F43D00E998AE /* BAUserEmailSubscription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAUserEmailSubscription.m; sourceTree = "<group>"; };
@@ -1057,7 +1057,7 @@
 		516BBC0822BD0A0D00742649 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		516BE208214819160057D937 /* deeplinkDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = deeplinkDelegateTests.m; sourceTree = "<group>"; };
 		516D31C12445C40400BF3AB0 /* messagePackWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messagePackWriterTests.swift; sourceTree = "<group>"; };
-		516D7117260924CC00CF7F5B /* libOCMock-Batch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libOCMock-Batch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		516D7117260924CC00CF7F5B /* libOCMock-ONSBatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libOCMock-ONSBatch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51711ABF23D60A5300FF2B9D /* PrivateUmbrellaHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateUmbrellaHeader.h; sourceTree = "<group>"; };
 		5171445922DCA29D001E99D7 /* BAStandardQueryWebserviceIdentifiersProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAStandardQueryWebserviceIdentifiersProvider.h; sourceTree = "<group>"; };
 		5171445A22DCA29D001E99D7 /* BAStandardQueryWebserviceIdentifiersProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAStandardQueryWebserviceIdentifiersProvider.m; sourceTree = "<group>"; };
@@ -1076,7 +1076,7 @@
 		517CC28625B6DAC200A3F380 /* BATWebviewBridgeLegacyWKHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATWebviewBridgeLegacyWKHandler.m; sourceTree = "<group>"; };
 		517CC29125B6E02A00A3F380 /* BATWebviewBridgeWKHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BATWebviewBridgeWKHandler.h; sourceTree = "<group>"; };
 		517CC29225B6E02A00A3F380 /* BATWebviewBridgeWKHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATWebviewBridgeWKHandler.m; sourceTree = "<group>"; };
-		517D701822BBC34A00E374FB /* Batch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Batch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		517D701822BBC34A00E374FB /* ONSBatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ONSBatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		517EAE411C1890540058D288 /* BAUserAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAUserAttribute.h; path = Batch/Modules/User/BAUserAttribute.h; sourceTree = SOURCE_ROOT; };
 		517EAE421C1890540058D288 /* BAUserAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAUserAttribute.m; path = Batch/Modules/User/BAUserAttribute.m; sourceTree = SOURCE_ROOT; };
 		5184044322E9D948006322DF /* BAPushTokenService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAPushTokenService.m; sourceTree = "<group>"; };
@@ -1352,8 +1352,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				516D717A260924F000CF7F5B /* libOCMock-Batch.a in Frameworks */,
-				511B91FE22CE32A3002BC4A8 /* Batch.framework in Frameworks */,
+				516D717A260924F000CF7F5B /* libOCMock-ONSBatch.a in Frameworks */,
+				511B91FE22CE32A3002BC4A8 /* ONSBatch.framework in Frameworks */,
 				517BAFD324D1B4E500BB0384 /* InstantMock in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1739,9 +1739,9 @@
 		02F7846119B9EF5A0006FF07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02F7846B19B9EF5A0006FF07 /* BatchTests.xctest */,
-				517D701822BBC34A00E374FB /* Batch.framework */,
-				516D7117260924CC00CF7F5B /* libOCMock-Batch.a */,
+				02F7846B19B9EF5A0006FF07 /* ONSBatchTests.xctest */,
+				517D701822BBC34A00E374FB /* ONSBatch.framework */,
+				516D7117260924CC00CF7F5B /* libOCMock-ONSBatch.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2965,9 +2965,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		02F7846A19B9EF5A0006FF07 /* BatchTests */ = {
+		02F7846A19B9EF5A0006FF07 /* ONSBatchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02F7847619B9EF5A0006FF07 /* Build configuration list for PBXNativeTarget "BatchTests" */;
+			buildConfigurationList = 02F7847619B9EF5A0006FF07 /* Build configuration list for PBXNativeTarget "ONSBatchTests" */;
 			buildPhases = (
 				02F7846719B9EF5A0006FF07 /* Sources */,
 				02F7846819B9EF5A0006FF07 /* Frameworks */,
@@ -2978,17 +2978,17 @@
 			);
 			dependencies = (
 			);
-			name = BatchTests;
+			name = ONSBatchTests;
 			packageProductDependencies = (
 				5100717B24A267FC0068D126 /* InstantMock */,
 			);
 			productName = BatchTests;
-			productReference = 02F7846B19B9EF5A0006FF07 /* BatchTests.xctest */;
+			productReference = 02F7846B19B9EF5A0006FF07 /* ONSBatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		516D7116260924CC00CF7F5B /* OCMock-Batch */ = {
+		516D7116260924CC00CF7F5B /* OCMock-ONSBatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 516D711F260924CC00CF7F5B /* Build configuration list for PBXNativeTarget "OCMock-Batch" */;
+			buildConfigurationList = 516D711F260924CC00CF7F5B /* Build configuration list for PBXNativeTarget "OCMock-ONSBatch" */;
 			buildPhases = (
 				516D7113260924CC00CF7F5B /* Sources */,
 				516D7114260924CC00CF7F5B /* Frameworks */,
@@ -2998,14 +2998,14 @@
 			);
 			dependencies = (
 			);
-			name = "OCMock-Batch";
+			name = "OCMock-ONSBatch";
 			productName = "OCMock-Batch";
-			productReference = 516D7117260924CC00CF7F5B /* libOCMock-Batch.a */;
+			productReference = 516D7117260924CC00CF7F5B /* libOCMock-ONSBatch.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		517D701722BBC34A00E374FB /* Batch */ = {
+		517D701722BBC34A00E374FB /* ONSBatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 517D701D22BBC34A00E374FB /* Build configuration list for PBXNativeTarget "Batch" */;
+			buildConfigurationList = 517D701D22BBC34A00E374FB /* Build configuration list for PBXNativeTarget "ONSBatch" */;
 			buildPhases = (
 				516C406723D9FD63000C11CF /* ShellScript */,
 				517D701322BBC34A00E374FB /* Headers */,
@@ -3018,11 +3018,11 @@
 			);
 			dependencies = (
 			);
-			name = Batch;
+			name = ONSBatch;
 			packageProductDependencies = (
 			);
 			productName = Batch;
-			productReference = 517D701822BBC34A00E374FB /* Batch.framework */;
+			productReference = 517D701822BBC34A00E374FB /* ONSBatch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -3032,14 +3032,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1500;
-				ORGANIZATIONNAME = Batch.com;
+				ORGANIZATIONNAME = p.foundation;
 				TargetAttributes = {
 					02849C3219BA00350013408B = {
 						CreatedOnToolsVersion = 6.0;
 					};
 					02F7846A19B9EF5A0006FF07 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = U5K2ETC2Y6;
 						LastSwiftMigration = 1020;
 					};
 					516D7116260924CC00CF7F5B = {
@@ -3047,7 +3046,6 @@
 					};
 					517D701722BBC34A00E374FB = {
 						CreatedOnToolsVersion = 11.0;
-						DevelopmentTeam = U5K2ETC2Y6;
 						LastSwiftMigration = 1410;
 						ProvisioningStyle = Automatic;
 					};
@@ -3069,11 +3067,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				517D701722BBC34A00E374FB /* Batch */,
-				02F7846A19B9EF5A0006FF07 /* BatchTests */,
-				02849C3219BA00350013408B /* BatchUniversal */,
-				516BBC0A22BD0D2900742649 /* BatchXCFramework */,
-				516D7116260924CC00CF7F5B /* OCMock-Batch */,
+				517D701722BBC34A00E374FB /* ONSBatch */,
+				02F7846A19B9EF5A0006FF07 /* ONSBatchTests */,
+				02849C3219BA00350013408B /* ONSBatchUniversal */,
+				516BBC0A22BD0D2900742649 /* ONSBatchXCFramework */,
+				516D7116260924CC00CF7F5B /* OCMock-ONSBatch */,
 			);
 		};
 /* End PBXProject section */
@@ -3694,7 +3692,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = U5K2ETC2Y6;
+				DEVELOPMENT_TEAM = 5L53U6LKUU;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/Batch/batch-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3716,7 +3714,7 @@
 					XCTest,
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.batch.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "foundation.p.ons.--PRODUCT-NAME-rfc1034identifier-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Batch/** $(PROJECT_DIR)/batchTests/Bridging\\ Headers/**";
 				SWIFT_OBJC_BRIDGING_HEADER = "batchTests/batchTests-Bridging-Header.h";
@@ -3730,7 +3728,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = U5K2ETC2Y6;
+				DEVELOPMENT_TEAM = 5L53U6LKUU;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/Batch/batch-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Batch/**";
@@ -3748,7 +3746,7 @@
 					XCTest,
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.batch.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "foundation.p.ons.--PRODUCT-NAME-rfc1034identifier-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Batch/** $(PROJECT_DIR)/batchTests/Bridging\\ Headers/**";
 				SWIFT_OBJC_BRIDGING_HEADER = "batchTests/batchTests-Bridging-Header.h";
@@ -3829,9 +3827,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = U5K2ETC2Y6;
+				DEVELOPMENT_TEAM = 5L53U6LKUU;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3855,7 +3854,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.batch.Batch;
+				PRODUCT_BUNDLE_IDENTIFIER = foundation.p.ons.ios;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -3880,11 +3879,12 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEFINES_MODULE = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
-				DEVELOPMENT_TEAM = U5K2ETC2Y6;
+				DEVELOPMENT_TEAM = 5L53U6LKUU;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3909,7 +3909,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.batch.Batch;
+				PRODUCT_BUNDLE_IDENTIFIER = foundation.p.ons.ios;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.7;
@@ -3920,7 +3920,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02849C3319BA00350013408B /* Build configuration list for PBXAggregateTarget "BatchUniversal" */ = {
+		02849C3319BA00350013408B /* Build configuration list for PBXAggregateTarget "ONSBatchUniversal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02849C3419BA00350013408B /* Debug */,
@@ -3938,7 +3938,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02F7847619B9EF5A0006FF07 /* Build configuration list for PBXNativeTarget "BatchTests" */ = {
+		02F7847619B9EF5A0006FF07 /* Build configuration list for PBXNativeTarget "ONSBatchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02F7847719B9EF5A0006FF07 /* Debug */,
@@ -3947,7 +3947,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		516BBC0D22BD0D2900742649 /* Build configuration list for PBXAggregateTarget "BatchXCFramework" */ = {
+		516BBC0D22BD0D2900742649 /* Build configuration list for PBXAggregateTarget "ONSBatchXCFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				516BBC0E22BD0D2900742649 /* Debug */,
@@ -3956,7 +3956,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		516D711F260924CC00CF7F5B /* Build configuration list for PBXNativeTarget "OCMock-Batch" */ = {
+		516D711F260924CC00CF7F5B /* Build configuration list for PBXNativeTarget "OCMock-ONSBatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				516D711D260924CC00CF7F5B /* Debug */,
@@ -3965,7 +3965,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		517D701D22BBC34A00E374FB /* Build configuration list for PBXNativeTarget "Batch" */ = {
+		517D701D22BBC34A00E374FB /* Build configuration list for PBXNativeTarget "ONSBatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				517D701E22BBC34A00E374FB /* Debug */,

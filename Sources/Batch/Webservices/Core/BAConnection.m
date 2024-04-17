@@ -93,7 +93,8 @@
     _url = url;
     _method = method;
     _body = body;
-    _cryptorFactory = cryptorFactory;
+   // _cryptorFactory = cryptorFactory;
+    _cryptorFactory = NULL;
 
     [_headers setValue:@"gzip" forKey:@"Accept-Encoding"];
     [_headers setValue:[BARandom generateUUID] forKey:@"X-Batch-Nonce"];
@@ -238,6 +239,16 @@
 
     id<BATWebserviceHMACProtocol> hmac = [_cryptorFactory hmacForContentType:_contentType];
     [hmac appendToMutableRequest:request];
+    
+    // Log the request as JSON
+        [BALogger debugForDomain:@"BAConnection"
+                         message:[NSString stringWithFormat:@"Request: %@\nHeaders: %@\nBody: %@",
+                                                    request,
+                                                    request.allHTTPHeaderFields,
+                                                    [[NSString alloc] initWithData:request.HTTPBody encoding:NSUTF8StringEncoding]]];
+    
+    
+    
 
     return request;
 }
@@ -300,7 +311,7 @@
             goto bail_on_err;
         }
 
-        if (_cryptorFactory != nil) {
+        if (_cryptorFactory != nil || _cryptorFactory != NULL ) {
             id<BAWebserviceCryptor> cryptor = [_cryptorFactory inboundCryptorForData:data
                                                                           connection:self
                                                                             response:httpResponse];
@@ -314,6 +325,12 @@
                 goto bail_on_err;
             }
         }
+        // Log the response as JSON
+        [BALogger debugForDomain:@"BAConnection"
+                         message:[NSString stringWithFormat:@"Response: %@\nHeaders: %@\nBody: %@",
+                                                    response,
+                                                    httpResponse.allHeaderFields,
+                                                    [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]]];
     }
 
 bail_on_err:

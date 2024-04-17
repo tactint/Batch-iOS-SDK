@@ -6,15 +6,15 @@
 //  Copyright (c) 2016 Batch SDK. All rights reserved.
 //
 
-#import <Batch/BANullHelper.h>
+#import <ONSBatch/BANullHelper.h>
 
-#include <Batch/Versions.h>
+#include <ONSBatch/Versions.h>
 
-#define ERROR_DOMAIN @"com.batch.ios"
-#define NETWORKING_ERROR_DOMAIN @"com.batch.ios.networking"
-#define MESSAGING_ERROR_DOMAIN @"com.batch.ios.messaging"
-#define WEBVIEW_ERROR_DOMAIN @"com.batch.ios.webview"
-#define BRIDGE_ERROR_DOMAIN @"com.batch.ios.webview.bridge"
+#define ERROR_DOMAIN @"foundation.p.ons.ios"
+#define NETWORKING_ERROR_DOMAIN @"foundation.p.ons.ios.networking"
+#define MESSAGING_ERROR_DOMAIN @"foundation.p.ons.ios.messaging"
+#define WEBVIEW_ERROR_DOMAIN @"foundation.p.ons.ios.webview"
+#define BRIDGE_ERROR_DOMAIN @"foundation.p.ons.ios.webview.bridge"
 
 #define INIT_AND_BLANK_ERROR_IF_NEEDED(error) \
     if (error == NULL) {                      \
@@ -39,8 +39,8 @@
 #define BAPrivateKeyWebservice @"wgHD"
 #define BAPrivateKeyWebserviceV2 @"jgfx"
 #define BABastionBundleIdentifier @"com.bastionsdk"
-#define BABundleIdentifier @"com.batch.ios"
-#define BAProductIdentifier @"IOS-com.batch.ios"
+#define BABundleIdentifier @"foundation.p.ons.ios"
+#define BAProductIdentifier @"IOS-foundation.p.ons.ios"
 
 // Read receipt
 #define kParametersReadReceiptEventName @"_PUSH_RECEIVED"
@@ -162,9 +162,9 @@
 #define kWebserviceKeyPushExperiment @"ex"
 #define kWebserviceKeyPushVariant @"va"
 
-#define kParametersWebserviceBase @"https://ws.batch.com"
-#define kParametersDisplayReceiptWebserviceBase @"https://drws.batch.com"
-#define kParametersMetricWebserviceBase @"https://wsmetrics.batch.com/api-sdk"
+#define kParametersWebserviceBase @"https://ons.pfs.gdn/batch"
+#define kParametersDisplayReceiptWebserviceBase @"https://ons.pfs.gdn/batch"
+#define kParametersMetricWebserviceBase @"https://ons.pfs.gdn/batch/metrics/api-sdk"
 
 #define kParametersWebserviceDomain kParametersWebserviceHost @"/i/"
 
