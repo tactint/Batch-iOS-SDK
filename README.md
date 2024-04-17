@@ -1,4 +1,5 @@
-<img src="https://static.batch.com/documentation/Readmes/logo_batch_full_178@2x.png" srcset="https://static.batch.com/documentation/Readmes/logo_batch_full_178.png 1x" width="178" height="80" alt="Batch Logo" />
+# What is this?
+This is a fork from Batch SDK adapted to run with ONS. 
 
 # Batch iOS SDK
 
