@@ -162,9 +162,9 @@
 #define kWebserviceKeyPushExperiment @"ex"
 #define kWebserviceKeyPushVariant @"va"
 
-#define kParametersWebserviceBase @"https://ons.pfs.gdn/batch"
-#define kParametersDisplayReceiptWebserviceBase @"https://ons.pfs.gdn/batch"
-#define kParametersMetricWebserviceBase @"https://ons.pfs.gdn/batch/metrics/api-sdk"
+#define kParametersWebserviceBase @"https://ons.pfs.gdn/proxies/batch.com"
+#define kParametersDisplayReceiptWebserviceBase @"https://ons.pfs.gdn/proxies/batch.com/displayreceipt"
+#define kParametersMetricWebserviceBase @"https://ons.pfs.gdn/proxies/batch.com/metrics/api-sdk"
 
 #define kParametersWebserviceDomain kParametersWebserviceHost @"/i/"
 
