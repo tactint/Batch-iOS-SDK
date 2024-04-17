@@ -33,7 +33,6 @@
     NSMutableString *urlString = [[NSMutableString alloc] init];
 
     [urlString appendString:host];
-    [urlString appendString:@"/i/"];
     [urlString appendString:BACoreCenter.sdkVersion];
 
     return [NSURL URLWithString:urlString relativeToURL:nil];
@@ -51,7 +50,6 @@
     NSMutableString *urlString = [[NSMutableString alloc] init];
 
     [urlString appendString:host];
-    [urlString appendString:@"/i/"];
     [urlString appendString:BACoreCenter.sdkVersion];
     [urlString appendString:@"/"];
     [urlString appendString:shortname];
