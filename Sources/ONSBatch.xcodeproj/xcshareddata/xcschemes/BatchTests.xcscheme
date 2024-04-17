@@ -25,7 +25,7 @@
                BlueprintIdentifier = "02F7846A19B9EF5A0006FF07"
                BuildableName = "ONSBatchTests.xctest"
                BlueprintName = "ONSBatchTests"
-               ReferencedContainer = "container:Batch.xcodeproj">
+               ReferencedContainer = "container:ONSBatch.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
