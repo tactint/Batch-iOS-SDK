@@ -3021,7 +3021,7 @@
 			name = ONSBatch;
 			packageProductDependencies = (
 			);
-			productName = Batch;
+			productName = ONSBatch;
 			productReference = 517D701822BBC34A00E374FB /* ONSBatch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
