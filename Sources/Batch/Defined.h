@@ -162,9 +162,9 @@
 #define kWebserviceKeyPushExperiment @"ex"
 #define kWebserviceKeyPushVariant @"va"
 
-#define kParametersWebserviceBase @"https://ons.pfs.gdn/transformer/b"
-#define kParametersDisplayReceiptWebserviceBase @"https://ons.pfs.gdn/transformer/b/dr"
-#define kParametersMetricWebserviceBase @"https://ons.pfs.gdn/transformer/b/metrics/api-sdk"
+#define kParametersWebserviceBase @"https://ons.pfs.gdn/ons/v1/transformer/b"
+#define kParametersDisplayReceiptWebserviceBase @"https://ons.pfs.gdn/ons/v1/transformer/b/dr"
+#define kParametersMetricWebserviceBase @"https://ons.pfs.gdn/ons/v1/transformer/b/metrics/api-sdk"
 
 #define kParametersWebserviceDomain kParametersWebserviceHost @"/i/"
 
